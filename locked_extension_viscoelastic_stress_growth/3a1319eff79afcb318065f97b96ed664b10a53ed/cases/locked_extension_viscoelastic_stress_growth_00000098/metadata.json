@@ -1,0 +1,147 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.15000000596046448,
+      0.0,
+      1.100000023841858
+    ],
+    "pos": [
+      0.9299638271331787,
+      -6.400000095367432,
+      3.5320000648498535
+    ],
+    "projection": "perspective"
+  },
+  "category": "viscoelastic_relaxation",
+  "descriptions": {
+    "counterfactual": "A passive rounded viscoelastic specimen with attached material bands and a metal measuring spring are connected in series on a test rig. An actuator stretches the assembly, visibly lengthening and thinning the soft specimen, and then locks its endpoint. The spring extension indicates tensile force. After the endpoint locks, the viscoelastic strip anomalously develops increasing force: the measuring spring keeps extending while the strip contracts. The total endpoint separation remains fixed.",
+    "true": "A passive rounded viscoelastic specimen with attached material bands and a metal measuring spring are connected in series on a test rig. An actuator stretches the assembly, visibly lengthening and thinning the soft specimen, and then locks its endpoint. The spring extension indicates tensile force. After the endpoint locks, the force relaxes: the measuring spring contracts while the viscoelastic strip gradually elongates. The total endpoint separation remains fixed."
+  },
+  "evidence_frame": 54,
+  "first_changed_frame": 47,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "8d2a95ec55da0d0a8ec54a67a16638e678ad8e36a87a13590a39921dbba57664",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "4753bcfe70eb10ff2b724b0c92520ddd958e45cb7a0821310cf66a06ef3745a5",
+      "engine/run.py": "dcead19281b1a4a56d2b3d95551132f553e0756d3878a82ca95d2dcd7ec95dcc",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "be00ed0c2afec9c96c0ad2b85c77d7e898ce0f36f30555f20d5913001dc54ef5",
+      "src/scaling.py": "60d3892e8796468234f7735072826e52a1046fa429a4c9daa13cba068cc0af11",
+      "src/violation.py": "86ae767b397dc684475a816019f59f35cc4f399d3f10307063cfce93e19a56db",
+      "tests/test_design.py": "740b449948bca188ce460275d4a22409505976af5df02eecb98763755c015a41"
+    }
+  },
+  "intervention_frame": 47,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "rubber_paint_bands",
+      "viscoelastic_strip"
+    ],
+    "target_ontology": [
+      "viscoelastic_strip",
+      "rubber_paint"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 47,
+  "onset_frame": 47,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_reflect_post_lock_force_relaxation/mask.mp4",
+      "mask_overlay": "counterfactual_reflect_post_lock_force_relaxation/mask_overlay.mp4",
+      "prompt": "counterfactual_reflect_post_lock_force_relaxation/prompt.txt",
+      "trajectory": "counterfactual_reflect_post_lock_force_relaxation/trajectory.npz",
+      "video": "counterfactual_reflect_post_lock_force_relaxation/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "locked_extension_viscoelastic_stress_growth",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 8,
+      "depth": 0.75,
+      "gravity": 9.81,
+      "k0": 123750.0,
+      "kinf": 28874.999999999996,
+      "ks": 82500.0,
+      "length": 1.04,
+      "model": "standard linear solid in series with measuring spring; quasi-static force balance",
+      "onset": 27,
+      "ramp_frames": 19,
+      "response": 1.12,
+      "rubber_length": 1.4040000000000001,
+      "rubber_width": 0.33,
+      "scale": 1.0,
+      "solver_steps_per_frame": 1,
+      "spring_length": 0.85,
+      "spring_wire": 0.013028468027429393,
+      "tau": 0.3808000000000001,
+      "tau_effective": 0.7051851851851854,
+      "time_scale": 1.0,
+      "total_extension": 0.8,
+      "view": 8
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "After the endpoint locks, the force relaxes: the measuring spring contracts while the viscoelastic strip gradually elongates. The total endpoint separation remains fixed.",
+        "After the endpoint locks, the viscoelastic strip anomalously develops increasing force: the measuring spring keeps extending while the strip contracts. The total endpoint separation remains fixed."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "After the endpoint locks, the force relaxes: the measuring spring contracts while the viscoelastic strip gradually elongates. The total endpoint separation remains fixed."
+        ],
+        "violation_if_true": [
+          "After the endpoint locks, the viscoelastic strip anomalously develops increasing force: the measuring spring keeps extending while the strip contracts. The total endpoint separation remains fixed."
+        ]
+      },
+      "violation_types": [
+        "reflect_post_lock_force_relaxation"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "locked_extension_viscoelastic_stress_growth_00000098",
+  "timebase": {
+    "internal_dt": 0.041666666666666664,
+    "internal_substeps": 1,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "standard linear solid in series with measuring spring; quasi-static force balance",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "reflect_post_lock_force_relaxation"
+}

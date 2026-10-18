@@ -1,0 +1,141 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      1.25
+    ],
+    "pos": [
+      -0.3297165334224701,
+      -6.300000190734863,
+      3.6440000534057617
+    ],
+    "projection": "perspective"
+  },
+  "category": "rubber_poynting_effect",
+  "descriptions": {
+    "counterfactual": "An initially unstretched incompressible rubber cylinder is held in a torsion test rig. The left grip stays fixed while the marked right grip rotates, twisting the material between them. The right torque drive sits on an axially free carriage; it does not pull or push the cylinder along its axis. Surface stripes show the twist, and a fixed ruler shows carriage displacement. As the rubber twists, it anomalously shortens and becomes wider, drawing the free carriage inward.",
+    "true": "An initially unstretched incompressible rubber cylinder is held in a torsion test rig. The left grip stays fixed while the marked right grip rotates, twisting the material between them. The right torque drive sits on an axially free carriage; it does not pull or push the cylinder along its axis. Surface stripes show the twist, and a fixed ruler shows carriage displacement. As the rubber twists, it lengthens and becomes slightly narrower, pushing the free carriage outward."
+  },
+  "evidence_frame": 49,
+  "first_changed_frame": 24,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "070be973579305f2494c86e1fbe3f8c334f73556",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "8d2a95ec55da0d0a8ec54a67a16638e678ad8e36a87a13590a39921dbba57664",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "4753bcfe70eb10ff2b724b0c92520ddd958e45cb7a0821310cf66a06ef3745a5",
+      "engine/run.py": "dcead19281b1a4a56d2b3d95551132f553e0756d3878a82ca95d2dcd7ec95dcc",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "412f134daced821b284406131c5bf41116e3c2f0d74f2a79847b6997310b1061",
+      "src/scaling.py": "a43b649f7f0474e283f405b6d23cc06147ef95280cb96914c4996e82807fcb24",
+      "src/violation.py": "8506640359371a03aa592ede4a8234f3c2e5d06ac2d0e6ccdba45e29e9b1bd27",
+      "tests/test_design.py": "d4b973349f696b7aaff4289c3e7118c8df9f6a0a7e7a0f84508f72f91b897025"
+    }
+  },
+  "intervention_frame": 24,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "rubber_plain",
+      "rubber_stripes"
+    ],
+    "target_ontology": [
+      "rubber_plain",
+      "rubber_stripes"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 24,
+  "onset_frame": 24,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_reverse_free_axial_poynting_strain/mask.mp4",
+      "mask_overlay": "counterfactual_reverse_free_axial_poynting_strain/mask_overlay.mp4",
+      "prompt": "counterfactual_reverse_free_axial_poynting_strain/prompt.txt",
+      "trajectory": "counterfactual_reverse_free_axial_poynting_strain/trajectory.npz",
+      "video": "counterfactual_reverse_free_axial_poynting_strain/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "rubber_torsion_poynting_axial_contraction",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 3,
+      "depth": 1.03,
+      "gravity": 9.81,
+      "length": 1.28,
+      "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist",
+      "onset": 23,
+      "ramp_frames": 48,
+      "reference_length": 2.112,
+      "reference_radius": 0.4841,
+      "response": 0.9099999999999999,
+      "scale": 1.0,
+      "shear_modulus": 35000.0,
+      "solver_steps_per_frame": 1,
+      "time_scale": 1.0,
+      "twist_peak": 4.731999999999999,
+      "view": 4
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "As the rubber twists, it lengthens and becomes slightly narrower, pushing the free carriage outward.",
+        "As the rubber twists, it anomalously shortens and becomes wider, drawing the free carriage inward."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "As the rubber twists, it lengthens and becomes slightly narrower, pushing the free carriage outward."
+        ],
+        "violation_if_true": [
+          "As the rubber twists, it anomalously shortens and becomes wider, drawing the free carriage inward."
+        ]
+      },
+      "violation_types": [
+        "reverse_free_axial_poynting_strain"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "rubber_torsion_poynting_axial_contraction_00000042",
+  "timebase": {
+    "internal_dt": 0.041666666666666664,
+    "internal_substeps": 1,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "reverse_free_axial_poynting_strain"
+}

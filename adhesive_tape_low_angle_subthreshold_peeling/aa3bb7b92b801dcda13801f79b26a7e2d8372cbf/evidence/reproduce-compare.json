@@ -1,0 +1,22 @@
+{
+  "true/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_low_angle_subcritical_front_mobility/mask_overlay.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_low_angle_subcritical_front_mobility/mask.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_low_angle_subcritical_front_mobility/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  }
+}

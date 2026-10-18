@@ -1,0 +1,47 @@
+{
+  "attempt_budget": 2,
+  "backend": "Blender Workbench",
+  "commit": "070be973579305f2494c86e1fbe3f8c334f73556",
+  "contract": "CGC-v1",
+  "dependencies": "d9aaa1cba6a1ff46e5fd000dae22d44d19be86f19befe96fd4c18ae82a9ab5ae",
+  "dependency_versions": {
+    "Pillow": "11.3.0",
+    "bpy": "4.5.3",
+    "imageio-ffmpeg": "0.6.0",
+    "numpy": "1.26.4",
+    "scipy": "1.16.2"
+  },
+  "encoder_sha256": "e7e7fb30477f717e6f55f9180a70386c62677ef8a4d4d1a5d948f4098aa3eb99",
+  "generator": "rubber_torsion_poynting_axial_contraction",
+  "num_shards": 1,
+  "profile_version": "six-physical-and-nuisance-axes-v1",
+  "quota": 2,
+  "render": [
+    2048,
+    24,
+    120
+  ],
+  "seed": 42,
+  "seeds": "42,98",
+  "shard_id": 0,
+  "source": {
+    "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/geometry.py": "8d2a95ec55da0d0a8ec54a67a16638e678ad8e36a87a13590a39921dbba57664",
+    "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+    "engine/operators.py": "4753bcfe70eb10ff2b724b0c92520ddd958e45cb7a0821310cf66a06ef3745a5",
+    "engine/run.py": "dcead19281b1a4a56d2b3d95551132f553e0756d3878a82ca95d2dcd7ec95dcc",
+    "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+    "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+    "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+    "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+    "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+    "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+    "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+    "src/phenomenon.py": "412f134daced821b284406131c5bf41116e3c2f0d74f2a79847b6997310b1061",
+    "src/scaling.py": "a43b649f7f0474e283f405b6d23cc06147ef95280cb96914c4996e82807fcb24",
+    "src/violation.py": "8506640359371a03aa592ede4a8234f3c2e5d06ac2d0e6ccdba45e29e9b1bd27",
+    "tests/test_design.py": "d4b973349f696b7aaff4289c3e7118c8df9f6a0a7e7a0f84508f72f91b897025"
+  }
+}

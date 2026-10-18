@@ -1,0 +1,61 @@
+{
+  "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
+  "files": {
+    "rubber_torsion_poynting_axial_contraction_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-070be973579305f2494c86e1fbe3f8c334f73556-42-true.mp4",
+      "bytes": 26998816,
+      "sha256": "318d9c976ea653bd8cd3bce61413a9e3a72d0fa50b156f9afb5b9ab385526b42",
+      "github_asset_id": 653310740,
+      "server_digest": "sha256:318d9c976ea653bd8cd3bce61413a9e3a72d0fa50b156f9afb5b9ab385526b42"
+    },
+    "rubber_torsion_poynting_axial_contraction_00000042/counterfactual_reverse_free_axial_poynting_strain/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-070be973579305f2494c86e1fbe3f8c334f73556-42-video.mp4",
+      "bytes": 26945954,
+      "sha256": "1c4adeb638b4c7b56a7ea683f30af8c1151ce232629a7e303512554bd173614e",
+      "github_asset_id": 653311550,
+      "server_digest": "sha256:1c4adeb638b4c7b56a7ea683f30af8c1151ce232629a7e303512554bd173614e"
+    },
+    "rubber_torsion_poynting_axial_contraction_00000042/counterfactual_reverse_free_axial_poynting_strain/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-070be973579305f2494c86e1fbe3f8c334f73556-42-mask.mp4",
+      "bytes": 2164073,
+      "sha256": "7c1d3d3a29d613a4ae47eca16b27f3e06015733f2831753a2566ece36cf52469",
+      "github_asset_id": 653312402,
+      "server_digest": "sha256:7c1d3d3a29d613a4ae47eca16b27f3e06015733f2831753a2566ece36cf52469"
+    },
+    "rubber_torsion_poynting_axial_contraction_00000042/counterfactual_reverse_free_axial_poynting_strain/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-070be973579305f2494c86e1fbe3f8c334f73556-42-mask_overlay.mp4",
+      "bytes": 22606640,
+      "sha256": "43709ad7277f5561e600ba5f018d29bebde6f4e23155c509ba8ccc227e3ba711",
+      "github_asset_id": 653312503,
+      "server_digest": "sha256:43709ad7277f5561e600ba5f018d29bebde6f4e23155c509ba8ccc227e3ba711"
+    },
+    "rubber_torsion_poynting_axial_contraction_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-070be973579305f2494c86e1fbe3f8c334f73556-98-true.mp4",
+      "bytes": 31421539,
+      "sha256": "4a68abad00795666b633d983648315e95cc12f2be3e3337c57aa272e1f72b039",
+      "github_asset_id": 653313082,
+      "server_digest": "sha256:4a68abad00795666b633d983648315e95cc12f2be3e3337c57aa272e1f72b039"
+    },
+    "rubber_torsion_poynting_axial_contraction_00000098/counterfactual_reverse_free_axial_poynting_strain/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-070be973579305f2494c86e1fbe3f8c334f73556-98-video.mp4",
+      "bytes": 31157150,
+      "sha256": "3cf332c52137ec9f65def4f6d00a30c495bea38041db5248b35e7b36679cb2df",
+      "github_asset_id": 653314095,
+      "server_digest": "sha256:3cf332c52137ec9f65def4f6d00a30c495bea38041db5248b35e7b36679cb2df"
+    },
+    "rubber_torsion_poynting_axial_contraction_00000098/counterfactual_reverse_free_axial_poynting_strain/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-070be973579305f2494c86e1fbe3f8c334f73556-98-mask.mp4",
+      "bytes": 2143345,
+      "sha256": "70784c703816f67575c2790775f198f7ee635e6fd68f6130a17fed3a98826c95",
+      "github_asset_id": 653314953,
+      "server_digest": "sha256:70784c703816f67575c2790775f198f7ee635e6fd68f6130a17fed3a98826c95"
+    },
+    "rubber_torsion_poynting_axial_contraction_00000098/counterfactual_reverse_free_axial_poynting_strain/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-070be973579305f2494c86e1fbe3f8c334f73556-98-mask_overlay.mp4",
+      "bytes": 27600548,
+      "sha256": "dfe4f315fa074916e35e898909f12bff2506d541450f0220be939492387478f3",
+      "github_asset_id": 653315139,
+      "server_digest": "sha256:dfe4f315fa074916e35e898909f12bff2506d541450f0220be939492387478f3"
+    }
+  }
+}

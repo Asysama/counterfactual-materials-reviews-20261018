@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "6e32b3f6cc4e13cda262d946b63f154aeea76aa7c55340285efc3075170e5178": {
+      "path": "runtime-witness.json",
+      "sha256": "6e32b3f6cc4e13cda262d946b63f154aeea76aa7c55340285efc3075170e5178",
+      "generator": "locked_extension_viscoelastic_stress_growth",
+      "case_set": "seeds-42-98",
+      "source_commit": "3a1319eff79afcb318065f97b96ed664b10a53ed"
+    }
+  },
+  "cases": {
+    "locked_extension_viscoelastic_stress_growth_00000042": {
+      "witness_id": "6e32b3f6cc4e13cda262d946b63f154aeea76aa7c55340285efc3075170e5178",
+      "metadata_path": "locked_extension_viscoelastic_stress_growth_00000042/metadata.json",
+      "metadata_sha256": "f1efccff8b15deedc06ae9f2869d4e819993afee7569fae59e53d2b4e004cca3"
+    },
+    "locked_extension_viscoelastic_stress_growth_00000098": {
+      "witness_id": "6e32b3f6cc4e13cda262d946b63f154aeea76aa7c55340285efc3075170e5178",
+      "metadata_path": "locked_extension_viscoelastic_stress_growth_00000098/metadata.json",
+      "metadata_sha256": "b913a45bdfe554bcb76d20ca558cd50da904c89a1f8a51745eef73478a5e6859"
+    }
+  },
+  "failures": []
+}

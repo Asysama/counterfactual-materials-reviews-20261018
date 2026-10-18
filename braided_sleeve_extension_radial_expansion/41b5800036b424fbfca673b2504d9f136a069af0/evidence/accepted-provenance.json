@@ -1,26 +1,26 @@
 {
   "notched_brittle_strip_failure_order_reversal": {
-    "head_sha": "ca338cdfdfd69c9dc2d2574701323d26599144de",
-    "original_generation_directory": "formal-v5/notched_brittle_strip_failure_order_reversal",
-    "witness_sha256": "d969c2ec19265a8e56f348e4f6005f080c5098828bdc45b7761bb717ea872a5f",
+    "head_sha": "3886de294f413fcae2c1174aca19ce12b225035f",
+    "original_generation_directory": "formal-v6/notched_brittle_strip_failure_order_reversal",
+    "witness_sha256": "cf8c7c28822bf3f13f6bb7ba6432d9fa7b3f03094a0408da5d01711b7ae97944",
     "note": "Unchanged accepted artifacts retain their original contemporaneous witness; copied by hardlink, not relabeled to a different source commit."
   },
   "locked_extension_viscoelastic_stress_growth": {
-    "head_sha": "2bfca64576f6b829268f103b8a3c1dc034f1f745",
-    "original_generation_directory": "formal-v4/locked_extension_viscoelastic_stress_growth",
-    "witness_sha256": "82b7cdb8b86dddee7a5937b560365c8357300d69b78db8ef098d3dcd57525472",
+    "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+    "original_generation_directory": "formal-v6/locked_extension_viscoelastic_stress_growth",
+    "witness_sha256": "6e32b3f6cc4e13cda262d946b63f154aeea76aa7c55340285efc3075170e5178",
     "note": "Unchanged accepted artifacts retain their original contemporaneous witness; copied by hardlink, not relabeled to a different source commit."
   },
   "rubber_torsion_poynting_axial_contraction": {
-    "head_sha": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e",
-    "original_generation_directory": "formal-v4/rubber_torsion_poynting_axial_contraction",
-    "witness_sha256": "5bf53b909f44c74beef15755b880f8d95778e7ae0f9e137abb73c8345482765b",
+    "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
+    "original_generation_directory": "formal-v6/rubber_torsion_poynting_axial_contraction",
+    "witness_sha256": "976aa5e05e27b2b8206518a5642909bfc742e8bedb6975114b27eaedb2d679dd",
     "note": "Unchanged accepted artifacts retain their original contemporaneous witness; copied by hardlink, not relabeled to a different source commit."
   },
   "adhesive_tape_low_angle_subthreshold_peeling": {
-    "head_sha": "03efb21a4c4506030a3c3323995fcd8abbaf8a4c",
-    "original_generation_directory": "formal-v4/adhesive_tape_low_angle_subthreshold_peeling",
-    "witness_sha256": "fdce2726679ff7490df2b9e32b03ea08941f994ec8951964fba813876413a8da",
+    "head_sha": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+    "original_generation_directory": "formal-v6/adhesive_tape_low_angle_subthreshold_peeling",
+    "witness_sha256": "5ef2eb65d940e04579ae57401ab5f2679a6ac6a3788da1626a8732688abd8b25",
     "note": "Unchanged accepted artifacts retain their original contemporaneous witness; copied by hardlink, not relabeled to a different source commit."
   },
   "braided_sleeve_extension_radial_expansion": {

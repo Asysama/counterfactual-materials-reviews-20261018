@@ -1,0 +1,102 @@
+{
+  "head_sha": "3886de294f413fcae2c1174aca19ce12b225035f",
+  "cases": [
+    {
+      "case_id": "notched_brittle_strip_failure_order_reversal_00000042",
+      "head_sha": "3886de294f413fcae2c1174aca19ce12b225035f",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 44,
+      "mask_start_frame": 44,
+      "evidence_frame": 59,
+      "mask_area_min_active": 250157,
+      "mask_area_max": 250268,
+      "mechanics": {
+        "fracture_frames_true_cf": [
+          [
+            43,
+            55
+          ],
+          [
+            120,
+            55
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "formal_case_diversity": null,
+      "files": {
+        "true/video.mp4": {
+          "bytes": 18807333,
+          "sha256": "cf2a90cda6bb90a97da05e72cffb528bf3b9ce528a9dd3100d44d5cd6f36cb92"
+        },
+        "counterfactual_sharp_notch_strength_increase/video.mp4": {
+          "bytes": 18793241,
+          "sha256": "f91575f5fbe4fb0ef34a68d11b508a3e15053daa85f60e39a23717b71fb0d7d8"
+        },
+        "counterfactual_sharp_notch_strength_increase/mask.mp4": {
+          "bytes": 2182697,
+          "sha256": "f2d81ae4e7bf89dd61aa34301c7f010f0d40622f3d2fdfed01979d5a61470089"
+        },
+        "counterfactual_sharp_notch_strength_increase/mask_overlay.mp4": {
+          "bytes": 18297627,
+          "sha256": "7bead6e21e7cbe09839ee5cc089a0faeab29dfb0309afb4e75e95150704dde56"
+        }
+      }
+    },
+    {
+      "case_id": "notched_brittle_strip_failure_order_reversal_00000098",
+      "head_sha": "3886de294f413fcae2c1174aca19ce12b225035f",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 45,
+      "mask_start_frame": 45,
+      "evidence_frame": 59,
+      "mask_area_min_active": 191675,
+      "mask_area_max": 191943,
+      "mechanics": {
+        "fracture_frames_true_cf": [
+          [
+            44,
+            55
+          ],
+          [
+            120,
+            55
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "formal_case_diversity": {
+        "mean_abs_difference": 8.994546254475912,
+        "changed_fraction": 0.4871482849121094
+      },
+      "files": {
+        "true/video.mp4": {
+          "bytes": 22105945,
+          "sha256": "1be4eec38793d89a10fb4f45028e4a8f76e14b67f82a98e51bd12518f92b5dd8"
+        },
+        "counterfactual_sharp_notch_strength_increase/video.mp4": {
+          "bytes": 22114625,
+          "sha256": "75731f5d1ce3c3cf179a1a095c2722fab9c0071e2e38907e3901b177c6334337"
+        },
+        "counterfactual_sharp_notch_strength_increase/mask.mp4": {
+          "bytes": 2195484,
+          "sha256": "05b4591254d46ec8a0aef09e48c771c960bba299b104d470979620c1765d5101"
+        },
+        "counterfactual_sharp_notch_strength_increase/mask_overlay.mp4": {
+          "bytes": 21566941,
+          "sha256": "e5d81b12e0d7b6da7971567863e81302bc444c95291d3b511221d0248ec93ecc"
+        }
+      }
+    }
+  ]
+}

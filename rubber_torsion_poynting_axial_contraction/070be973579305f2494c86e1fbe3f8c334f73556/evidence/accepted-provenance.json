@@ -1,0 +1,32 @@
+{
+  "notched_brittle_strip_failure_order_reversal": {
+    "head_sha": "3886de294f413fcae2c1174aca19ce12b225035f",
+    "original_generation_directory": "formal-v6/notched_brittle_strip_failure_order_reversal",
+    "witness_sha256": "cf8c7c28822bf3f13f6bb7ba6432d9fa7b3f03094a0408da5d01711b7ae97944",
+    "note": "Unchanged accepted artifacts retain their original contemporaneous witness; copied by hardlink, not relabeled to a different source commit."
+  },
+  "locked_extension_viscoelastic_stress_growth": {
+    "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+    "original_generation_directory": "formal-v6/locked_extension_viscoelastic_stress_growth",
+    "witness_sha256": "6e32b3f6cc4e13cda262d946b63f154aeea76aa7c55340285efc3075170e5178",
+    "note": "Unchanged accepted artifacts retain their original contemporaneous witness; copied by hardlink, not relabeled to a different source commit."
+  },
+  "rubber_torsion_poynting_axial_contraction": {
+    "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
+    "original_generation_directory": "formal-v6/rubber_torsion_poynting_axial_contraction",
+    "witness_sha256": "976aa5e05e27b2b8206518a5642909bfc742e8bedb6975114b27eaedb2d679dd",
+    "note": "Unchanged accepted artifacts retain their original contemporaneous witness; copied by hardlink, not relabeled to a different source commit."
+  },
+  "adhesive_tape_low_angle_subthreshold_peeling": {
+    "head_sha": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+    "original_generation_directory": "formal-v6/adhesive_tape_low_angle_subthreshold_peeling",
+    "witness_sha256": "5ef2eb65d940e04579ae57401ab5f2679a6ac6a3788da1626a8732688abd8b25",
+    "note": "Unchanged accepted artifacts retain their original contemporaneous witness; copied by hardlink, not relabeled to a different source commit."
+  },
+  "braided_sleeve_extension_radial_expansion": {
+    "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+    "original_generation_directory": "formal-v4/braided_sleeve_extension_radial_expansion",
+    "witness_sha256": "4a7f3166d8a32aa989ad6ea8e805b81ee2e4b341a1398672dfdf5cfa75202ad4",
+    "note": "Unchanged accepted artifacts retain their original contemporaneous witness; copied by hardlink, not relabeled to a different source commit."
+  }
+}

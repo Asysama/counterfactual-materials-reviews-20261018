@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "scope": "16 independent combined physical-axis corners, non-rendering",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "lock_frame": 39,
+        "force_at_lock": 28449.43788785761,
+        "final_true_force": 17133.477745527558,
+        "final_cf_force": 39765.39803018766,
+        "equilibrium_force": 17111.11111111111
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "lock_frame": 39,
+        "force_at_lock": 42105.16807402925,
+        "final_true_force": 25357.54706338081,
+        "final_cf_force": 58852.789084677686,
+        "equilibrium_force": 25324.44444444445
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "lock_frame": 48,
+        "force_at_lock": 28449.43788785761,
+        "final_true_force": 17156.183162664925,
+        "final_cf_force": 39742.6926130503,
+        "equilibrium_force": 17111.11111111111
+      },
+      "evidence_frame": 56
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "lock_frame": 48,
+        "force_at_lock": 42105.16807402925,
+        "final_true_force": 25391.151080744123,
+        "final_cf_force": 58819.18506731438,
+        "equilibrium_force": 25324.44444444445
+      },
+      "evidence_frame": 56
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "lock_frame": 39,
+        "force_at_lock": 30352.67426052244,
+        "final_true_force": 17228.35134711798,
+        "final_cf_force": 43476.997173926895,
+        "equilibrium_force": 17111.11111111111
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "lock_frame": 39,
+        "force_at_lock": 44921.95790557323,
+        "final_true_force": 25497.95999373461,
+        "final_cf_force": 64345.95581741186,
+        "equilibrium_force": 25324.44444444445
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "lock_frame": 48,
+        "force_at_lock": 30352.67426052244,
+        "final_true_force": 17310.648242038413,
+        "final_cf_force": 43394.700279006465,
+        "equilibrium_force": 17111.11111111111
+      },
+      "evidence_frame": 56
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "lock_frame": 48,
+        "force_at_lock": 44921.95790557323,
+        "final_true_force": 25619.759398216847,
+        "final_cf_force": 64224.15641292962,
+        "equilibrium_force": 25324.44444444445
+      },
+      "evidence_frame": 56
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "lock_frame": 39,
+        "force_at_lock": 28449.43788785761,
+        "final_true_force": 17133.477745527558,
+        "final_cf_force": 39765.39803018766,
+        "equilibrium_force": 17111.11111111111
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "lock_frame": 39,
+        "force_at_lock": 42105.16807402925,
+        "final_true_force": 25357.54706338081,
+        "final_cf_force": 58852.789084677686,
+        "equilibrium_force": 25324.44444444445
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "lock_frame": 48,
+        "force_at_lock": 28449.43788785761,
+        "final_true_force": 17156.183162664925,
+        "final_cf_force": 39742.6926130503,
+        "equilibrium_force": 17111.11111111111
+      },
+      "evidence_frame": 56
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "lock_frame": 48,
+        "force_at_lock": 42105.16807402925,
+        "final_true_force": 25391.151080744123,
+        "final_cf_force": 58819.18506731438,
+        "equilibrium_force": 25324.44444444445
+      },
+      "evidence_frame": 56
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "lock_frame": 39,
+        "force_at_lock": 30352.67426052244,
+        "final_true_force": 17228.35134711798,
+        "final_cf_force": 43476.997173926895,
+        "equilibrium_force": 17111.11111111111
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "lock_frame": 39,
+        "force_at_lock": 44921.95790557323,
+        "final_true_force": 25497.95999373461,
+        "final_cf_force": 64345.95581741186,
+        "equilibrium_force": 25324.44444444445
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "lock_frame": 48,
+        "force_at_lock": 30352.67426052244,
+        "final_true_force": 17310.648242038413,
+        "final_cf_force": 43394.700279006465,
+        "equilibrium_force": 17111.11111111111
+      },
+      "evidence_frame": 56
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "lock_frame": 48,
+        "force_at_lock": 44921.95790557323,
+        "final_true_force": 25619.759398216847,
+        "final_cf_force": 64224.15641292962,
+        "equilibrium_force": 25324.44444444445
+      },
+      "evidence_frame": 56
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "5ef2eb65d940e04579ae57401ab5f2679a6ac6a3788da1626a8732688abd8b25": {
+      "path": "runtime-witness.json",
+      "sha256": "5ef2eb65d940e04579ae57401ab5f2679a6ac6a3788da1626a8732688abd8b25",
+      "generator": "adhesive_tape_low_angle_subthreshold_peeling",
+      "case_set": "seeds-42-98",
+      "source_commit": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf"
+    }
+  },
+  "cases": {
+    "adhesive_tape_low_angle_subthreshold_peeling_00000042": {
+      "witness_id": "5ef2eb65d940e04579ae57401ab5f2679a6ac6a3788da1626a8732688abd8b25",
+      "metadata_path": "adhesive_tape_low_angle_subthreshold_peeling_00000042/metadata.json",
+      "metadata_sha256": "7df81f071e81df4b533617df5bec2664df57fc0062bdb551752b71f5330adcfe"
+    },
+    "adhesive_tape_low_angle_subthreshold_peeling_00000098": {
+      "witness_id": "5ef2eb65d940e04579ae57401ab5f2679a6ac6a3788da1626a8732688abd8b25",
+      "metadata_path": "adhesive_tape_low_angle_subthreshold_peeling_00000098/metadata.json",
+      "metadata_sha256": "65ec5d2553c7e3b1f64ee05724cbee2fa84d90e47ea5776a59c1c5b525b85be3"
+    }
+  },
+  "failures": []
+}

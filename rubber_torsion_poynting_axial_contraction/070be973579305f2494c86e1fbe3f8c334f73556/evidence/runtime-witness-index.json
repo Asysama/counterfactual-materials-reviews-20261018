@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "976aa5e05e27b2b8206518a5642909bfc742e8bedb6975114b27eaedb2d679dd": {
+      "path": "runtime-witness.json",
+      "sha256": "976aa5e05e27b2b8206518a5642909bfc742e8bedb6975114b27eaedb2d679dd",
+      "generator": "rubber_torsion_poynting_axial_contraction",
+      "case_set": "seeds-42-98",
+      "source_commit": "070be973579305f2494c86e1fbe3f8c334f73556"
+    }
+  },
+  "cases": {
+    "rubber_torsion_poynting_axial_contraction_00000042": {
+      "witness_id": "976aa5e05e27b2b8206518a5642909bfc742e8bedb6975114b27eaedb2d679dd",
+      "metadata_path": "rubber_torsion_poynting_axial_contraction_00000042/metadata.json",
+      "metadata_sha256": "168e08a7b7acc9520e2dcb8d5d563dbe9235c2f26242ab547b39f7da437dfa15"
+    },
+    "rubber_torsion_poynting_axial_contraction_00000098": {
+      "witness_id": "976aa5e05e27b2b8206518a5642909bfc742e8bedb6975114b27eaedb2d679dd",
+      "metadata_path": "rubber_torsion_poynting_axial_contraction_00000098/metadata.json",
+      "metadata_sha256": "fec6400277d66756c5138f91bffd330b1f3516129aa71ba2df97933d3e53edd5"
+    }
+  },
+  "failures": []
+}

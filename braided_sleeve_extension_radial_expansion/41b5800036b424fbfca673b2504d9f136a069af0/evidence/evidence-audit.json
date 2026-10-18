@@ -5,81 +5,81 @@
     "notched_brittle_strip_failure_order_reversal": [
       {
         "case_id": "notched_brittle_strip_failure_order_reversal_00000042",
-        "head_sha": "ca338cdfdfd69c9dc2d2574701323d26599144de",
+        "head_sha": "3886de294f413fcae2c1174aca19ce12b225035f",
         "evidence_frame": 59,
         "threshold": 0.12,
         "value_at_evidence": 0.15160349854227403,
         "previous_frame_value": 0.09839650145772594,
-        "metadata_sha256": "d34ee9c25abd0695839f740a298ffc6fb897fa2add0ad23bd61f84ee15fe0f55"
+        "metadata_sha256": "933c49d82e15ca162a90d2f573f96c5b73e9d3333df83a3ebf3064814ae966c0"
       },
       {
         "case_id": "notched_brittle_strip_failure_order_reversal_00000098",
-        "head_sha": "ca338cdfdfd69c9dc2d2574701323d26599144de",
+        "head_sha": "3886de294f413fcae2c1174aca19ce12b225035f",
         "evidence_frame": 59,
         "threshold": 0.12,
         "value_at_evidence": 0.15160349854227403,
         "previous_frame_value": 0.09839650145772594,
-        "metadata_sha256": "2ef1dc7a359f51fad48a685746d177ca89136003592f3b41117de6363191d392"
+        "metadata_sha256": "882ed00dd9111508c67852afcf260538e35cbc940d58b99801e60629f3fc5879"
       }
     ],
     "locked_extension_viscoelastic_stress_growth": [
       {
         "case_id": "locked_extension_viscoelastic_stress_growth_00000042",
-        "head_sha": "2bfca64576f6b829268f103b8a3c1dc034f1f745",
-        "evidence_frame": 55,
+        "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+        "evidence_frame": 50,
         "threshold": 0.12,
-        "value_at_evidence": 0.12048576689981838,
-        "previous_frame_value": 0.11471093842211191,
-        "metadata_sha256": "098afbdb00a54d3468b588cc31af1fe8261e7113921298cd3a9ad6c68ce7ff0d"
+        "value_at_evidence": 0.12642103888631662,
+        "previous_frame_value": 0.11433792434150741,
+        "metadata_sha256": "f1efccff8b15deedc06ae9f2869d4e819993afee7569fae59e53d2b4e004cca3"
       },
       {
         "case_id": "locked_extension_viscoelastic_stress_growth_00000098",
-        "head_sha": "2bfca64576f6b829268f103b8a3c1dc034f1f745",
-        "evidence_frame": 60,
+        "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+        "evidence_frame": 54,
         "threshold": 0.12,
-        "value_at_evidence": 0.12419055442078511,
-        "previous_frame_value": 0.11831679441240572,
-        "metadata_sha256": "8f1917d4b865b26b217d4ec63ad7e0761b961ce8f5f103bd3023b42eee0980da"
+        "value_at_evidence": 0.12091590444950578,
+        "previous_frame_value": 0.10873700097489558,
+        "metadata_sha256": "b913a45bdfe554bcb76d20ca558cd50da904c89a1f8a51745eef73478a5e6859"
       }
     ],
     "rubber_torsion_poynting_axial_contraction": [
       {
         "case_id": "rubber_torsion_poynting_axial_contraction_00000042",
-        "head_sha": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e",
+        "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
         "evidence_frame": 49,
         "threshold": 0.12,
         "value_at_evidence": 0.1270966369061961,
         "previous_frame_value": 0.1137725944251553,
-        "metadata_sha256": "e150aa82fe5abce3705bc58b49fb151d78012332adc9ff4a309dedca78efe627"
+        "metadata_sha256": "168e08a7b7acc9520e2dcb8d5d563dbe9235c2f26242ab547b39f7da437dfa15"
       },
       {
         "case_id": "rubber_torsion_poynting_axial_contraction_00000098",
-        "head_sha": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e",
+        "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
         "evidence_frame": 53,
         "threshold": 0.12,
         "value_at_evidence": 0.12485622506351124,
         "previous_frame_value": 0.11183698623205851,
-        "metadata_sha256": "150a0ee5c64e5156aa488d099ae1d0ade8ff7b3715512baf4019b3c1360661a5"
+        "metadata_sha256": "fec6400277d66756c5138f91bffd330b1f3516129aa71ba2df97933d3e53edd5"
       }
     ],
     "adhesive_tape_low_angle_subthreshold_peeling": [
       {
         "case_id": "adhesive_tape_low_angle_subthreshold_peeling_00000042",
-        "head_sha": "03efb21a4c4506030a3c3323995fcd8abbaf8a4c",
-        "evidence_frame": 42,
+        "head_sha": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+        "evidence_frame": 50,
         "threshold": 0.16,
-        "value_at_evidence": 0.1681781985112057,
-        "previous_frame_value": 0.14640782136173874,
-        "metadata_sha256": "1c91b74a097779fb6427f0d70a981621410196bf17d6288adc7db56b09974b0f"
+        "value_at_evidence": 0.16091939217849155,
+        "previous_frame_value": 0.15075644739938848,
+        "metadata_sha256": "7df81f071e81df4b533617df5bec2664df57fc0062bdb551752b71f5330adcfe"
       },
       {
         "case_id": "adhesive_tape_low_angle_subthreshold_peeling_00000098",
-        "head_sha": "03efb21a4c4506030a3c3323995fcd8abbaf8a4c",
-        "evidence_frame": 53,
+        "head_sha": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+        "evidence_frame": 56,
         "threshold": 0.16,
-        "value_at_evidence": 0.16696661954138003,
-        "previous_frame_value": 0.15465299268386531,
-        "metadata_sha256": "cdc10dc088eb1922d3cd2032ff775e6fccdb1c2e4bda7719ba22c7a925d7b191"
+        "value_at_evidence": 0.16301196965415748,
+        "previous_frame_value": 0.15363075673563897,
+        "metadata_sha256": "65ec5d2553c7e3b1f64ee05724cbee2fa84d90e47ea5776a59c1c5b525b85be3"
       }
     ],
     "braided_sleeve_extension_radial_expansion": [

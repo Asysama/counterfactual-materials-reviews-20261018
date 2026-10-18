@@ -1,0 +1,499 @@
+{
+  "generator": "rubber_torsion_poynting_axial_contraction",
+  "commit": "070be973579305f2494c86e1fbe3f8c334f73556",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "baseline-true-35.png": "fd2a0c3f307999fe7d98dc78c3a14127701cdc909de9723f01493035d472d19e",
+        "baseline-true-90.png": "c7b79a6a0d31f1645ac7430448c4cf6017b875326d2b3b1bb8a8c02310fe8bf1",
+        "baseline-counterfactual-35.png": "9d495fb17f04e2fe0b1b33db2c2930ccd74ca83631d4ee143485201d7dc72cb0",
+        "baseline-counterfactual-90.png": "559b1ec9949955f1e2cc198430bb6e37c8ac1c1cfb7818ed61db859615c3ff64"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 1.65,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "length_low-true-35.png": "b25d8b6f4c1787784cfc6940d4c45104c640fdc489a88567e8be2baac6f2919d",
+        "length_low-true-90.png": "de836ed51924585b9f3c0712e86d882b7cf4d2bc259fe0308ee5923c116cbace",
+        "length_low-counterfactual-35.png": "67e35ed36f82d6bb4b2a66353d23db904bc71aaa46f140864e71b5d9c789c21c",
+        "length_low-counterfactual-90.png": "76b0c55333f54ee6415dce2102984a3dfb361586622140f54e2c896743e7f328"
+      },
+      "metrics": {
+        "true-35": 3.657352023654514,
+        "true-90": 4.126402678313078,
+        "counterfactual-35": 3.6672431098090277,
+        "counterfactual-90": 4.407155354817708
+      },
+      "changed_pixels": {
+        "true-35": 46753,
+        "true-90": 70803,
+        "counterfactual-35": 46596,
+        "counterfactual-90": 70566
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.244,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "length_high-true-35.png": "53f3eca8e5dbc9871d601d878a68e4f30281dba18a050636b567d30bb2449e2c",
+        "length_high-true-90.png": "52b59697720f22eceff17277afc90ce2a345dec0854b617c207ec4e3421f6786",
+        "length_high-counterfactual-35.png": "0487271100c30f1859c4b028de6e73c767a3a54920ac49f25cb8508d4782ff90",
+        "length_high-counterfactual-90.png": "4524cdb13c4967d02dfdf753b5253f54b6aec8d75a9c0c28836c53a3a72ce2c2"
+      },
+      "metrics": {
+        "true-35": 1.5675726996527777,
+        "true-90": 1.6356483742042824,
+        "counterfactual-35": 1.5711884675202545,
+        "counterfactual-90": 1.7737042462384258
+      },
+      "changed_pixels": {
+        "true-35": 29008,
+        "true-90": 44774,
+        "counterfactual-35": 28832,
+        "counterfactual-90": 45350
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.42,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "response_low-true-35.png": "7a28f068851bf8a1e974e7de0c57312f86f01326f4a6c305b972a584924ade67",
+        "response_low-true-90.png": "dd429bc284a4e0611c5021362e55722ae1484edd381ab6d7acd7f6d4bcb68f33",
+        "response_low-counterfactual-35.png": "3a5d06ed24bd249bd06962978dfe71400db9461eb47a481446ae92658a0f6b70",
+        "response_low-counterfactual-90.png": "73f1c795a227a39abdd6e35655b3d92a7a8d48b58ab2218bb5348d58237026bc"
+      },
+      "metrics": {
+        "true-35": 0.06301597312644676,
+        "true-90": 0.7336454038266782,
+        "counterfactual-35": 0.06293120207609953,
+        "counterfactual-90": 0.8074018690321181
+      },
+      "changed_pixels": {
+        "true-35": 11493,
+        "true-90": 35311,
+        "counterfactual-35": 11353,
+        "counterfactual-90": 35072
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.4841,
+        "twist_peak": 5.824000000000001,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "response_high-true-35.png": "5e4eb3212827c681491ed5e09681f83e6e41da2ca6d28784ea0e3ecd2cba87f7",
+        "response_high-true-90.png": "96372fde693ec09232d5906fe3a5fdcb1043e2bc4c7bc2497fea62f55d0ec08e",
+        "response_high-counterfactual-35.png": "dac6c43bb40ac81ac009d450e0f9e425c6746e1c277397f3bca2de3f2fc1f403",
+        "response_high-counterfactual-90.png": "f8d489c52c818ec2a973c06328e6c704c48a8cd517a8680db83cfb31c302b7fb"
+      },
+      "metrics": {
+        "true-35": 0.1930225513599537,
+        "true-90": 2.0865376790364585,
+        "counterfactual-35": 0.19411609790943288,
+        "counterfactual-90": 1.8988483570240162
+      },
+      "changed_pixels": {
+        "true-35": 16207,
+        "true-90": 58610,
+        "counterfactual-35": 15753,
+        "counterfactual-90": 56575
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "onset_low-true-35.png": "fa19e5bfb5c789bf48da95bd53cd3ff5e6c450070cfcdff08f606101717cf40c",
+        "onset_low-true-90.png": "d1177119482b385c4ee8a7b85045175bc36090776063e5494edcaab80c80ed0c",
+        "onset_low-counterfactual-35.png": "a6c9b467e6f1415b032bdaa9358c577dff8c16085cd3e557c28feadc26ca1ae6",
+        "onset_low-counterfactual-90.png": "3176a5ccc1e098ba1381e0e7c968f39d96d32fa1069a03f86f3c2dc46a8e184e"
+      },
+      "metrics": {
+        "true-35": 0.384552001953125,
+        "true-90": 0.0,
+        "counterfactual-35": 0.38550426341869215,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 21840,
+        "true-90": 0,
+        "counterfactual-35": 21171,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "onset_high-true-35.png": "6e85482a762a1cf0a3856edceb8380b308231620d3e1d130e8488d2cf1346d36",
+        "onset_high-true-90.png": "7ecb7df2337d14610191bc70248b02dfd9f20f43841ef2dd05508e069b522b95",
+        "onset_high-counterfactual-35.png": "5e0cba101d210acfd8c5491dd2d985dcf842929793f18b1073ece92151b6f1c4",
+        "onset_high-counterfactual-90.png": "3176a5ccc1e098ba1381e0e7c968f39d96d32fa1069a03f86f3c2dc46a8e184e"
+      },
+      "metrics": {
+        "true-35": 0.7050012659143519,
+        "true-90": 0.0,
+        "counterfactual-35": 0.7078399658203125,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 25513,
+        "true-90": 0,
+        "counterfactual-35": 25066,
+        "counterfactual-90": 0
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.3525,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "depth_low-true-35.png": "ac1e5d75d3ee61859dda004034a700340256bb2ba498d1a30afdf6551f58431a",
+        "depth_low-true-90.png": "2cc65fccab43eb0a279ba7875f88e38e2fda72b4e8790f6a56dabb7a3dcdeb5a",
+        "depth_low-counterfactual-35.png": "77b4c15fd5849f8be0e7b16c122cdeca35fbe2b77110e8b654381c5d2c2580e2",
+        "depth_low-counterfactual-90.png": "ba18c46e1b1f7fddea35549a55f57f7326521f1aff40d72e856fecee34b32fbd"
+      },
+      "metrics": {
+        "true-35": 3.865876939561632,
+        "true-90": 4.436415495695891,
+        "counterfactual-35": 3.8511036060474537,
+        "counterfactual-90": 4.324326691804109
+      },
+      "changed_pixels": {
+        "true-35": 63706,
+        "true-90": 73490,
+        "counterfactual-35": 63589,
+        "counterfactual-90": 70374
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.5217,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "depth_high-true-35.png": "6f292f0c4038cf8c4611198254ac435bf39e8eeea7b9816faab275232bcd1695",
+        "depth_high-true-90.png": "89437a57475cf3b2f5f485d41da121382296da48332453bc0c913cf09d362d05",
+        "depth_high-counterfactual-35.png": "591f11b2e80fffaaf42387e300869cc9ede5cd1bc5cf971e4889629899ce06a1",
+        "depth_high-counterfactual-90.png": "ded7edbd7dac094e0ad7637e69a69144b5aa61fa55ce0e34d7f29590c16f9abb"
+      },
+      "metrics": {
+        "true-35": 1.506183765552662,
+        "true-90": 1.7859293619791667,
+        "counterfactual-35": 1.4973331027560763,
+        "counterfactual-90": 1.7135529694733795
+      },
+      "changed_pixels": {
+        "true-35": 63088,
+        "true-90": 69380,
+        "counterfactual-35": 62972,
+        "counterfactual-90": 65831
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "appearance_low-true-35.png": "eecb561a6630495868d8155cfaa94e9adb41347fe56b01477d6e1861f530fb18",
+        "appearance_low-true-90.png": "9c8a5c02e6827b4ec71b220f1f82aa571f18e4abf0eb457c1449181c449db5b6",
+        "appearance_low-counterfactual-35.png": "826e45edd5a187d9f66448acc9709b9d0050bfa8f7bfdd864be29af331e32c45",
+        "appearance_low-counterfactual-90.png": "6140227eacbc88ad708ac657afb7e6d3bd125ca1154bd6faeaefe1e40cd019ea"
+      },
+      "metrics": {
+        "true-35": 0.6933927182798032,
+        "true-90": 0.699197839807581,
+        "counterfactual-35": 0.6927083333333334,
+        "counterfactual-90": 0.669565271448206
+      },
+      "changed_pixels": {
+        "true-35": 244153,
+        "true-90": 244960,
+        "counterfactual-35": 244137,
+        "counterfactual-90": 244156
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "appearance_high-true-35.png": "833e05eefd192309cd903240b797015b48653967d8650d20337936c9bdb3931c",
+        "appearance_high-true-90.png": "1b356f7104713e0dc6cf6385bb55be87fe81f0d17b26271f357200f18fec1291",
+        "appearance_high-counterfactual-35.png": "b5ed86588ccdce2cc440d82b2a88b391c847cd44bef22182af7dfe16372968ac",
+        "appearance_high-counterfactual-90.png": "5c25dcd7cbee6ac2748172e39b616aadd7665ed9d6aa54e907787c536db3c693"
+      },
+      "metrics": {
+        "true-35": 0.6906478316695602,
+        "true-90": 0.7019065574363426,
+        "counterfactual-35": 0.6892180266203703,
+        "counterfactual-90": 0.649068761754919
+      },
+      "changed_pixels": {
+        "true-35": 60834,
+        "true-90": 62840,
+        "counterfactual-35": 60760,
+        "counterfactual-90": 59530
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "view_low-true-35.png": "b782ab9040a258a541c4dc1363e54ed4906e8e65c391a3f103fcf67d5c685762",
+        "view_low-true-90.png": "ad2074bf0844ab90fedd7f0d4694fe3ca4f48c319c7b697de1ed19aae106d2c1",
+        "view_low-counterfactual-35.png": "bf3517314ae55f306fa94f0c524b13970dbd57cf925828d32a5e80ac4345fbc9",
+        "view_low-counterfactual-90.png": "23099c6da8c3b9446de1a7d00cd490f778c2c63f7a2f1c7d71a2da5159618158"
+      },
+      "metrics": {
+        "true-35": 7.632559882269965,
+        "true-90": 7.91114185474537,
+        "counterfactual-35": 7.620098537868923,
+        "counterfactual-90": 7.565022786458333
+      },
+      "changed_pixels": {
+        "true-35": 335430,
+        "true-90": 336234,
+        "counterfactual-35": 335388,
+        "counterfactual-90": 334302
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "reference_length": 2.112,
+        "reference_radius": 0.4841,
+        "twist_peak": 4.731999999999999,
+        "ramp_frames": 48,
+        "shear_modulus": 35000.0,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "uniform incompressible neo-Hookean circular cylinder; traction-free axial equilibrium at prescribed total twist"
+      },
+      "images": {
+        "view_high-true-35.png": "65e1518312b080f442c1456ef3573c6386c6e1f7b95ca5298c240f8284adb09e",
+        "view_high-true-90.png": "1b4a476d7fadb198954ba55a606285b5b20484fbff80a450401ebd348f36944f",
+        "view_high-counterfactual-35.png": "4f4871820b388ad49079732a5e6a6f59c3b3904bfadb6079fe4bffd333751fd9",
+        "view_high-counterfactual-90.png": "7c5b4dbdc413fff05e5c900a2ccab5e63d24d7d7b6ef358a882cbd29e0e9d718"
+      },
+      "metrics": {
+        "true-35": 9.373249760380498,
+        "true-90": 9.676558317961517,
+        "counterfactual-35": 9.364264029043692,
+        "counterfactual-90": 9.344327573423032
+      },
+      "changed_pixels": {
+        "true-35": 307198,
+        "true-90": 308142,
+        "counterfactual-35": 307078,
+        "counterfactual-90": 305173
+      }
+    }
+  }
+}

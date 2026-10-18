@@ -1,0 +1,358 @@
+{
+  "status": "PASS",
+  "scope": "Reviewer-named object sets, exact native decoded projection at six frames; visual review separate",
+  "cases": [
+    {
+      "case_id": "locked_extension_viscoelastic_stress_growth_00000042",
+      "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+      "no_scene_text_objects": true,
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.10616141557693481,
+              0.48216599225997925
+            ],
+            [
+              0.4678099751472473,
+              0.5999394059181213
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.013475936837494373,
+              0.23901166021823883
+            ],
+            [
+              0.9819846749305725,
+              0.6193854212760925
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 43,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.10783868283033371,
+              0.4886281490325928
+            ],
+            [
+              0.5566865801811218,
+              0.5954784154891968
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.013469484634697437,
+              0.23935812711715698
+            ],
+            [
+              0.9821107983589172,
+              0.6214375495910645
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 50,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.10767388343811035,
+              0.48800793290138245
+            ],
+            [
+              0.5458875894546509,
+              0.5959224700927734
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.01346861757338047,
+              0.2394143044948578
+            ],
+            [
+              0.9821311831474304,
+              0.6214208006858826
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 51,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.10765624791383743,
+              0.4879421591758728
+            ],
+            [
+              0.5447450280189514,
+              0.5959708094596863
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.013468488119542599,
+              0.23942233622074127
+            ],
+            [
+              0.9821341633796692,
+              0.6214184761047363
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.10745292901992798,
+              0.48721614480018616
+            ],
+            [
+              0.5304338335990906,
+              0.5965949296951294
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.013464593328535557,
+              0.23973636329174042
+            ],
+            [
+              0.9822466969490051,
+              0.6213257908821106
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.10746531188488007,
+              0.48729678988456726
+            ],
+            [
+              0.5296145677566528,
+              0.5966286063194275
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.013462929055094719,
+              0.23997056484222412
+            ],
+            [
+              0.9823294281959534,
+              0.6212571263313293
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "locked_extension_viscoelastic_stress_growth_00000098",
+      "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+      "no_scene_text_objects": true,
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.12554197013378143,
+              0.49831724166870117
+            ],
+            [
+              0.4111568331718445,
+              0.6087768077850342
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.026209397241473198,
+              0.22261090576648712
+            ],
+            [
+              0.9838224649429321,
+              0.628542423248291
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 47,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.12782526016235352,
+              0.5011783242225647
+            ],
+            [
+              0.4895734488964081,
+              0.6029300093650818
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.026432964950799942,
+              0.22226399183273315
+            ],
+            [
+              0.9837090969085693,
+              0.6286594271659851
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 54,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.1276526302099228,
+              0.500963568687439
+            ],
+            [
+              0.47998592257499695,
+              0.6035587787628174
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.026466460898518562,
+              0.22221265733242035
+            ],
+            [
+              0.9836919903755188,
+              0.6286770701408386
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 55,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.12763389945030212,
+              0.5009373426437378
+            ],
+            [
+              0.4789141118526459,
+              0.6036307215690613
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.026471368968486786,
+              0.22220468521118164
+            ],
+            [
+              0.9836896061897278,
+              0.6286789178848267
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.12745419144630432,
+              0.5005425214767456
+            ],
+            [
+              0.46359559893608093,
+              0.6047685146331787
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.02663908340036869,
+              0.2219473272562027
+            ],
+            [
+              0.9836034774780273,
+              0.6287660002708435
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "rubber_paint_bands",
+            "viscoelastic_strip"
+          ],
+          "target_bounds": [
+            [
+              0.1275569200515747,
+              0.5005054473876953
+            ],
+            [
+              0.4618145525455475,
+              0.6049766540527344
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.026778865605592728,
+              0.22173438966274261
+            ],
+            [
+              0.9835308790206909,
+              0.6288377046585083
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}

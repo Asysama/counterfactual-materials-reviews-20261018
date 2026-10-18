@@ -1,0 +1,643 @@
+{
+  "generator": "notched_brittle_strip_failure_order_reversal",
+  "commit": "3886de294f413fcae2c1174aca19ce12b225035f",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probe_frames": [
+    35,
+    46,
+    90
+  ],
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "baseline-true-35.png": "74e1c0374f7a5ba4adcfe505dffc5523508b09b3b2407b5df9cd2c734447e7cc",
+        "baseline-true-46.png": "997d6dc28d830913336b48edd7457fde6dcc33416c80a0e397cfa05525821501",
+        "baseline-true-90.png": "8ab796fc85fdfbac169e6df15764a16877ed0578bdfe45b9eb01ac1e616c70cb",
+        "baseline-counterfactual-35.png": "db3d5e37b0221f204b2d756c8cd49471374877e70701a4e4ac88f3a447fa957d",
+        "baseline-counterfactual-46.png": "db3d5e37b0221f204b2d756c8cd49471374877e70701a4e4ac88f3a447fa957d",
+        "baseline-counterfactual-90.png": "2077c1c7aee424e130b3898392a73679d37402464a3795b6abcb9034a6ec914b"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.56,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "length_low-true-35.png": "3f7e96299c420a67738f52bbd0fcc08b3bfe6e22afd0f66fe31854ea45817ec9",
+        "length_low-true-46.png": "0087d68fcdf0dee5c4c54b6d362bb87a76331455f6008c0c11687eb2bfe70e89",
+        "length_low-true-90.png": "d32d8ae7695fb392b6523b187c6659288e678038f6678cf5d4eb29cfb49fc2cf",
+        "length_low-counterfactual-35.png": "bb75de3b756b87b38ad81e5f93dde66c2761436020d654b6b3c59f6d55262c32",
+        "length_low-counterfactual-46.png": "bb75de3b756b87b38ad81e5f93dde66c2761436020d654b6b3c59f6d55262c32",
+        "length_low-counterfactual-90.png": "12c2e912403259dfe0de2797ed6c104627b57b640c6546016ccd198bdf2d9807"
+      },
+      "metrics": {
+        "true-35": 2.3599316632306135,
+        "true-46": 2.406005294234664,
+        "true-90": 2.500504670319734,
+        "counterfactual-35": 2.3599316632306135,
+        "counterfactual-46": 2.3599316632306135,
+        "counterfactual-90": 2.427316736291956
+      },
+      "changed_pixels": {
+        "true-35": 18894,
+        "true-46": 19159,
+        "true-90": 19711,
+        "counterfactual-35": 18894,
+        "counterfactual-46": 18894,
+        "counterfactual-90": 19291
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7616000000000002,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "length_high-true-35.png": "c52f31990f5a64a8231fbe8ffc7776d95fb34a27cb2bf71224713c72564e95a8",
+        "length_high-true-46.png": "f9e615cc26c7c9300bafc18800361514f63bcaa764f1cf7e2cf8b818fa715ac9",
+        "length_high-true-90.png": "a1aeab3e73b1bcf3a8d7c0a12604088c4fc394c4fa4e741fa9a8abd7196737f6",
+        "length_high-counterfactual-35.png": "c52f31990f5a64a8231fbe8ffc7776d95fb34a27cb2bf71224713c72564e95a8",
+        "length_high-counterfactual-46.png": "600b2e28618ff8b6db499259a3b7a3f7bc3e040adbb5d9506f295632eb654b34",
+        "length_high-counterfactual-90.png": "6cfb6415e271ebd6ad52bfb8379e9a1bb029f96c24413c9fede954a27d3b650f"
+      },
+      "metrics": {
+        "true-35": 0.6941245750144676,
+        "true-46": 0.707712244104456,
+        "true-90": 0.7348491527416088,
+        "counterfactual-35": 0.6941245750144676,
+        "counterfactual-46": 0.6941245750144676,
+        "counterfactual-90": 0.7135337547019676
+      },
+      "changed_pixels": {
+        "true-35": 7876,
+        "true-46": 7977,
+        "true-90": 8195,
+        "counterfactual-35": 7876,
+        "counterfactual-46": 7876,
+        "counterfactual-90": 8029
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5525000.0,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "response_low-true-35.png": "1e1b0a08c0ba23368b077aeaf3adfd32a75786a8c868926efc2a7fdbe579bd76",
+        "response_low-true-46.png": "c9c90f5a7e20c6ce275455db53b00b3a24681d86644a4841417e373db2279b24",
+        "response_low-true-90.png": "6dc1a0cd7195f8eeda351df5fe78adfcf09212f69e8b35d608d40a80ab33352c",
+        "response_low-counterfactual-35.png": "65011d3ee29405fb468fe73c63e0a703dcc9d04d50e2e4deb95362256d9930ef",
+        "response_low-counterfactual-46.png": "65011d3ee29405fb468fe73c63e0a703dcc9d04d50e2e4deb95362256d9930ef",
+        "response_low-counterfactual-90.png": "0e2a8b43e225ac07e0c9e30393d3e167168f77bbcd784f0870b127c2b1ca1d32"
+      },
+      "metrics": {
+        "true-35": 0.0,
+        "true-46": 0.5505602801287616,
+        "true-90": 0.0,
+        "counterfactual-35": 0.0,
+        "counterfactual-46": 0.0,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 0,
+        "true-46": 6565,
+        "true-90": 0,
+        "counterfactual-35": 0,
+        "counterfactual-46": 0,
+        "counterfactual-90": 0
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 7280000.000000001,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "response_high-true-35.png": "ccc5b9f78e678d09eeaa79eabae454cf85f0ebcb6ccc24cd5fae69abfac0e5e9",
+        "response_high-true-46.png": "61a655c58e6318d26d74d3b23c73384f8cc2aee580f022d5046fd66afa1b9ab8",
+        "response_high-true-90.png": "c483f030b7da04795626d16174a485d5e4ad2b222abfa88fca46743d64b3eb94",
+        "response_high-counterfactual-35.png": "35fd5737eb31d0990cd0514785135b04f0a0680e95f588d8648f6bf7f157a2d2",
+        "response_high-counterfactual-46.png": "35fd5737eb31d0990cd0514785135b04f0a0680e95f588d8648f6bf7f157a2d2",
+        "response_high-counterfactual-90.png": "0e2a8b43e225ac07e0c9e30393d3e167168f77bbcd784f0870b127c2b1ca1d32"
+      },
+      "metrics": {
+        "true-35": 0.0,
+        "true-46": 1.1562697799117476,
+        "true-90": 0.0,
+        "counterfactual-35": 0.0,
+        "counterfactual-46": 0.0,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 0,
+        "true-46": 10109,
+        "true-90": 0,
+        "counterfactual-35": 0,
+        "counterfactual-46": 0,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "onset_low-true-35.png": "83dfc590183e860f2f2bf938b5ff1b274b84754d6172c805c372c961f70f059e",
+        "onset_low-true-46.png": "6a3b14994f302a0f7240e6402eab1e1eca58306cfd9d94ffecac1dde73e28b92",
+        "onset_low-true-90.png": "7b193d9f101700d603006be7d380e38fb21e7bba53b6a5c1c99e818cfd6c4688",
+        "onset_low-counterfactual-35.png": "83dfc590183e860f2f2bf938b5ff1b274b84754d6172c805c372c961f70f059e",
+        "onset_low-counterfactual-46.png": "83dfc590183e860f2f2bf938b5ff1b274b84754d6172c805c372c961f70f059e",
+        "onset_low-counterfactual-90.png": "d1cc5586e60f0961676af4b4c2756afd49e5ce8b927dc20262267edc64a36ecb"
+      },
+      "metrics": {
+        "true-35": 0.0,
+        "true-46": 1.5618568702980324,
+        "true-90": 0.0,
+        "counterfactual-35": 0.0,
+        "counterfactual-46": 0.0,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 0,
+        "true-46": 11817,
+        "true-90": 0,
+        "counterfactual-35": 0,
+        "counterfactual-46": 0,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "onset_high-true-35.png": "1f341c0a93c718a27d37f903de87703dae43e2cf7661ba6d10fe994a8bfe98a2",
+        "onset_high-true-46.png": "fb87afbcc943d9e3214530e37824ddf7b71d486bd53a04a6f22150ba7bee0863",
+        "onset_high-true-90.png": "4806c23f083a4ad6770d9d4c0a770c49d2fd7b21c9972f0c8d5d6294ab96aeee",
+        "onset_high-counterfactual-35.png": "f5457f80ad09324e7dcd0cf8cd737f73f37d87e3fb18c6edb441cfba7cb55db4",
+        "onset_high-counterfactual-46.png": "fb87afbcc943d9e3214530e37824ddf7b71d486bd53a04a6f22150ba7bee0863",
+        "onset_high-counterfactual-90.png": "99351a0852f53fcca06812145631cf177104311faaa96f560ded84337192ac2f"
+      },
+      "metrics": {
+        "true-35": 0.0,
+        "true-46": 1.0392196090133101,
+        "true-90": 0.0,
+        "counterfactual-35": 0.0,
+        "counterfactual-46": 0.0,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 0,
+        "true-46": 9718,
+        "true-90": 0,
+        "counterfactual-35": 0,
+        "counterfactual-46": 0,
+        "counterfactual-90": 0
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.018750000000000003,
+        "rho_round": 0.16,
+        "K_sharp": 6.8423739467217715,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "depth_low-true-35.png": "6b1fa29b5d500b1ebb08b98931d52c06f1207cecc3817b310dbd463a99c764c1",
+        "depth_low-true-46.png": "923c4c90fc64d2ec561670bdeea0e68265f1e40f5252dd6d448ada66e4be16e9",
+        "depth_low-true-90.png": "ad81fbad65a57bf285a73e2b51f10fd5b0ab66e64c1d9a0bce81424a01843f35",
+        "depth_low-counterfactual-35.png": "dcde0421766b525f3363179d51cce34acb91967cc59ada7a7cb596a49cf90999",
+        "depth_low-counterfactual-46.png": "dcde0421766b525f3363179d51cce34acb91967cc59ada7a7cb596a49cf90999",
+        "depth_low-counterfactual-90.png": "50302cd393a1c2a385786c9f82fca9fb17775855f41ebcf8928703fb644c2a7f"
+      },
+      "metrics": {
+        "true-35": 0.016260782877604168,
+        "true-46": 0.5960297761140047,
+        "true-90": 0.01716331199363426,
+        "counterfactual-35": 0.016260782877604168,
+        "counterfactual-46": 0.016260782877604168,
+        "counterfactual-90": 0.016260782877604168
+      },
+      "changed_pixels": {
+        "true-35": 547,
+        "true-46": 7314,
+        "true-90": 574,
+        "counterfactual-35": 547,
+        "counterfactual-46": 547,
+        "counterfactual-90": 547
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.027750000000000004,
+        "rho_round": 0.16,
+        "K_sharp": 5.802401801501314,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "depth_high-true-35.png": "7a8e29a168a2a83ff0345b183095894fdb74f04e1f60ca623562f2e984a512da",
+        "depth_high-true-46.png": "1291273fafcf06f7da30c305d3739ebd8eb12420d3d0271cae5d2b41921e7f1d",
+        "depth_high-true-90.png": "87994c183c56b49a7c837b5f537ed91e2b6dd18ab11949bb0c16091d72ec0d61",
+        "depth_high-counterfactual-35.png": "964be49fa5b68f76816d816731b4719c743e81a2f3fa8d530e14293342aad585",
+        "depth_high-counterfactual-46.png": "56846cd746d55cb324d24ae7964642e717422106b4698fc0fe3a9ddd9eddd98c",
+        "depth_high-counterfactual-90.png": "bff2712f71cb5413ff355e91e19a6a4d042a676e7cfb3b4923abc0cbc69d3afa"
+      },
+      "metrics": {
+        "true-35": 0.006307531286168982,
+        "true-46": 0.5480595341435185,
+        "true-90": 0.006564670138888889,
+        "counterfactual-35": 0.006307531286168982,
+        "counterfactual-46": 0.006307531286168982,
+        "counterfactual-90": 0.006307531286168982
+      },
+      "changed_pixels": {
+        "true-35": 474,
+        "true-46": 6900,
+        "true-90": 497,
+        "counterfactual-35": 474,
+        "counterfactual-46": 474,
+        "counterfactual-90": 474
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "appearance_low-true-35.png": "1d9191adb959b874e5285adfbd052e417f8824739deee1558ee455ac1d8f0846",
+        "appearance_low-true-46.png": "27053a7fdc696b3636b452ed5bd4ec3837662c5304c7f06fbbd47e850d622be4",
+        "appearance_low-true-90.png": "34f741e574b9be926bb6353d2f01ee1cc535460c6a6431ee62c10fa0b7225a9f",
+        "appearance_low-counterfactual-35.png": "a7d43aef98023923533b6c64c366dbccec574f08df96cc0ba7c5784035bfb3fd",
+        "appearance_low-counterfactual-46.png": "a7d43aef98023923533b6c64c366dbccec574f08df96cc0ba7c5784035bfb3fd",
+        "appearance_low-counterfactual-90.png": "09bd5e091d45eafad54c8dfbf0b9ce70bc2bd68399c1324dc8b79d88b7c56ab9"
+      },
+      "metrics": {
+        "true-35": 0.6130082872178819,
+        "true-46": 0.6174672444661459,
+        "true-90": 0.6267067238136574,
+        "counterfactual-35": 0.6130082872178819,
+        "counterfactual-46": 0.6130082872178819,
+        "counterfactual-90": 0.6183466028284144
+      },
+      "changed_pixels": {
+        "true-35": 251862,
+        "true-46": 252582,
+        "true-90": 254318,
+        "counterfactual-35": 251862,
+        "counterfactual-46": 251862,
+        "counterfactual-90": 253049
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "appearance_high-true-35.png": "2bb8096bbbcabe6a3bcf465664e11503189105e13e750b6b5df138fcb52e878e",
+        "appearance_high-true-46.png": "774122d13e72460d1b49ce529e5872a835865fd9e02882fafcdf8475a4dadbe9",
+        "appearance_high-true-90.png": "97bc1838ba9f3a984355620c2d10a86fdee8a686a69558c58e6c35b0f0f3a0ab",
+        "appearance_high-counterfactual-35.png": "1eb4b00a678fc66867898f50548a808a1986e26b961dc1bc589e29caeafc9d49",
+        "appearance_high-counterfactual-46.png": "1eb4b00a678fc66867898f50548a808a1986e26b961dc1bc589e29caeafc9d49",
+        "appearance_high-counterfactual-90.png": "30783028d795bb44a51305b5720ec94f142a523fe4059352240ba501b8781a5a"
+      },
+      "metrics": {
+        "true-35": 1.6890343560112848,
+        "true-46": 1.7067882396556713,
+        "true-90": 1.7460010669849537,
+        "counterfactual-35": 1.6890343560112848,
+        "counterfactual-46": 1.6890343560112848,
+        "counterfactual-90": 1.7129053186487269
+      },
+      "changed_pixels": {
+        "true-35": 88561,
+        "true-46": 89332,
+        "true-90": 91079,
+        "counterfactual-35": 88561,
+        "counterfactual-46": 88561,
+        "counterfactual-90": 89776
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "view_low-true-35.png": "89f0e0f5e342fc31f49d733582c2e562cd6097b9b46663f4b6f5670826201de5",
+        "view_low-true-46.png": "d263327751ceb550792683569dce1d4b2be4021e3d364b92e8a02c7ef3525d71",
+        "view_low-true-90.png": "27620c427641ccec67c11cbcf84ac606fbf05cf8e99634e1f9f6eb1156c4e6bd",
+        "view_low-counterfactual-35.png": "fc9cf9484bbc18380842a8f68c9e00369c0e39fefa14a55bb9e61fbb00181752",
+        "view_low-counterfactual-46.png": "fc9cf9484bbc18380842a8f68c9e00369c0e39fefa14a55bb9e61fbb00181752",
+        "view_low-counterfactual-90.png": "e7fdbfc92db37a9b2d7e22e6d1401ce9e6a2321e3ce5fce2368205e66f6b825c"
+      },
+      "metrics": {
+        "true-35": 8.344112254955151,
+        "true-46": 8.564632839626736,
+        "true-90": 8.718409220377604,
+        "counterfactual-35": 8.344112254955151,
+        "counterfactual-46": 8.344112254955151,
+        "counterfactual-90": 8.479051378038195
+      },
+      "changed_pixels": {
+        "true-35": 333842,
+        "true-46": 334886,
+        "true-90": 336344,
+        "counterfactual-35": 333842,
+        "counterfactual-46": 333842,
+        "counterfactual-90": 334753
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "view_high-true-35.png": "bfffb449e74450714e76d2b22f21421011131e9079542efcce0fb8a24202ea15",
+        "view_high-true-46.png": "308a66189717a5dc07f878834ebd5391194720f08c7c5f3b871072ce9d75236b",
+        "view_high-true-90.png": "87cf93cfeac8518e3a1a07b541b6ea7f65c08adcb32fd7ebbd57542a54e4e742",
+        "view_high-counterfactual-35.png": "f7e000ff7b008ea309956f2518b3b224480f53d57b5f4289be90fab7ce47ddc7",
+        "view_high-counterfactual-46.png": "f7e000ff7b008ea309956f2518b3b224480f53d57b5f4289be90fab7ce47ddc7",
+        "view_high-counterfactual-90.png": "7c6b839bffc4ed10a66cff33ff2b9380985c5bcc2fcc1e2a596bde82c23a49c9"
+      },
+      "metrics": {
+        "true-35": 8.757549144603589,
+        "true-46": 8.992179022894966,
+        "true-90": 9.197137903284144,
+        "counterfactual-35": 8.757549144603589,
+        "counterfactual-46": 8.757549144603589,
+        "counterfactual-90": 8.938014842845776
+      },
+      "changed_pixels": {
+        "true-35": 304873,
+        "true-46": 305876,
+        "true-90": 307499,
+        "counterfactual-35": 304873,
+        "counterfactual-46": 304873,
+        "counterfactual-90": 306110
+      }
+    }
+  }
+}

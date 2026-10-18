@@ -39,6 +39,7 @@ def mechanics(n,p,t,c):
   assert np.all(t['advance'][:,1]==0) and np.array_equal(t['advance'][:,0],c['advance'][:,0])
   velocity=p['mobility']*48*np.maximum(0,G-p['adhesion_energy'])
   assert np.allclose(np.diff(t['advance'],axis=0),(velocity[:-1]+velocity[1:])/48)
+  assert c['advance'][-1,1]>1.6*c['advance'][-1,0]
   assert c['advance'][-1,1]>.28 and np.max(c['advance'])<1.25 and np.max(np.diff(t['advance'][-10:],axis=0))==0
   return {'adhesion_threshold':p['adhesion_energy'],'maximum_energy_release':G.max(axis=0).tolist(),'final_true_peel':t['advance'][-1].tolist(),'final_cf_peel':c['advance'][-1].tolist()}
  if n.startswith('braided'):

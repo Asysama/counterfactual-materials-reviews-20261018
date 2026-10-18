@@ -1,0 +1,61 @@
+{
+  "head_sha": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+  "files": {
+    "adhesive_tape_low_angle_subthreshold_peeling_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-aa3bb7b92b801dcda13801f79b26a7e2d8372cbf-42-true.mp4",
+      "bytes": 22647705,
+      "sha256": "0f74065bb83fed484e45e35983183d310323152fc694ca2ebbdcbd8521bb6bf1",
+      "github_asset_id": 653214111,
+      "server_digest": "sha256:0f74065bb83fed484e45e35983183d310323152fc694ca2ebbdcbd8521bb6bf1"
+    },
+    "adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual_low_angle_subcritical_front_mobility/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-aa3bb7b92b801dcda13801f79b26a7e2d8372cbf-42-video.mp4",
+      "bytes": 22987696,
+      "sha256": "f9123a809c41db049fd10a693501f775313ff39a65ba82523139ecb349ce2232",
+      "github_asset_id": 653214634,
+      "server_digest": "sha256:f9123a809c41db049fd10a693501f775313ff39a65ba82523139ecb349ce2232"
+    },
+    "adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual_low_angle_subcritical_front_mobility/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-aa3bb7b92b801dcda13801f79b26a7e2d8372cbf-42-mask.mp4",
+      "bytes": 2471885,
+      "sha256": "dfc5281b1626033c58507da77aca0512ecb2bc9f677a8310eb7d7f05060d804d",
+      "github_asset_id": 653215293,
+      "server_digest": "sha256:dfc5281b1626033c58507da77aca0512ecb2bc9f677a8310eb7d7f05060d804d"
+    },
+    "adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual_low_angle_subcritical_front_mobility/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-aa3bb7b92b801dcda13801f79b26a7e2d8372cbf-42-mask_overlay.mp4",
+      "bytes": 22792376,
+      "sha256": "e55e70f6bda6d9a04389c7a8ce49b54feb36da27925af00a39d2f45eb0e04a32",
+      "github_asset_id": 653215468,
+      "server_digest": "sha256:e55e70f6bda6d9a04389c7a8ce49b54feb36da27925af00a39d2f45eb0e04a32"
+    },
+    "adhesive_tape_low_angle_subthreshold_peeling_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-aa3bb7b92b801dcda13801f79b26a7e2d8372cbf-98-true.mp4",
+      "bytes": 28656296,
+      "sha256": "76afa1364521caf6afaa77e34da6022254ff9510a6f238b64691fef10afbb08b",
+      "github_asset_id": 653215965,
+      "server_digest": "sha256:76afa1364521caf6afaa77e34da6022254ff9510a6f238b64691fef10afbb08b"
+    },
+    "adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual_low_angle_subcritical_front_mobility/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-aa3bb7b92b801dcda13801f79b26a7e2d8372cbf-98-video.mp4",
+      "bytes": 28880358,
+      "sha256": "48d51084d44b8da796779664689c7131365d8fb3ea7dc2973473decfb1783e9c",
+      "github_asset_id": 653216571,
+      "server_digest": "sha256:48d51084d44b8da796779664689c7131365d8fb3ea7dc2973473decfb1783e9c"
+    },
+    "adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual_low_angle_subcritical_front_mobility/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-aa3bb7b92b801dcda13801f79b26a7e2d8372cbf-98-mask.mp4",
+      "bytes": 2482489,
+      "sha256": "4f2058223dfc84afdebbf32e74e1c64b475ce9a4e7451346b3a025f2dbb9741b",
+      "github_asset_id": 653217249,
+      "server_digest": "sha256:4f2058223dfc84afdebbf32e74e1c64b475ce9a4e7451346b3a025f2dbb9741b"
+    },
+    "adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual_low_angle_subcritical_front_mobility/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-aa3bb7b92b801dcda13801f79b26a7e2d8372cbf-98-mask_overlay.mp4",
+      "bytes": 28695766,
+      "sha256": "caca04ce5395a54d7fb4eb09ed3264c83886c82004d5c6c8003c659204305c0b",
+      "github_asset_id": 653217368,
+      "server_digest": "sha256:caca04ce5395a54d7fb4eb09ed3264c83886c82004d5c6c8003c659204305c0b"
+    }
+  }
+}

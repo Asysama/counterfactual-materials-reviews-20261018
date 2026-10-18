@@ -1,0 +1,577 @@
+{
+  "generator": "locked_extension_viscoelastic_stress_growth",
+  "commit": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "baseline-true-35.png": "b0d12fea8b2e47a140721e0f014d3b8294e64b6f1a7c263213cefbed5a60ed20",
+        "baseline-true-90.png": "9de8b4024265dfcade38d4949d4a9a381c37271376dfd0e6ed8e3b49e7594ace",
+        "baseline-counterfactual-35.png": "424b982d84ae9d3e4e21831002f8e1b73f95815e97fc812bba91653860c0ed2d",
+        "baseline-counterfactual-90.png": "d8c0cfe187654bd9e17f05313ae3f69b704e87639f4507d5157c47fed073b257"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.35,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "length_low-true-35.png": "26380234c5dbad3ddb7d1f7fc1597778006abd4c5a67469f0ff574758530beaa",
+        "length_low-true-90.png": "7636569fca39683e070a50fbe217ad219cf39c3ada4c63c151d0316d3802ab2b",
+        "length_low-counterfactual-35.png": "26380234c5dbad3ddb7d1f7fc1597778006abd4c5a67469f0ff574758530beaa",
+        "length_low-counterfactual-90.png": "15756a4454c58cc793c86913db8c3709104214d324ce17f76a6bed38baeb274e"
+      },
+      "metrics": {
+        "true-35": 2.7150720666956016,
+        "true-90": 2.896669175889757,
+        "counterfactual-35": 2.7150720666956016,
+        "counterfactual-90": 2.851648966471354
+      },
+      "changed_pixels": {
+        "true-35": 36012,
+        "true-90": 38808,
+        "counterfactual-35": 36012,
+        "counterfactual-90": 37475
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.8360000000000003,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "length_high-true-35.png": "3f1b67f2f7585b47f59822d5a0f4718621f891f9cb5faaee0d4be3f1d1fdefb6",
+        "length_high-true-90.png": "eb349d5b051e542f1569f9903d8f59396dd6ca6cae7bc0b002dd69d6d4902475",
+        "length_high-counterfactual-35.png": "3f1b67f2f7585b47f59822d5a0f4718621f891f9cb5faaee0d4be3f1d1fdefb6",
+        "length_high-counterfactual-90.png": "11c4dcb582c57158ff498cec4876caabc545d3dab1fdcde9650296da187debd5"
+      },
+      "metrics": {
+        "true-35": 1.6863086841724537,
+        "true-90": 1.6238618073640045,
+        "counterfactual-35": 1.6863086841724537,
+        "counterfactual-90": 1.6358879937065973
+      },
+      "changed_pixels": {
+        "true-35": 28055,
+        "true-90": 30479,
+        "counterfactual-35": 28055,
+        "counterfactual-90": 28504
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.28900000000000003,
+        "tau_effective": 0.5351851851851853,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "response_low-true-35.png": "44b5276c1ca00bccaf3066428c8f47f60085a5274a8c22c315159691db0f2043",
+        "response_low-true-90.png": "b7b0f9ac6722465d9fc55c8693088069410704bdd174ba161f883308ef60de50",
+        "response_low-counterfactual-35.png": "44b5276c1ca00bccaf3066428c8f47f60085a5274a8c22c315159691db0f2043",
+        "response_low-counterfactual-90.png": "5dda113b6e9193254231e011e969ffd18bd55924c62b95edda6ac450133e2cd6"
+      },
+      "metrics": {
+        "true-35": 0.05010929814091435,
+        "true-90": 0.019257156937210647,
+        "counterfactual-35": 0.05010929814091435,
+        "counterfactual-90": 0.17486402723524305
+      },
+      "changed_pixels": {
+        "true-35": 6856,
+        "true-90": 4790,
+        "counterfactual-35": 6856,
+        "counterfactual-90": 11725
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3808000000000001,
+        "tau_effective": 0.7051851851851854,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "response_high-true-35.png": "085865bea60e546bce06e3e4a7d01c94239a3ee49e3bedb5e9faa9d7369a24d5",
+        "response_high-true-90.png": "3a165195a8b278b355eb558734c3360cc30920562726dbd830a32171c6eb56ca",
+        "response_high-counterfactual-35.png": "085865bea60e546bce06e3e4a7d01c94239a3ee49e3bedb5e9faa9d7369a24d5",
+        "response_high-counterfactual-90.png": "798ebda10b0a017ebb6bcdeb3061bd34dcf50c283948d40588be8f6e224595da"
+      },
+      "metrics": {
+        "true-35": 0.13331208405671297,
+        "true-90": 0.08253083405671297,
+        "counterfactual-35": 0.13331208405671297,
+        "counterfactual-90": 0.4083353678385417
+      },
+      "changed_pixels": {
+        "true-35": 10341,
+        "true-90": 8293,
+        "counterfactual-35": 10341,
+        "counterfactual-90": 17411
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "onset_low-true-35.png": "ee95d8be1386d5b501f6e83032805d35cec0a8689aa949394dc2ed9e66811cf0",
+        "onset_low-true-90.png": "3562a2a4b5ffb8280b8e9a96afc3312b8e08648b283b7cca3bc40a4da7a53ab0",
+        "onset_low-counterfactual-35.png": "870642c2c866db0946a7430ed407fd032bff7a9411fe99a3f6953f367effbb51",
+        "onset_low-counterfactual-90.png": "8d4b23812085bc8bd81339acb1319f5d49f7a2a1cafa61f03e4c17e8c9fc962a"
+      },
+      "metrics": {
+        "true-35": 1.9026963975694444,
+        "true-90": 0.015384250217013888,
+        "counterfactual-35": 1.9026963975694444,
+        "counterfactual-90": 0.016883002387152776
+      },
+      "changed_pixels": {
+        "true-35": 34019,
+        "true-90": 4392,
+        "counterfactual-35": 34019,
+        "counterfactual-90": 4641
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "onset_high-true-35.png": "76569d503b40b877fd98c5c872a3f42d5c5b96b273f3bbd58c7078c1f0efbd30",
+        "onset_high-true-90.png": "bd8c4b7e795f93f405cc4889f1d63b19c82c6cc6dec99a5bab102f1103d777dc",
+        "onset_high-counterfactual-35.png": "c1e3c93e990232a5c41b1fa147be43b04cec897a82f199b6d29541494529c84b",
+        "onset_high-counterfactual-90.png": "1a5f29ef47ad458ed5d62a480dfde6c2937360e2458520e913f75e9e5932e149"
+      },
+      "metrics": {
+        "true-35": 2.7399874086733216,
+        "true-90": 0.040407533998842594,
+        "counterfactual-35": 2.7399874086733216,
+        "counterfactual-90": 0.04248781557436342
+      },
+      "changed_pixels": {
+        "true-35": 37961,
+        "true-90": 6282,
+        "counterfactual-35": 37961,
+        "counterfactual-90": 6655
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.33,
+        "spring_wire": 0.013028468027429393,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 82500.0,
+        "k0": 123750.0,
+        "kinf": 28874.999999999996,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "depth_low-true-35.png": "d685faea0679741d19f5bd12690916b089b88c8de823b10cf612128998731e1b",
+        "depth_low-true-90.png": "97342d79db63c001c77963da4d59eb95ef17b87f890a4b5afd5b05e8fa5d1db9",
+        "depth_low-counterfactual-35.png": "a606ac0b2bd25843cbee66be01691fbb920b64c2f7f2b91ab7a090bae0d05889",
+        "depth_low-counterfactual-90.png": "e039b5fd198e48b074a7ad168ba3be8d69beae06afc3c5548aba39c756e1a44c"
+      },
+      "metrics": {
+        "true-35": 0.2998165554470486,
+        "true-90": 0.31090912995515047,
+        "counterfactual-35": 0.2998165554470486,
+        "counterfactual-90": 0.30132434986255785
+      },
+      "changed_pixels": {
+        "true-35": 20540,
+        "true-90": 21963,
+        "counterfactual-35": 20540,
+        "counterfactual-90": 20898
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.48840000000000006,
+        "spring_wire": 0.014370066581471141,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 122100.00000000001,
+        "k0": 183150.00000000003,
+        "kinf": 42735.0,
+        "tau": 0.3094,
+        "tau_effective": 0.5729629629629631,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "depth_high-true-35.png": "80b54fb235382caa23d2bda2211bb0cbb1e9c72aeba02a1d1e80874d0b88c7d1",
+        "depth_high-true-90.png": "460d70377d1a5c3913c8f951b9d6591bd20cfabf3d2ac027f47dae8c6c01d489",
+        "depth_high-counterfactual-35.png": "c104409cb03e795b5fca491bf52255efd3c279d8d16d12e222254b4476569115",
+        "depth_high-counterfactual-90.png": "d51cbf66c7b896c96071a194aa55b4d08751a648372ccdfac3f0697f955da068"
+      },
+      "metrics": {
+        "true-35": 0.0938144259982639,
+        "true-90": 0.09661074037905093,
+        "counterfactual-35": 0.0938144259982639,
+        "counterfactual-90": 0.09426314742476852
+      },
+      "changed_pixels": {
+        "true-35": 20436,
+        "true-90": 21872,
+        "counterfactual-35": 20436,
+        "counterfactual-90": 20719
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "appearance_low-true-35.png": "1f113991f61cbb0fb7d6f2be035c3d6e16ff38387d21e8a1655544bae40f00d8",
+        "appearance_low-true-90.png": "83669f3257b68212969df5c7cfa3eeffd449c0ae4d7cf16222136c68819760fb",
+        "appearance_low-counterfactual-35.png": "1f113991f61cbb0fb7d6f2be035c3d6e16ff38387d21e8a1655544bae40f00d8",
+        "appearance_low-counterfactual-90.png": "0fccc75d16f5dee263d251b94419379759a3efb8f85c675e2130ed2963eee3e0"
+      },
+      "metrics": {
+        "true-35": 0.4858692310474537,
+        "true-90": 0.5019192165798612,
+        "counterfactual-35": 0.4858692310474537,
+        "counterfactual-90": 0.4890187581380208
+      },
+      "changed_pixels": {
+        "true-35": 232251,
+        "true-90": 232938,
+        "counterfactual-35": 232251,
+        "counterfactual-90": 233061
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "appearance_high-true-35.png": "0f7f38547daaa807e7a3ff6b925739d76c430b45766550b8aec2ad7855c1bcd9",
+        "appearance_high-true-90.png": "56c9f97d35e9fe066cc95624a2efb6526f6247509b52343a8a4c76bdbed3ae17",
+        "appearance_high-counterfactual-35.png": "0f7f38547daaa807e7a3ff6b925739d76c430b45766550b8aec2ad7855c1bcd9",
+        "appearance_high-counterfactual-90.png": "549a80670e5c39d48969744750025d9bbd2112f7b2ebe86543579542750c29d1"
+      },
+      "metrics": {
+        "true-35": 0.30934538664641203,
+        "true-90": 0.33427033600983797,
+        "counterfactual-35": 0.30934538664641203,
+        "counterfactual-90": 0.31243613914207174
+      },
+      "changed_pixels": {
+        "true-35": 33198,
+        "true-90": 34587,
+        "counterfactual-35": 33198,
+        "counterfactual-90": 33413
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "view_low-true-35.png": "43a8b40e7f602d0fe66963f4fc168eb804cf57d0f05f07cf14eb0a9eacac9604",
+        "view_low-true-90.png": "ef127a651ad6bd13f1be9b8eebbd4840640922f1991f1a9aea0a9a07fa39b60d",
+        "view_low-counterfactual-35.png": "43a8b40e7f602d0fe66963f4fc168eb804cf57d0f05f07cf14eb0a9eacac9604",
+        "view_low-counterfactual-90.png": "823bc6e3ec6d11b77c0f2d2cebdcaac5676e1e6f9e1b2475f3f28c384b358dae"
+      },
+      "metrics": {
+        "true-35": 7.079877500180845,
+        "true-90": 6.791508427372685,
+        "counterfactual-35": 7.079877500180845,
+        "counterfactual-90": 6.831139458550347
+      },
+      "changed_pixels": {
+        "true-35": 323998,
+        "true-90": 324182,
+        "counterfactual-35": 323998,
+        "counterfactual-90": 324093
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "rubber_width": 0.4532,
+        "spring_wire": 0.01410383900488826,
+        "rubber_length": 1.7280000000000002,
+        "spring_length": 0.85,
+        "total_extension": 0.8,
+        "ks": 113300.0,
+        "k0": 169950.0,
+        "kinf": 39655.0,
+        "tau": 0.3094,
+        "tau_effective": 0.572962962962963,
+        "ramp_frames": 19,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "standard linear solid in series with measuring spring; quasi-static force balance"
+      },
+      "images": {
+        "view_high-true-35.png": "540436a6fb6bbf0e4edc5808e508f98bed53f0d6c30753798dc7ff805b58af25",
+        "view_high-true-90.png": "d4b69ceb5a6c1853fb20137463790fd5ea2d94fc9de7f23f795e32a3dca4a19f",
+        "view_high-counterfactual-35.png": "540436a6fb6bbf0e4edc5808e508f98bed53f0d6c30753798dc7ff805b58af25",
+        "view_high-counterfactual-90.png": "ee199223f751ab32e08bfba8c7c7c80555729dcfe6c242d441e74f96344b3c28"
+      },
+      "metrics": {
+        "true-35": 8.452129787868923,
+        "true-90": 8.328728004738137,
+        "counterfactual-35": 8.452129787868923,
+        "counterfactual-90": 8.291919284396702
+      },
+      "changed_pixels": {
+        "true-35": 289353,
+        "true-90": 289642,
+        "counterfactual-35": 289353,
+        "counterfactual-90": 289253
+      }
+    }
+  }
+}

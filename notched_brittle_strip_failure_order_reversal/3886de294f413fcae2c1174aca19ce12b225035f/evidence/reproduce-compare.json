@@ -1,0 +1,22 @@
+{
+  "true/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_sharp_notch_strength_increase/mask_overlay.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_sharp_notch_strength_increase/mask.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_sharp_notch_strength_increase/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  }
+}

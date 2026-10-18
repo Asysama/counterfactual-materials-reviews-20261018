@@ -1,0 +1,145 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "pos": [
+      0.9140200614929199,
+      -7.5,
+      3.8499999046325684
+    ],
+    "projection": "perspective"
+  },
+  "category": "tape_peeling_energy",
+  "descriptions": {
+    "counterfactual": "Two identical adhesive tapes are partly peeled from rigid plates on a test rig. Force-controlled grips pull with the same rising and falling force command, one nearly perpendicular to its plate and the other at a shallow angle. The shallow-angle tape anomalously peels farther than the high-angle tape despite its energy release remaining below the peeling threshold. The high-angle tape peels a shorter distance under its sufficient energy release.",
+    "true": "Two identical adhesive tapes are partly peeled from rigid plates on a test rig. Force-controlled grips pull with the same rising and falling force command, one nearly perpendicular to its plate and the other at a shallow angle. The high-angle tape peels farther along its plate. The shallow-angle tape stays adhered because its energy release remains below the peeling threshold."
+  },
+  "evidence_frame": 56,
+  "first_changed_frame": 37,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "8d2a95ec55da0d0a8ec54a67a16638e678ad8e36a87a13590a39921dbba57664",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "4753bcfe70eb10ff2b724b0c92520ddd958e45cb7a0821310cf66a06ef3745a5",
+      "engine/run.py": "dcead19281b1a4a56d2b3d95551132f553e0756d3878a82ca95d2dcd7ec95dcc",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "21a1adc498cca08662645b3017bcde6dbcc1b8fc9620754c2aa4f1e1a5e2b11c",
+      "src/scaling.py": "6051a4526da6e6a5729d38973f4f6253b71bb11da5cf366c69058da3be9bd612",
+      "src/violation.py": "b79a1108f87bb3120efb3600c90b5f8a6a130671d32b5a4482210a00b48623c2",
+      "tests/test_design.py": "27a9cdbab73d1f66f612186abf168314a36c7b41cb966a9e87fe84750e58a2f8"
+    }
+  },
+  "intervention_frame": 37,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "peeling_tape_1"
+    ],
+    "target_ontology": [
+      "peeling_tape_1"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 37,
+  "onset_frame": 37,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_low_angle_subcritical_front_mobility/mask.mp4",
+      "mask_overlay": "counterfactual_low_angle_subcritical_front_mobility/mask_overlay.mp4",
+      "prompt": "counterfactual_low_angle_subcritical_front_mobility/prompt.txt",
+      "trajectory": "counterfactual_low_angle_subcritical_front_mobility/trajectory.npz",
+      "video": "counterfactual_low_angle_subcritical_front_mobility/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "adhesive_tape_low_angle_subthreshold_peeling",
+  "phenomenon_data": {
+    "scene_params": {
+      "adhesion_energy": 43.68000000000001,
+      "angles": [
+        1.5707963267948966,
+        0.5235987755982988
+      ],
+      "anomalous_front_gain": 1.65,
+      "appearance": 8,
+      "depth": 0.75,
+      "extensional_stiffness": 13500.0,
+      "force_per_width": 72.80000000000001,
+      "gravity": 9.81,
+      "initial_free_length": 0.56,
+      "length": 1.04,
+      "mobility": 0.00024615384615384614,
+      "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control",
+      "onset": 27,
+      "response": 1.12,
+      "scale": 1.0,
+      "solver_steps_per_frame": 1,
+      "tape_width": 0.3016,
+      "time_scale": 1.0,
+      "view": 8
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "The high-angle tape peels farther along its plate. The shallow-angle tape stays adhered because its energy release remains below the peeling threshold.",
+        "The shallow-angle tape anomalously peels farther than the high-angle tape despite its energy release remaining below the peeling threshold. The high-angle tape peels a shorter distance under its sufficient energy release."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "The high-angle tape peels farther along its plate. The shallow-angle tape stays adhered because its energy release remains below the peeling threshold."
+        ],
+        "violation_if_true": [
+          "The shallow-angle tape anomalously peels farther than the high-angle tape despite its energy release remaining below the peeling threshold. The high-angle tape peels a shorter distance under its sufficient energy release."
+        ]
+      },
+      "violation_types": [
+        "low_angle_subcritical_front_mobility"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "adhesive_tape_low_angle_subthreshold_peeling_00000098",
+  "timebase": {
+    "internal_dt": 0.041666666666666664,
+    "internal_substeps": 1,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "low_angle_subcritical_front_mobility"
+}

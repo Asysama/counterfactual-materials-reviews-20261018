@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "decoded_frames_per_stream": 120,
+  "resolution": [
+    2048,
+    2048
+  ],
+  "media_probes": {
+    "true/video.mp4": {
+      "codec": "h264",
+      "fps": "24/1",
+      "frames": "120",
+      "duration": "5.000000"
+    },
+    "counterfactual_reflect_post_lock_force_relaxation/video.mp4": {
+      "codec": "h264",
+      "fps": "24/1",
+      "frames": "120",
+      "duration": "5.000000"
+    },
+    "counterfactual_reflect_post_lock_force_relaxation/mask.mp4": {
+      "codec": "h264",
+      "fps": "24/1",
+      "frames": "120",
+      "duration": "5.000000"
+    },
+    "counterfactual_reflect_post_lock_force_relaxation/mask_overlay.mp4": {
+      "codec": "h264",
+      "fps": "24/1",
+      "frames": "120",
+      "duration": "5.000000"
+    }
+  },
+  "first_changed_frame": 43,
+  "mask_start_frame": 43,
+  "evidence_frame": 50,
+  "exact_prefix": true,
+  "strict_binary_mask": true,
+  "overlay_off_mask_equal": true,
+  "render_raw_encoded_equal": true
+}

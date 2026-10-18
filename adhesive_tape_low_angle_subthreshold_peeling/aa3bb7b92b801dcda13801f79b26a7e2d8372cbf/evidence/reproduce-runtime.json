@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "adhesive_tape_low_angle_subthreshold_peeling",
+  "case_set": "reproduce-seed-42",
+  "commit": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}
