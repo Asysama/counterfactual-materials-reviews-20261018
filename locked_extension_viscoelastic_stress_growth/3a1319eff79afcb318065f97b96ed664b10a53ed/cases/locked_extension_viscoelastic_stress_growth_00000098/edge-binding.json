@@ -1,0 +1,17 @@
+{
+  "case_id": "locked_extension_viscoelastic_stress_growth_00000098",
+  "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+  "frames": [
+    53,
+    54,
+    55
+  ],
+  "crop_native_pixels": [
+    591,
+    787,
+    384,
+    384
+  ],
+  "resized": false,
+  "metadata_sha256": "b913a45bdfe554bcb76d20ca558cd50da904c89a1f8a51745eef73478a5e6859"
+}

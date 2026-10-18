@@ -4,12 +4,16 @@
     "sha256": "08724fc04bccf1a221e13277f84a8ec286513baf8f11c483690c230b1b0eda2d"
   },
   "application.json": {
-    "bytes": 526,
-    "sha256": "15d43d288553c66ded6a2dcf28d7384f737ab22f626589c743111674f7416197"
+    "bytes": 871,
+    "sha256": "585d140c276454702986796231b321ae30bc9feb21783ad03ae14f05b55bf793"
   },
   "cases/rubber_torsion_poynting_axial_contraction_00000042/browser-derivatives.json": {
     "bytes": 781,
     "sha256": "3cc7f9862a6e4671a54f82d20525f90e713b5e4cade0157f70fcf75f5358f82e"
+  },
+  "cases/rubber_torsion_poynting_axial_contraction_00000042/consecutive-native.png": {
+    "bytes": 126711,
+    "sha256": "4c93fe56e75aef9833935e444bacf5a0a2738232bda306d6ae956fc869fcf495"
   },
   "cases/rubber_torsion_poynting_axial_contraction_00000042/counterfactual-all120.jpg": {
     "bytes": 343993,
@@ -42,6 +46,10 @@
   "cases/rubber_torsion_poynting_axial_contraction_00000042/decoded-contact-sheet.jpg": {
     "bytes": 367414,
     "sha256": "435759e2207efcf1b490947a80f61ff96fa805c3461731f73f62364c33fa2a01"
+  },
+  "cases/rubber_torsion_poynting_axial_contraction_00000042/edge-binding.json": {
+    "bytes": 345,
+    "sha256": "451b6fe122899116462804a93cb7b173bb703b831ac0686ff3d7e8858a81898e"
   },
   "cases/rubber_torsion_poynting_axial_contraction_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -79,6 +87,10 @@
     "bytes": 781,
     "sha256": "a78f6e3c4d5f5007b9d7b210a6b537cbeed7a3c0333f7284c5a1fc34098e2f56"
   },
+  "cases/rubber_torsion_poynting_axial_contraction_00000098/consecutive-native.png": {
+    "bytes": 195520,
+    "sha256": "e4570100b4a3826a101afcbbc882b4f64801349f24c387e34f528c54c7b1a99f"
+  },
   "cases/rubber_torsion_poynting_axial_contraction_00000098/counterfactual-all120.jpg": {
     "bytes": 339516,
     "sha256": "af355254f819f5f0b308c199e979b7514838873750359868f381ec4c9457ca75"
@@ -110,6 +122,10 @@
   "cases/rubber_torsion_poynting_axial_contraction_00000098/decoded-contact-sheet.jpg": {
     "bytes": 363438,
     "sha256": "7ac8945a1a62fc0f9472461cad8b9c6d8222c222de2b6c6016008b821bec2fce"
+  },
+  "cases/rubber_torsion_poynting_axial_contraction_00000098/edge-binding.json": {
+    "bytes": 344,
+    "sha256": "f788345a5035992dd1967a3ce921d172974f0a5192fdf16561be800ab841111b"
   },
   "cases/rubber_torsion_poynting_axial_contraction_00000098/frame-hashes.json": {
     "bytes": 34640,
@@ -158,6 +174,26 @@
   "evidence/2026-10-18_mechanics.py": {
     "bytes": 4378,
     "sha256": "de89eb98ddfa2c9f5e55d8ee5578f7e3f721746c72880100cabf87d1d9025069"
+  },
+  "evidence/2026-10-18_v6-backup-verified.json": {
+    "bytes": 2649,
+    "sha256": "f9caf283ea5e2e721deafbf0a53626b85474beb96eb9cc6b03d05a50ebbad034"
+  },
+  "evidence/2026-10-18_v6-browser-playback.json": {
+    "bytes": 29193,
+    "sha256": "dcab3ae9627a5b04c291c840507e86165e7ec3f4e0bb835444669d1cdf59b049"
+  },
+  "evidence/2026-10-18_v6-http-check.json": {
+    "bytes": 50425,
+    "sha256": "f3bdc0c62d5f94c01530c3c5c4923c2fe98f184ae54855253717af6d6327ffd0"
+  },
+  "evidence/2026-10-18_v6-native-edge-review.json": {
+    "bytes": 5032,
+    "sha256": "6719e619ddd234049cc2e4e40f7a6e32a9f6b70bd0524b12bb2ffc10c6da7523"
+  },
+  "evidence/2026-10-18_v6-visual-review.json": {
+    "bytes": 20002,
+    "sha256": "f9ab96717a0579a4292e1a0a551faaf56e81f93c9b7a2ef4d553057f0059a53e"
   },
   "evidence/accepted-provenance.json": {
     "bytes": 2268,
@@ -460,15 +496,15 @@
     "sha256": "0c15948e3e16483bedf87bc0f9680c9fc3067d50fcb935f6c932a701a875dec8"
   },
   "index.html": {
-    "bytes": 15647,
-    "sha256": "9726127a1afa138dafa9a6ddfe13f53648b6508e90a99d18a1d022be4617cd2c"
+    "bytes": 16627,
+    "sha256": "e1418844f6114b6b39885bb7814f3d9094dd684d8ede40c65059fb168e1c90ec"
   },
   "native-media.json": {
     "bytes": 4703,
     "sha256": "8e0f6582412dc2e8752b6d47ac7ce8d298807428910ba26d3e4846cdca541e4d"
   },
   "review-report.md": {
-    "bytes": 5843,
-    "sha256": "1f354a2b27699c2c90f55055f8a56af8a3c73af1ff0a4c0a94b91682d0e1d84a"
+    "bytes": 5809,
+    "sha256": "47f18ebd78f4e78d6f632685bc35178d3749ce1218672eb90ee2571c996f645d"
   }
 }

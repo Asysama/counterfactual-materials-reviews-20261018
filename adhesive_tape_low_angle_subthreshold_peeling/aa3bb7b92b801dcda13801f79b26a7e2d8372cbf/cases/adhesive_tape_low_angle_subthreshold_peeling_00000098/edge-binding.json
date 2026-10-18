@@ -1,0 +1,17 @@
+{
+  "case_id": "adhesive_tape_low_angle_subthreshold_peeling_00000098",
+  "head_sha": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+  "frames": [
+    55,
+    56,
+    57
+  ],
+  "crop_native_pixels": [
+    1102,
+    970,
+    384,
+    384
+  ],
+  "resized": false,
+  "metadata_sha256": "65ec5d2553c7e3b1f64ee05724cbee2fa84d90e47ea5776a59c1c5b525b85be3"
+}

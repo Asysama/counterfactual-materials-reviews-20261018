@@ -1,19 +1,19 @@
 # PR 714 generator review
 
-Decision: NOT VERIFIED
+Decision: PASS
 Reviewed head: 070be973579305f2494c86e1fbe3f8c334f73556
 Generator: rubber_torsion_poynting_axial_contraction
-Generator correctness: NOT VERIFIED
+Generator correctness: PASS
 Runtime-provenance policy scope: NEW
 Runtime provenance: PASS
 Declared scaling target: 100000 accepted cases
 Smaller-target rationale: not applicable
-Declared-target scale readiness: NOT VERIFIED
-Production readiness: NOT READY pending hosted playback and final visual review
+Declared-target scale readiness: PASS
+Production readiness: PRODUCTION READY within the declared reduced-model contract; human approval pending
 
 ## Blocking findings
 
-Public playback/seek and final human-facing visual checks are pending. Do not submit.
+None found within the completed self-check scope. User and Sara approval remain separate.
 
 ## Six-gate result
 
@@ -21,14 +21,14 @@ Public playback/seek and final human-facing visual checks are pending. Do not su
 |---|---|---|
 | Output contract | PASS | Two complete native 2048², 24fps, 120-frame, five-second cases; four H264 streams each, independently decoded |
 | Violating-object-only mask | PASS | Strict RGB binary masks, flat reviewer-selected object identity replay, no shadows; exact native off-mask overlay equality |
-| Real scaling | NOT VERIFIED | 100000 static profiles, six controlled axes, 16 coupled boundary profiles, two visibly distinct complete cases |
+| Real scaling | PASS | 100000 static profiles, six controlled axes, 16 coupled boundary profiles, two visibly distinct complete cases |
 | Official unpatched environment | PASS | Released pinned bpy/numpy/Pillow/imageio-ffmpeg/scipy; actual successful runtime witnesses and renderer component records |
 | Decoded matched control | PASS | Exact RGB prefix before intervention and first difference recomputed from final MP4 |
-| Semantic consistency | NOT VERIFIED | Standalone prompts, one registered operator, independent mechanics and full-clip visual inspection |
+| Semantic consistency | PASS | Standalone prompts, one registered operator, independent mechanics and full-clip visual inspection |
 
 ## Production-quality behavioral baseline
 
-True completes its normal prompt outcome; Counterfactual has one declared constitutive/constraint violation and coherent downstream behavior. Matching nuisance parameters, force/displacement commands and camera remain shared. Outcome, visible contact, support continuity, complete observation tail, native edge quality and prompt alignment: NOT VERIFIED. Source labels are never used as proof of branch correctness; external mechanics and decoded evidence are retained.
+True completes its normal prompt outcome; Counterfactual has one declared constitutive/constraint violation and coherent downstream behavior. Matching nuisance parameters, force/displacement commands and camera remain shared. Outcome, visible contact, support continuity, complete observation tail, native edge quality and prompt alignment: PASS. Source labels are never used as proof of branch correctness; external mechanics and decoded evidence are retained.
 
 ## Timebase
 
@@ -36,7 +36,7 @@ Source/outer interval 1/24 second, 24 fps, source seconds per video second 1. Al
 
 ## Semantic matrix
 
-Directory, title, README/DESIGN, both prompts, scoring, registered operator, trajectory and rendered behavior have been compared for this exact head. Status: NOT VERIFIED. Concrete assumptions are in evidence/model-scope.md; actual prompts are stored independently with each case. No simulator-native claim is made.
+Directory, title, README/DESIGN, both prompts, scoring, registered operator, trajectory and rendered behavior have been compared for this exact head. Status: PASS. Concrete assumptions are in evidence/model-scope.md; actual prompts are stored independently with each case. No simulator-native claim is made.
 
 ## Runtime and reproduction
 
@@ -48,7 +48,7 @@ Clean exact source is bound by successful-render witness, accepted-case index, r
 
 ## Client-facing artifacts
 
-Binary masks are shown white on black. Native overlays replace only target mask pixels with red. Browser RGB and overlay derivatives are explicitly labeled lossy1024 copies; they are not authoritative pixel-audit evidence. Native2048 originals are separately published by exact head/case/stream and SHA256. Hosted playback/seek and anonymous HTTP access: NOT VERIFIED.
+Binary masks are shown white on black. Native overlays replace only target mask pixels with red. Browser RGB and overlay derivatives are explicitly labeled lossy1024 copies; they are not authoritative pixel-audit evidence. Native2048 originals are separately published by exact head/case/stream and SHA256. Hosted playback/seek and anonymous HTTP access: PASS.
 
 ## Accepted cases
 

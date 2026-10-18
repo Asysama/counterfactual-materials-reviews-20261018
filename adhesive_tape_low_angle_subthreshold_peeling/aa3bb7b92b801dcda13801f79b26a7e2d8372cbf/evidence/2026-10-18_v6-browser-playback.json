@@ -1,0 +1,733 @@
+{
+  "status": "PASS",
+  "stream_count": 40,
+  "records": [
+    {
+      "generator_name": "braided_sleeve_extension_radial_expansion",
+      "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/index.html",
+      "streams": [
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000042/counterfactual_reverse_radius_change_during_axial_extension/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000042/counterfactual_reverse_radius_change_during_axial_extension/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000042/counterfactual_reverse_radius_change_during_axial_extension/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000042/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000098/counterfactual_reverse_radius_change_during_axial_extension/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000098/counterfactual_reverse_radius_change_during_axial_extension/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000098/counterfactual_reverse_radius_change_during_axial_extension/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000098/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        }
+      ],
+      "checked_at_utc": "2026-10-18T11:12:51Z",
+      "method": "Fresh actual Chrome playback on 2026-10-18 at 11:12 UTC; all8 played to endedtrue/time5/duration5/1024square/readyState4/noerror, then UI last-second seek gave time4/readyState4/noerror. Exact same URLs observed anew; screenshot inspected."
+    },
+    {
+      "generator_name": "notched_brittle_strip_failure_order_reversal",
+      "head_sha": "3886de294f413fcae2c1174aca19ce12b225035f",
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/index.html",
+      "checked_at_utc": "2026-10-18T11:31:59Z",
+      "method": "Transcribed after actual Chrome UI play and last-second seek; read-only DOM showed all8 endedtrue/time5/duration5/1024square/readyState4/noerror, then time4/readyState4/noerror. Visible final video screenshot inspected.",
+      "streams": [
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/cases/notched_brittle_strip_failure_order_reversal_00000042/counterfactual_sharp_notch_strength_increase/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/cases/notched_brittle_strip_failure_order_reversal_00000042/counterfactual_sharp_notch_strength_increase/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/cases/notched_brittle_strip_failure_order_reversal_00000042/counterfactual_sharp_notch_strength_increase/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/cases/notched_brittle_strip_failure_order_reversal_00000042/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/cases/notched_brittle_strip_failure_order_reversal_00000098/counterfactual_sharp_notch_strength_increase/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/cases/notched_brittle_strip_failure_order_reversal_00000098/counterfactual_sharp_notch_strength_increase/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/cases/notched_brittle_strip_failure_order_reversal_00000098/counterfactual_sharp_notch_strength_increase/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/cases/notched_brittle_strip_failure_order_reversal_00000098/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        }
+      ]
+    },
+    {
+      "generator_name": "locked_extension_viscoelastic_stress_growth",
+      "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/3a1319eff79afcb318065f97b96ed664b10a53ed/index.html",
+      "checked_at_utc": "2026-10-18T11:33:30Z",
+      "method": "Transcribed after actual Chrome UI play and last-second seek; read-only DOM showed all8 endedtrue/time5/duration5/1024square/readyState4/noerror, then time4/readyState4/noerror. Visible final video screenshot inspected.",
+      "streams": [
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/3a1319eff79afcb318065f97b96ed664b10a53ed/cases/locked_extension_viscoelastic_stress_growth_00000042/counterfactual_reflect_post_lock_force_relaxation/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/3a1319eff79afcb318065f97b96ed664b10a53ed/cases/locked_extension_viscoelastic_stress_growth_00000042/counterfactual_reflect_post_lock_force_relaxation/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/3a1319eff79afcb318065f97b96ed664b10a53ed/cases/locked_extension_viscoelastic_stress_growth_00000042/counterfactual_reflect_post_lock_force_relaxation/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/3a1319eff79afcb318065f97b96ed664b10a53ed/cases/locked_extension_viscoelastic_stress_growth_00000042/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/3a1319eff79afcb318065f97b96ed664b10a53ed/cases/locked_extension_viscoelastic_stress_growth_00000098/counterfactual_reflect_post_lock_force_relaxation/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/3a1319eff79afcb318065f97b96ed664b10a53ed/cases/locked_extension_viscoelastic_stress_growth_00000098/counterfactual_reflect_post_lock_force_relaxation/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/3a1319eff79afcb318065f97b96ed664b10a53ed/cases/locked_extension_viscoelastic_stress_growth_00000098/counterfactual_reflect_post_lock_force_relaxation/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/3a1319eff79afcb318065f97b96ed664b10a53ed/cases/locked_extension_viscoelastic_stress_growth_00000098/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        }
+      ]
+    },
+    {
+      "generator_name": "rubber_torsion_poynting_axial_contraction",
+      "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/070be973579305f2494c86e1fbe3f8c334f73556/index.html",
+      "checked_at_utc": "2026-10-18T11:35:08Z",
+      "method": "Transcribed after actual Chrome UI play and last-second seek; read-only DOM showed all8 endedtrue/time5/duration5/1024square/readyState4/noerror, then time4/readyState4/noerror. Visible final video screenshot inspected.",
+      "streams": [
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/070be973579305f2494c86e1fbe3f8c334f73556/cases/rubber_torsion_poynting_axial_contraction_00000042/counterfactual_reverse_free_axial_poynting_strain/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/070be973579305f2494c86e1fbe3f8c334f73556/cases/rubber_torsion_poynting_axial_contraction_00000042/counterfactual_reverse_free_axial_poynting_strain/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/070be973579305f2494c86e1fbe3f8c334f73556/cases/rubber_torsion_poynting_axial_contraction_00000042/counterfactual_reverse_free_axial_poynting_strain/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/070be973579305f2494c86e1fbe3f8c334f73556/cases/rubber_torsion_poynting_axial_contraction_00000042/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/070be973579305f2494c86e1fbe3f8c334f73556/cases/rubber_torsion_poynting_axial_contraction_00000098/counterfactual_reverse_free_axial_poynting_strain/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/070be973579305f2494c86e1fbe3f8c334f73556/cases/rubber_torsion_poynting_axial_contraction_00000098/counterfactual_reverse_free_axial_poynting_strain/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/070be973579305f2494c86e1fbe3f8c334f73556/cases/rubber_torsion_poynting_axial_contraction_00000098/counterfactual_reverse_free_axial_poynting_strain/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/070be973579305f2494c86e1fbe3f8c334f73556/cases/rubber_torsion_poynting_axial_contraction_00000098/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        }
+      ]
+    },
+    {
+      "generator_name": "adhesive_tape_low_angle_subthreshold_peeling",
+      "head_sha": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/aa3bb7b92b801dcda13801f79b26a7e2d8372cbf/index.html",
+      "checked_at_utc": "2026-10-18T11:36:38Z",
+      "method": "Transcribed after actual Chrome UI play and last-second seek; read-only DOM showed all8 endedtrue/time5/duration5/1024square/readyState4/noerror, then time4/readyState4/noerror. Visible final video screenshot inspected.",
+      "streams": [
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/aa3bb7b92b801dcda13801f79b26a7e2d8372cbf/cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual_low_angle_subcritical_front_mobility/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/aa3bb7b92b801dcda13801f79b26a7e2d8372cbf/cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual_low_angle_subcritical_front_mobility/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/aa3bb7b92b801dcda13801f79b26a7e2d8372cbf/cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual_low_angle_subcritical_front_mobility/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/aa3bb7b92b801dcda13801f79b26a7e2d8372cbf/cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/aa3bb7b92b801dcda13801f79b26a7e2d8372cbf/cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual_low_angle_subcritical_front_mobility/mask_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/aa3bb7b92b801dcda13801f79b26a7e2d8372cbf/cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual_low_angle_subcritical_front_mobility/mask_overlay_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/aa3bb7b92b801dcda13801f79b26a7e2d8372cbf/cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual_low_angle_subcritical_front_mobility/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        },
+        {
+          "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/aa3bb7b92b801dcda13801f79b26a7e2d8372cbf/cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/true/video_browser.mp4",
+          "played": {
+            "time": 5,
+            "duration": 5,
+            "width": 1024,
+            "height": 1024,
+            "ended": true,
+            "readyState": 4,
+            "error": null
+          },
+          "seek": {
+            "time": 4,
+            "readyState": 4,
+            "error": null
+          }
+        }
+      ]
+    }
+  ],
+  "method": "Fresh actual Chrome playback and seek for all five exact-head pages; contributor browser self-check, not Sara approval.",
+  "checked_at_utc": "2026-10-18T11:36:38Z"
+}

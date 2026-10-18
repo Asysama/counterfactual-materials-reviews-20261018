@@ -1,0 +1,17 @@
+{
+  "case_id": "rubber_torsion_poynting_axial_contraction_00000098",
+  "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
+  "frames": [
+    52,
+    53,
+    54
+  ],
+  "crop_native_pixels": [
+    941,
+    747,
+    384,
+    384
+  ],
+  "resized": false,
+  "metadata_sha256": "fec6400277d66756c5138f91bffd330b1f3516129aa71ba2df97933d3e53edd5"
+}

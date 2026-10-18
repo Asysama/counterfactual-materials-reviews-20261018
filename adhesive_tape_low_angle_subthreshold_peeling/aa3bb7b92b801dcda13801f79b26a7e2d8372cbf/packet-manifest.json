@@ -4,12 +4,16 @@
     "sha256": "d6d0982cd750d44341739b2019c40ed5570949d8c535e60e417ac6ac14457929"
   },
   "application.json": {
-    "bytes": 532,
-    "sha256": "0069c8cf394aa6b002576ebd423ea019a0973995f75094c6cc7bc65eef93b7e3"
+    "bytes": 877,
+    "sha256": "a84bb3f41196a36a8f734410c6fb953debdc7ec415427e9bded006f839213347"
   },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/browser-derivatives.json": {
     "bytes": 787,
     "sha256": "276a17ccb94c85c6e6cb9f00465f795f0142762f7abee2d6eff92f0023a957b2"
+  },
+  "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/consecutive-native.png": {
+    "bytes": 78377,
+    "sha256": "ed0d8d207e4b26bb5b700d1a9dba8232a9279b57cffd9f01f7557e140b587cfb"
   },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual-all120.jpg": {
     "bytes": 376515,
@@ -42,6 +46,10 @@
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/decoded-contact-sheet.jpg": {
     "bytes": 378083,
     "sha256": "c06a91175fb0dc1bdf99ea81757805601be40784002223e70efc15b566b41c55"
+  },
+  "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/edge-binding.json": {
+    "bytes": 348,
+    "sha256": "c0d4f12230a42ad5c4ceb9c9d22f3df729350cad19a3005d289077129b9d6143"
   },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -79,6 +87,10 @@
     "bytes": 787,
     "sha256": "1123a61154219e7705e4f80994928e8c622b20035c51c6ae6fe7a983c5fc0fc5"
   },
+  "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/consecutive-native.png": {
+    "bytes": 87325,
+    "sha256": "7d17838157d9cc66cfbdebf493d7dfe3d41b8cb6f75627aa77143df3134648a1"
+  },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual-all120.jpg": {
     "bytes": 381734,
     "sha256": "864e29beebf2c195d621bd5aa78bc6144c590cb1e7768b0cdb1ec825bd8bdda6"
@@ -110,6 +122,10 @@
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/decoded-contact-sheet.jpg": {
     "bytes": 391173,
     "sha256": "aa6493e7b24dea5e963affef33c8dc5c03bfab95a900ae5c7992d32588fb31e6"
+  },
+  "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/edge-binding.json": {
+    "bytes": 348,
+    "sha256": "ea4ee13d57d7674a226039418f039acc228911c5be99bc3f39bc6d4a4702daa9"
   },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/frame-hashes.json": {
     "bytes": 34640,
@@ -158,6 +174,26 @@
   "evidence/2026-10-18_mechanics.py": {
     "bytes": 4378,
     "sha256": "de89eb98ddfa2c9f5e55d8ee5578f7e3f721746c72880100cabf87d1d9025069"
+  },
+  "evidence/2026-10-18_v6-backup-verified.json": {
+    "bytes": 2649,
+    "sha256": "f9caf283ea5e2e721deafbf0a53626b85474beb96eb9cc6b03d05a50ebbad034"
+  },
+  "evidence/2026-10-18_v6-browser-playback.json": {
+    "bytes": 29193,
+    "sha256": "dcab3ae9627a5b04c291c840507e86165e7ec3f4e0bb835444669d1cdf59b049"
+  },
+  "evidence/2026-10-18_v6-http-check.json": {
+    "bytes": 50425,
+    "sha256": "f3bdc0c62d5f94c01530c3c5c4923c2fe98f184ae54855253717af6d6327ffd0"
+  },
+  "evidence/2026-10-18_v6-native-edge-review.json": {
+    "bytes": 5032,
+    "sha256": "6719e619ddd234049cc2e4e40f7a6e32a9f6b70bd0524b12bb2ffc10c6da7523"
+  },
+  "evidence/2026-10-18_v6-visual-review.json": {
+    "bytes": 20002,
+    "sha256": "f9ab96717a0579a4292e1a0a551faaf56e81f93c9b7a2ef4d553057f0059a53e"
   },
   "evidence/accepted-provenance.json": {
     "bytes": 2268,
@@ -460,15 +496,15 @@
     "sha256": "35a1d58c48b74e0e3e7b158b5545a9552f2371583edfef1ea0d022c59f5a0a1c"
   },
   "index.html": {
-    "bytes": 15599,
-    "sha256": "a045e7f94362a0869a7c9bfff8303ddc8c5c9346f8bf50d2309a17154b2e9309"
+    "bytes": 16591,
+    "sha256": "a383563326f4bbae5a28a9ec0bbe7562ff8c54b142dfb535504829edde14a80e"
   },
   "native-media.json": {
     "bytes": 4763,
     "sha256": "cc37ab61c2f1041038dd02b34cffbf1d44ffce28a61d398132dae0c5c4dc46e8"
   },
   "review-report.md": {
-    "bytes": 5864,
-    "sha256": "96cf1af8c05df28fb8d0226b0ebfa0350ebc9db2deded50a0433774cf626a0ac"
+    "bytes": 5830,
+    "sha256": "67a927759a50fc1ad256c880955e100c3230f97e5f3fb65eb5668ba344eac533"
   }
 }

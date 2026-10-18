@@ -4,12 +4,16 @@
     "sha256": "1bda20057404dc1868066f00f631d9826812629cd828fc1bd4e3836248fc610d"
   },
   "application.json": {
-    "bytes": 530,
-    "sha256": "4393a6121f3d6e2ca26a9e3d415bdd423a3fa922fbe17b47622e1ebffa8757e0"
+    "bytes": 875,
+    "sha256": "bdcf6c81c6c36e0bdb27df47e4031224d0799b3464af051ba7d88e6102b09340"
   },
   "cases/locked_extension_viscoelastic_stress_growth_00000042/browser-derivatives.json": {
     "bytes": 781,
     "sha256": "f7203ea3b3f10e7e74b7fd180e11637a2a8b212a6d7d819877d70eab8ed619a7"
+  },
+  "cases/locked_extension_viscoelastic_stress_growth_00000042/consecutive-native.png": {
+    "bytes": 79389,
+    "sha256": "0dddd086ef9c1b755cf1ec272d49ba2c432eb115671bab93f8e2c2f1c2b46154"
   },
   "cases/locked_extension_viscoelastic_stress_growth_00000042/counterfactual-all120.jpg": {
     "bytes": 332561,
@@ -42,6 +46,10 @@
   "cases/locked_extension_viscoelastic_stress_growth_00000042/decoded-contact-sheet.jpg": {
     "bytes": 351689,
     "sha256": "d2da3a8d306639d92a075a6b4ea9b5558f867af4c641aebc8420e9317beac363"
+  },
+  "cases/locked_extension_viscoelastic_stress_growth_00000042/edge-binding.json": {
+    "bytes": 346,
+    "sha256": "089914c21270bd662961a26ab40d120544855c95a253cdaf9c5e07e88f5cd290"
   },
   "cases/locked_extension_viscoelastic_stress_growth_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -79,6 +87,10 @@
     "bytes": 781,
     "sha256": "5657599096d7aa566944f74eab4ff41cacc0affa95e4d2df2646cae189f58504"
   },
+  "cases/locked_extension_viscoelastic_stress_growth_00000098/consecutive-native.png": {
+    "bytes": 120640,
+    "sha256": "697a3aba5f4eed5e8c5ce52f33d1d6fd1ab4d0bcf26757239c8c7c7fcd7eccc6"
+  },
   "cases/locked_extension_viscoelastic_stress_growth_00000098/counterfactual-all120.jpg": {
     "bytes": 328521,
     "sha256": "a1f4eaa760c221022be8dea98c0fd9ac2bdba41ac4259c2f39b48961d029a603"
@@ -110,6 +122,10 @@
   "cases/locked_extension_viscoelastic_stress_growth_00000098/decoded-contact-sheet.jpg": {
     "bytes": 360163,
     "sha256": "9079cd1247c41598cf03536729267668d2711ec4bf2560ca42ac9bd4059f20b0"
+  },
+  "cases/locked_extension_viscoelastic_stress_growth_00000098/edge-binding.json": {
+    "bytes": 346,
+    "sha256": "fd7d13abd435535ab66c025c9d2406b070c6aa7ea61a14ec17a3e65893a58597"
   },
   "cases/locked_extension_viscoelastic_stress_growth_00000098/frame-hashes.json": {
     "bytes": 34640,
@@ -158,6 +174,26 @@
   "evidence/2026-10-18_mechanics.py": {
     "bytes": 4378,
     "sha256": "de89eb98ddfa2c9f5e55d8ee5578f7e3f721746c72880100cabf87d1d9025069"
+  },
+  "evidence/2026-10-18_v6-backup-verified.json": {
+    "bytes": 2649,
+    "sha256": "f9caf283ea5e2e721deafbf0a53626b85474beb96eb9cc6b03d05a50ebbad034"
+  },
+  "evidence/2026-10-18_v6-browser-playback.json": {
+    "bytes": 29193,
+    "sha256": "dcab3ae9627a5b04c291c840507e86165e7ec3f4e0bb835444669d1cdf59b049"
+  },
+  "evidence/2026-10-18_v6-http-check.json": {
+    "bytes": 50425,
+    "sha256": "f3bdc0c62d5f94c01530c3c5c4923c2fe98f184ae54855253717af6d6327ffd0"
+  },
+  "evidence/2026-10-18_v6-native-edge-review.json": {
+    "bytes": 5032,
+    "sha256": "6719e619ddd234049cc2e4e40f7a6e32a9f6b70bd0524b12bb2ffc10c6da7523"
+  },
+  "evidence/2026-10-18_v6-visual-review.json": {
+    "bytes": 20002,
+    "sha256": "f9ab96717a0579a4292e1a0a551faaf56e81f93c9b7a2ef4d553057f0059a53e"
   },
   "evidence/accepted-provenance.json": {
     "bytes": 2268,
@@ -460,15 +496,15 @@
     "sha256": "0c15948e3e16483bedf87bc0f9680c9fc3067d50fcb935f6c932a701a875dec8"
   },
   "index.html": {
-    "bytes": 15828,
-    "sha256": "f252e58b29562f7195e084141f61638c036e29127657748b7fb477f2799b014f"
+    "bytes": 16816,
+    "sha256": "c70a181386da8d19e5f3ba60c3f2de20793d5e0bf476ccecd0f3bac707622a15"
   },
   "native-media.json": {
     "bytes": 4735,
     "sha256": "dfb32b8a572ef908754331b5b92a05a8c2bf95d006c4aacfa50e40a8c3b8dc05"
   },
   "review-report.md": {
-    "bytes": 5818,
-    "sha256": "f7cc449956532c7eb477477d6296da44dade87100951587a72a9da427efe470d"
+    "bytes": 5784,
+    "sha256": "1f98bf9503695f8ca44c8b65b49029bb9013e3fdc240ebf83ee1f15501b34104"
   }
 }

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-18T11:23:59Z",
+  "scope": "Revision v6: complete accepted native/browser media, reproduction and identity artifacts, all preview revisions, superseded notched-v4 formal/failed probes, logs and contemporaneous witnesses retained locally with remote-origin file SHA256 manifests; task VM may now be stopped. Source histories also retained in isolated local clones and source PRs.",
+  "heads": {
+    "notched_brittle_strip_failure_order_reversal": "3886de294f413fcae2c1174aca19ce12b225035f",
+    "locked_extension_viscoelastic_stress_growth": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+    "rubber_torsion_poynting_axial_contraction": "070be973579305f2494c86e1fbe3f8c334f73556",
+    "adhesive_tape_low_angle_subthreshold_peeling": "aa3bb7b92b801dcda13801f79b26a7e2d8372cbf",
+    "braided_sleeve_extension_radial_expansion": "41b5800036b424fbfca673b2504d9f136a069af0"
+  },
+  "manifests": {
+    "notched_brittle_strip_failure_order_reversal-v6": {
+      "manifest": "backup-manifest-notched_brittle_strip_failure_order_reversal-v6.json",
+      "file_count": 227,
+      "bytes": 212053625,
+      "manifest_sha256": "607bcb462861d676124f44a1cc91dcc94f362c6efab23f0f1780e28f5ac8e247"
+    },
+    "locked_extension_viscoelastic_stress_growth-v6": {
+      "manifest": "backup-manifest-locked_extension_viscoelastic_stress_growth-v6.json",
+      "file_count": 201,
+      "bytes": 286937900,
+      "manifest_sha256": "1f465e1e83b758be7a608cd7a943cdbe57e1f91a4549a5948796cfcd324ba6a1"
+    },
+    "rubber_torsion_poynting_axial_contraction-v6": {
+      "manifest": "backup-manifest-rubber_torsion_poynting_axial_contraction-v6.json",
+      "file_count": 201,
+      "bytes": 282862900,
+      "manifest_sha256": "7f582200e73d565205e4009b066cc08b7683cc96d3be63e44e845211a1f64125"
+    },
+    "adhesive_tape_low_angle_subthreshold_peeling-v6": {
+      "manifest": "backup-manifest-adhesive_tape_low_angle_subthreshold_peeling-v6.json",
+      "file_count": 201,
+      "bytes": 260718962,
+      "manifest_sha256": "ff95ac1f4fa46483c0bb5188a1a70a78e60c28d681d4fe84fade2bbf9bf0deaa"
+    },
+    "braided_sleeve_extension_radial_expansion": {
+      "manifest": "backup-manifest-braided_sleeve_extension_radial_expansion.json",
+      "file_count": 201,
+      "bytes": 855296017,
+      "manifest_sha256": "55ddaac5637d4c6d272a33e3668aebbc30907752f054bd54bace10603fbc59ea"
+    },
+    "extras-v6": {
+      "manifest": "backup-manifest-extras-v6.json",
+      "file_count": 114,
+      "bytes": 15339763,
+      "manifest_sha256": "9cba67c8fb9d3780ce807f4cfdb2e6cc3be178815da72950f7481b58ffec8c2d"
+    }
+  },
+  "file_count": 1145
+}

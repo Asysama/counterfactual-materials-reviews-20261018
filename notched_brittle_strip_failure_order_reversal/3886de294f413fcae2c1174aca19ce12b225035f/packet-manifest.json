@@ -4,12 +4,16 @@
     "sha256": "df62ff571ea06f1ce72b25537502143bef5da972d052265676a3dcab777d2178"
   },
   "application.json": {
-    "bytes": 532,
-    "sha256": "18c85cfeb198ddae06511338f9afbb9340f5e72d1cb75cbef88994c52988ffa5"
+    "bytes": 877,
+    "sha256": "af555f15aae14c166b7241c15ef7302e6d12dd622ceddfba430a6a8a7a6afb56"
   },
   "cases/notched_brittle_strip_failure_order_reversal_00000042/browser-derivatives.json": {
     "bytes": 766,
     "sha256": "cfad264bfa35f1e480591f8056357d34a2685dae89fbe71a205a339ed10dac24"
+  },
+  "cases/notched_brittle_strip_failure_order_reversal_00000042/consecutive-native.png": {
+    "bytes": 44831,
+    "sha256": "78f9537c4375840d3ffbfdb040d65004cd20440d5eee2c3debe40497968b18d9"
   },
   "cases/notched_brittle_strip_failure_order_reversal_00000042/counterfactual-all120.jpg": {
     "bytes": 413873,
@@ -42,6 +46,10 @@
   "cases/notched_brittle_strip_failure_order_reversal_00000042/decoded-contact-sheet.jpg": {
     "bytes": 362363,
     "sha256": "7cbaac10b6c7b5611f78c3009de35b12abc77248d288f4e264263d6f46c6f0eb"
+  },
+  "cases/notched_brittle_strip_failure_order_reversal_00000042/edge-binding.json": {
+    "bytes": 347,
+    "sha256": "afa61c66c5c55104b1f0646c39888c81cac3b70671dd9277dcfca18b70466df9"
   },
   "cases/notched_brittle_strip_failure_order_reversal_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -79,6 +87,10 @@
     "bytes": 766,
     "sha256": "f80aa03c76bc51423901d5d807b42c68a0c69bc247a74c54dcefdb60efc5ff6b"
   },
+  "cases/notched_brittle_strip_failure_order_reversal_00000098/consecutive-native.png": {
+    "bytes": 51732,
+    "sha256": "f43745d91a2c3b29d963816a1284ff923fb634822d21b168a77e6180d8c6ad6f"
+  },
   "cases/notched_brittle_strip_failure_order_reversal_00000098/counterfactual-all120.jpg": {
     "bytes": 413552,
     "sha256": "3d8fd250df5a1dec38a631109644d4cbaa6a2ee90ee324951888cd8e126c1523"
@@ -110,6 +122,10 @@
   "cases/notched_brittle_strip_failure_order_reversal_00000098/decoded-contact-sheet.jpg": {
     "bytes": 367038,
     "sha256": "4c1eb76e2f648f10834a29181e6b9e68a215d18f1bf9611b3d504e2ded166955"
+  },
+  "cases/notched_brittle_strip_failure_order_reversal_00000098/edge-binding.json": {
+    "bytes": 347,
+    "sha256": "574733eb6d1832e823c212458952bc9fee79b69364b0c8e3aa8e33cfb97b0d48"
   },
   "cases/notched_brittle_strip_failure_order_reversal_00000098/frame-hashes.json": {
     "bytes": 34640,
@@ -158,6 +174,26 @@
   "evidence/2026-10-18_mechanics.py": {
     "bytes": 4378,
     "sha256": "de89eb98ddfa2c9f5e55d8ee5578f7e3f721746c72880100cabf87d1d9025069"
+  },
+  "evidence/2026-10-18_v6-backup-verified.json": {
+    "bytes": 2649,
+    "sha256": "f9caf283ea5e2e721deafbf0a53626b85474beb96eb9cc6b03d05a50ebbad034"
+  },
+  "evidence/2026-10-18_v6-browser-playback.json": {
+    "bytes": 29193,
+    "sha256": "dcab3ae9627a5b04c291c840507e86165e7ec3f4e0bb835444669d1cdf59b049"
+  },
+  "evidence/2026-10-18_v6-http-check.json": {
+    "bytes": 50425,
+    "sha256": "f3bdc0c62d5f94c01530c3c5c4923c2fe98f184ae54855253717af6d6327ffd0"
+  },
+  "evidence/2026-10-18_v6-native-edge-review.json": {
+    "bytes": 5032,
+    "sha256": "6719e619ddd234049cc2e4e40f7a6e32a9f6b70bd0524b12bb2ffc10c6da7523"
+  },
+  "evidence/2026-10-18_v6-visual-review.json": {
+    "bytes": 20002,
+    "sha256": "f9ab96717a0579a4292e1a0a551faaf56e81f93c9b7a2ef4d553057f0059a53e"
   },
   "evidence/accepted-provenance.json": {
     "bytes": 2268,
@@ -564,15 +600,15 @@
     "sha256": "0c15948e3e16483bedf87bc0f9680c9fc3067d50fcb935f6c932a701a875dec8"
   },
   "index.html": {
-    "bytes": 15582,
-    "sha256": "7ab5cf96873f85db4d0793840d84ac51bff13a6591404b0052c6377ac50b9229"
+    "bytes": 16574,
+    "sha256": "6d26d8b00d2a8452a0777f51b6310bdb5d284a6d4dcb0f6dc1212aefce91ba08"
   },
   "native-media.json": {
     "bytes": 4721,
     "sha256": "4b05d841edbbdd6ec4c46fe7347b384543acb7639b5d94b3e576847b725dce0c"
   },
   "review-report.md": {
-    "bytes": 5816,
-    "sha256": "92f4d94d45e6db6244315b3529d1922b204df34cd123d6ecb0b2319199a20e16"
+    "bytes": 5782,
+    "sha256": "330bcd0185a99b8ec9db2a8d3161be0a3f1d9a6315e953fd483db454289267c2"
   }
 }
