@@ -1,0 +1,17 @@
+{
+  "case_id": "notched_brittle_strip_failure_order_reversal_00000042",
+  "head_sha": "ca338cdfdfd69c9dc2d2574701323d26599144de",
+  "frames": [
+    58,
+    59,
+    60
+  ],
+  "crop_native_pixels": [
+    424,
+    896,
+    384,
+    384
+  ],
+  "resized": false,
+  "metadata_sha256": "d34ee9c25abd0695839f740a298ffc6fb897fa2add0ad23bd61f84ee15fe0f55"
+}

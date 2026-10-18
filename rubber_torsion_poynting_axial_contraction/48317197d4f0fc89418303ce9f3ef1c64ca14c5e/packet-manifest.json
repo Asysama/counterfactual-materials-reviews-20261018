@@ -4,12 +4,16 @@
     "sha256": "82efaa23c79a9035000a24ebc0b9fc5e5ca791aa345c875b617b6ccf99a9697e"
   },
   "application.json": {
-    "bytes": 526,
-    "sha256": "a97aa2f05e69cc92bec1d1d767c98e18389799c98d01a02c087af94da6bf22eb"
+    "bytes": 871,
+    "sha256": "78df3054009635252d3e2e1e4fbebb901f01327d27ddd98ad30e661fd26ce886"
   },
   "cases/rubber_torsion_poynting_axial_contraction_00000042/browser-derivatives.json": {
     "bytes": 781,
     "sha256": "fd08a686b798ddce09e8659024546837946b7d4ac3fd802a3ff5a96c398e6776"
+  },
+  "cases/rubber_torsion_poynting_axial_contraction_00000042/consecutive-native.png": {
+    "bytes": 126708,
+    "sha256": "4b4974a2d4d778278e7880b6fa132584af6f3db3cdbd27c11b82579730c568a0"
   },
   "cases/rubber_torsion_poynting_axial_contraction_00000042/counterfactual-all120.jpg": {
     "bytes": 335952,
@@ -42,6 +46,10 @@
   "cases/rubber_torsion_poynting_axial_contraction_00000042/decoded-contact-sheet.jpg": {
     "bytes": 359001,
     "sha256": "05f13edead4bd627814ec33f4a39cb738ca560e7d129e93681a2a9ef0e7a01e3"
+  },
+  "cases/rubber_torsion_poynting_axial_contraction_00000042/edge-binding.json": {
+    "bytes": 345,
+    "sha256": "a7e5389b8e21356f797138634ac1d11cf86d4f00da01e8bd791a3a660eeca3af"
   },
   "cases/rubber_torsion_poynting_axial_contraction_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -79,6 +87,10 @@
     "bytes": 781,
     "sha256": "161aeeba0f8e36ec45601b526108769204fa3ab1465b35f65947cd126cc7b25e"
   },
+  "cases/rubber_torsion_poynting_axial_contraction_00000098/consecutive-native.png": {
+    "bytes": 201280,
+    "sha256": "3bb052f13712ff8ef959c1c88f9adc6cd0c33c5f7e6424353f00b5801d2cec62"
+  },
   "cases/rubber_torsion_poynting_axial_contraction_00000098/counterfactual-all120.jpg": {
     "bytes": 334683,
     "sha256": "6cc7f7eab0c500984203e95d9e5e99676cf87e9effe1a98f4bf1ac052cfb7a2e"
@@ -110,6 +122,10 @@
   "cases/rubber_torsion_poynting_axial_contraction_00000098/decoded-contact-sheet.jpg": {
     "bytes": 357657,
     "sha256": "76f5fc5bd9276772c1e7a2f9863de9d753f805146a0ccb0a5e1e489f4e9583ec"
+  },
+  "cases/rubber_torsion_poynting_axial_contraction_00000098/edge-binding.json": {
+    "bytes": 344,
+    "sha256": "16992144322e316f669c446e48dd78e3c5a549666084b2e8e7018074168a4a94"
   },
   "cases/rubber_torsion_poynting_axial_contraction_00000098/frame-hashes.json": {
     "bytes": 34640,
@@ -143,9 +159,21 @@
     "bytes": 339124,
     "sha256": "d926346d1815038a97b260ecf39e0dd3bd8bd78c85ae44bc90237b1232ccbe6d"
   },
+  "evidence/2026-10-18_backup-verified.json": {
+    "bytes": 2607,
+    "sha256": "384c29cfdea6e1e826033241fe020e53c75f2619d4df38e1d91136f9f1f5457f"
+  },
   "evidence/2026-10-18_boundaries.py": {
     "bytes": 1045,
     "sha256": "083e2e984897ffa294befd1afed6a588310cebcab2a709d9b7c35e059080785c"
+  },
+  "evidence/2026-10-18_browser-playback.json": {
+    "bytes": 28078,
+    "sha256": "87ed54e5493bf0680664e14d6e93316ee4309d7fb20ae66229a79a5013652b76"
+  },
+  "evidence/2026-10-18_http-check.json": {
+    "bytes": 50425,
+    "sha256": "0bbae360f4bbabfc1ae21b50048fd2428d3590226b4ea966dbdf4e1724d3382a"
   },
   "evidence/2026-10-18_identity.py": {
     "bytes": 3756,
@@ -158,6 +186,14 @@
   "evidence/2026-10-18_mechanics.py": {
     "bytes": 4327,
     "sha256": "894e333ac917564a7965dc90f1986025c6730f6ee0552778d1a16944218b66ec"
+  },
+  "evidence/2026-10-18_native-edge-review.json": {
+    "bytes": 5034,
+    "sha256": "e6b958cf40d3e3f5851fdab201ded36e4fc4200f3ffc0e9822801182bf9af02c"
+  },
+  "evidence/2026-10-18_visual-review.json": {
+    "bytes": 18681,
+    "sha256": "ff7374214325ec7710dbb7df1c87bd68959262726bf8cd44d6b46c16301953b5"
   },
   "evidence/accepted-provenance.json": {
     "bytes": 2268,
@@ -460,15 +496,15 @@
     "sha256": "0c15948e3e16483bedf87bc0f9680c9fc3067d50fcb935f6c932a701a875dec8"
   },
   "index.html": {
-    "bytes": 14869,
-    "sha256": "a17ede2ea5881222a6a5df58661370dead10e0bc1b17503f3f510c21f73927ee"
+    "bytes": 15849,
+    "sha256": "cf82a07e5bb2c01820de284c6b00b99e0f44a8a6d450afe785acc8ca377279ff"
   },
   "native-media.json": {
     "bytes": 4703,
     "sha256": "d4445eb9952147bdc1ce6b1d858037eaec1ec1ea3494c50b6561923b94da836f"
   },
   "review-report.md": {
-    "bytes": 5410,
-    "sha256": "414f6be785feaa00dbf165ed7774ea2a694205fad69ec27476fe03fb43f881f2"
+    "bytes": 5376,
+    "sha256": "1214ae809bce739b7a05647b7ba271b88c7509892fc6cbd4b192a5a003d53228"
   }
 }

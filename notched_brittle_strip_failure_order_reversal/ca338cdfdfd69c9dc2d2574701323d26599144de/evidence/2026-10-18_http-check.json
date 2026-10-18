@@ -1,0 +1,836 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-18T09:07:15Z",
+  "scope": "Anonymous accessibility and exact bytes for all 40 browser videos, GitHub digest plus anonymous range proof for all 40 originals; pages verified in pending-review state. Final status readback is separate.",
+  "url_count": 92,
+  "checks": [
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/index.html",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_verified": 4486,
+      "expected_sha256": "66a2f747a590aa15e24a68335f9f7ba9eac14ec9e871d95ae66dd8055d42f570",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/applications.json",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes_verified": 2734,
+      "expected_sha256": "922432462e912f7a72e4523bb7a1a93ff778d08a0608ce246c5ce5e1bcf5eac4",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/index.html",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_verified": 15301,
+      "expected_sha256": "719a1ad6358fae995c2a6822f2b3e6ad14c0d04494962d576f9fa49bb448c328",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/application.json",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes_verified": 532,
+      "expected_sha256": "e48132d90e0f09c63ab6b86a50eb1bd6087a3d6bfae3b5fbcb50e5f64490c62a",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/index.html",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_verified": 15162,
+      "expected_sha256": "453c8cbecc5dba74c2c4ae35da1f8c77fb38463b9f4d9659a4abfb42654cd29f",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/application.json",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes_verified": 530,
+      "expected_sha256": "8092b2f123813fae0a1c0388d7d8651f62017a6de3ab745a102ddb9733b077a1",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/index.html",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_verified": 14869,
+      "expected_sha256": "a17ede2ea5881222a6a5df58661370dead10e0bc1b17503f3f510c21f73927ee",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/application.json",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes_verified": 526,
+      "expected_sha256": "a97aa2f05e69cc92bec1d1d767c98e18389799c98d01a02c087af94da6bf22eb",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/index.html",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_verified": 15178,
+      "expected_sha256": "aeef993e9d160920aec8132d8f59fc495c36108fe11f281424e291f45dee04b2",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/application.json",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes_verified": 532,
+      "expected_sha256": "5d4c22d4eea541aefd199b615a534b84fd3bc02219447145f547b33febc9b057",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/index.html",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes_verified": 14823,
+      "expected_sha256": "f035643c046dac46de6308144ccbfe6074ffe03bfb2392bdbd90efad9c875918",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/application.json",
+      "kind": "page",
+      "status_code": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes_verified": 526,
+      "expected_sha256": "e9c0818c8fe9ae949c73f8386d5979487a67a1eb5d3f571a64b8889510a96299",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/cases/notched_brittle_strip_failure_order_reversal_00000042/counterfactual_sharp_notch_strength_increase/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1759308,
+      "expected_sha256": "161a02fce1146e407d65d96911f5add0f2e0bfd92e0fae5661d4fcde08fc2c6c",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/cases/notched_brittle_strip_failure_order_reversal_00000042/counterfactual_sharp_notch_strength_increase/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1655655,
+      "expected_sha256": "b1f7e138ca526d776cc7c10bbe2211545e5321424e9e435fa94d7df32a8856ef",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/cases/notched_brittle_strip_failure_order_reversal_00000042/counterfactual_sharp_notch_strength_increase/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 65100,
+      "expected_sha256": "b8932acc4c407e9e5041163c2e077032525b07316f478a0053a9b450f350f513",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/cases/notched_brittle_strip_failure_order_reversal_00000042/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1671287,
+      "expected_sha256": "4f1e1c8ff48947e11ecd85ab7f04d8d704d5e3ec4f4a0172d161cfb591f07ac7",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/cases/notched_brittle_strip_failure_order_reversal_00000098/counterfactual_sharp_notch_strength_increase/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1920480,
+      "expected_sha256": "0fdc0bb59b29648f2d92860dc67915d422034bcb14ebc9060e7956ad2bdddbc7",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/cases/notched_brittle_strip_failure_order_reversal_00000098/counterfactual_sharp_notch_strength_increase/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1813092,
+      "expected_sha256": "0c9a97b3117a26b063326c0b71d7523b149bb5b13d9d0c012badd921497a9e65",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/cases/notched_brittle_strip_failure_order_reversal_00000098/counterfactual_sharp_notch_strength_increase/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 65911,
+      "expected_sha256": "c6f75c8b83a479dee89f385b8a7c5bef340a9c1aa7f1e8ed7d69f4f7d5ee1d42",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/cases/notched_brittle_strip_failure_order_reversal_00000098/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1816431,
+      "expected_sha256": "1d4242f594e978ad9832051bb287028180931dd3d8ec2d3eb3ecc1b96edd95df",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-ca338cdfdfd69c9dc2d2574701323d26599144de-42-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "658c76c18d6dd10b6d830fa1723107893bc316c4e1196f78d7890063b1d53a78",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-ca338cdfdfd69c9dc2d2574701323d26599144de-42-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "c564b7c4c7b07c6fa56142c26eceb07c3a6d0ff1e6d4927a87e806b42141ffc5",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-ca338cdfdfd69c9dc2d2574701323d26599144de-42-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "4ab5d1c3d937414d2643d85fcfa628985540cd96ed374c29b888a36fd2f16dce",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-ca338cdfdfd69c9dc2d2574701323d26599144de-42-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "7c8a5e6fc070d0d257c541b52b7045c8c77721098e82695fa5ceb83234871743",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-ca338cdfdfd69c9dc2d2574701323d26599144de-98-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "9f5b8db3f8409289f69306e3e626a347435d405072601c7d50df7dd8f33badeb",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-ca338cdfdfd69c9dc2d2574701323d26599144de-98-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "890dd196082d2652af35b16c4b62977cbf38a7afb2e8e1aed1d75f72551f4eb9",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-ca338cdfdfd69c9dc2d2574701323d26599144de-98-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "dcb2d8a4353d57fcdd2254967cbb1655b0e764e2ce485a34cc70a60844b67b88",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-ca338cdfdfd69c9dc2d2574701323d26599144de-98-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "9f5161d654e04e0a98e125f96b78e6307c2043918d6ca0a134697e2629bf5e22",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/cases/locked_extension_viscoelastic_stress_growth_00000042/counterfactual_reflect_post_lock_force_relaxation/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1762676,
+      "expected_sha256": "545c80ef03a373cea83fc6907ce8e2f488fe02940977e3f6a14470f9659ef604",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/cases/locked_extension_viscoelastic_stress_growth_00000042/counterfactual_reflect_post_lock_force_relaxation/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1773338,
+      "expected_sha256": "28ca8ebce2f67583af4b85e29c98934db6dc45a74ba2ac1f1913886b393fff79",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/cases/locked_extension_viscoelastic_stress_growth_00000042/counterfactual_reflect_post_lock_force_relaxation/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 48618,
+      "expected_sha256": "af7bc399d4fe1d4bf565e933e303ebce43a2887e0dfd84fea39a29e0ed9908b1",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/cases/locked_extension_viscoelastic_stress_growth_00000042/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1765970,
+      "expected_sha256": "86fd24e22d8fc091d35573149538960df83c46c1553952d8154548e5bd02886b",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/cases/locked_extension_viscoelastic_stress_growth_00000098/counterfactual_reflect_post_lock_force_relaxation/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 2039708,
+      "expected_sha256": "55e4cf1164a45a540e2cfd14454c7037362c19ca19c6832cb275ec7d4b05f574",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/cases/locked_extension_viscoelastic_stress_growth_00000098/counterfactual_reflect_post_lock_force_relaxation/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 2030041,
+      "expected_sha256": "58204af42947ce45e970f76ed10a6eae24ea97faadb6a6ef883916758284301a",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/cases/locked_extension_viscoelastic_stress_growth_00000098/counterfactual_reflect_post_lock_force_relaxation/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 51472,
+      "expected_sha256": "1d67255e2ad22437cf65b082da9e3da2fbadb1e059fb24528360c8fa3da1adb2",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/cases/locked_extension_viscoelastic_stress_growth_00000098/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 2034900,
+      "expected_sha256": "381435ae51183fa8de11d37249d6f44c5599f5218c0052c5aa4d586c9b36ccc1",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-42-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "22f5edcbb576d52eab1cc910b423c81006a0a506f424e3486f9b3ba49d580e2a",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-42-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "28d903c54401d911727a2498d3c4a26cb647d311490d2c8e37f9d1b846292dfb",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-42-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "4e9f9d2fac6df51d0bcc894619ffb8e0eb5388ddddf444a30722f8510a2a7090",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-42-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "ddb6b088ea828131bac48d6c4ab4d6d8554296cb176d0eacb02ae2f1dd37078b",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-98-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "df8070990e62202e9f0fbc74b4be3e5765c0b80c849ccd0de0bc4f42ea02389c",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-98-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "ed63d65a6133c4e2ddce98fa53e600a255c1f4c43993077bea6ded83a597a170",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-98-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "0e9edc9766fe8370d27aab955f09405e9c0f19752f47c9c262bc7f25465b36e0",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-98-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "daa55ac46c05618e90cf5cf969d298bfd8883ddca3c10aa17d6c582f9e181a86",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/cases/rubber_torsion_poynting_axial_contraction_00000042/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1980172,
+      "expected_sha256": "1d44305fe472ee17077f789628f4d32870f65f3d68bf73a2dfa317823a173cc0",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/cases/rubber_torsion_poynting_axial_contraction_00000042/counterfactual_reverse_free_axial_poynting_strain/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1735445,
+      "expected_sha256": "0b3ad3f3e21a3befae0b5128b9b9238a67cf6487957b644736918a266cd83bb0",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/cases/rubber_torsion_poynting_axial_contraction_00000042/counterfactual_reverse_free_axial_poynting_strain/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1965135,
+      "expected_sha256": "b23d79ff4e8e9b8071132b0f9aeb583a57aa6ed4a106a65db02096c5df31a67b",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/cases/rubber_torsion_poynting_axial_contraction_00000042/counterfactual_reverse_free_axial_poynting_strain/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 65167,
+      "expected_sha256": "528cdeb3f8a9b5e6cff3570b36275aa417b85040ff7eb17f50f3bc5356e3508d",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/cases/rubber_torsion_poynting_axial_contraction_00000098/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 2030465,
+      "expected_sha256": "1fbde8e994ae682e18b28d8c010f71591f5b15e9c6fd5af169ec11aa034e3308",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/cases/rubber_torsion_poynting_axial_contraction_00000098/counterfactual_reverse_free_axial_poynting_strain/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1948366,
+      "expected_sha256": "0738c94fe9b930b6e082d1b4ba8787dca4132dfaa5af7bf009cd18804ecb9a40",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/cases/rubber_torsion_poynting_axial_contraction_00000098/counterfactual_reverse_free_axial_poynting_strain/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 2016465,
+      "expected_sha256": "9ac83992350a78c95925cc0d8dacee94e38fbbb3e382e66caa9ddcaf1a3d13c4",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/cases/rubber_torsion_poynting_axial_contraction_00000098/counterfactual_reverse_free_axial_poynting_strain/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 62924,
+      "expected_sha256": "b7b6576dac2b57c683f00b39efe883938a9ccc30f8ff81378a8b68bfcfd6f0cf",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-48317197d4f0fc89418303ce9f3ef1c64ca14c5e-42-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "7767145d274609d9e9641d8f1021a45d8de680302a62ca76c11e080fd74cb7ed",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-48317197d4f0fc89418303ce9f3ef1c64ca14c5e-42-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "d80a0677e389347eb5c84b16c655c85796e752eed27db94cc85344bc15fe9c10",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-48317197d4f0fc89418303ce9f3ef1c64ca14c5e-42-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "7c1d3d3a29d613a4ae47eca16b27f3e06015733f2831753a2566ece36cf52469",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-48317197d4f0fc89418303ce9f3ef1c64ca14c5e-42-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "30ee1beb9c59b57232a60275ce3d520af4283696b7494036a880fe20e89bcfc9",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-48317197d4f0fc89418303ce9f3ef1c64ca14c5e-98-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "310a6b95cb16787cd35aea4bfe08c9d066c3a0291c02deeaa37e8fb7810eefda",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-48317197d4f0fc89418303ce9f3ef1c64ca14c5e-98-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "6c30e8d15794279f4ea4e3178ae4f1286962887f00c30b81988bb6487e3b3c1f",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-48317197d4f0fc89418303ce9f3ef1c64ca14c5e-98-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "70784c703816f67575c2790775f198f7ee635e6fd68f6130a17fed3a98826c95",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/rubber_torsion_poynting_axial_contraction-48317197d4f0fc89418303ce9f3ef1c64ca14c5e-98-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "fc1f74cf7461ca561816667b5f1a1521c0b1dfc44ae68c8f206d022ea07a32e1",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1708841,
+      "expected_sha256": "f4ef3d3a80f6a84da241573569238719d9e0010bd70127dde40267ebe27255f7",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual_low_angle_subcritical_front_mobility/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1826202,
+      "expected_sha256": "3bdaeb765e3126112055e9e4ebe9fa99b0e885a6f792fe05f808cc4e40a3b60e",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual_low_angle_subcritical_front_mobility/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1734157,
+      "expected_sha256": "284ade00859eab971e98cda2652002c2918bb6cba5c731f0f5c5f13bf5e09120",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual_low_angle_subcritical_front_mobility/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 92918,
+      "expected_sha256": "399be393d2f057beac148280f7eb8dabd4238fd3edcbe92d9d85d910e65e8fed",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 2076414,
+      "expected_sha256": "43617a0e4ab80a6db0e78a9dafa3915b626663e41b1bd1ceb4af6be9244c44a4",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual_low_angle_subcritical_front_mobility/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 2190128,
+      "expected_sha256": "1d989e916332a2116fa7ea42d826f12a592bcbfbd088a0e91b3b569babe2201b",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual_low_angle_subcritical_front_mobility/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 2070514,
+      "expected_sha256": "01a4d19bcaf2486476601f0ae0aa548cd5ae55625b8250e71cc6739dcf9adbce",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual_low_angle_subcritical_front_mobility/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 85374,
+      "expected_sha256": "dea8b703091783d563c7cbc345a644bb3bb6851679c2fd9c9983c3e23b03f129",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-03efb21a4c4506030a3c3323995fcd8abbaf8a4c-42-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "dbd02d5235c6f16a5dc2e510a321e508405d0dd5adcdbfd2e5b7cd04a6c79812",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-03efb21a4c4506030a3c3323995fcd8abbaf8a4c-42-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "059f76013d89cc01fe94f160031cffc0bd15bbf8626d3f6d4448ee444e0e2d90",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-03efb21a4c4506030a3c3323995fcd8abbaf8a4c-42-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "961d3ca09320b5803513f073626c4096d2afad7209df9344a21613b124d955ca",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-03efb21a4c4506030a3c3323995fcd8abbaf8a4c-42-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "1abc4be3fdfbd3a01df12d2e9527d5341b2d9be701eab4035b3f1fc93e18b6a9",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-03efb21a4c4506030a3c3323995fcd8abbaf8a4c-98-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "3214a2fb61fffe30d96c323552eb8ef6ddf8b8bea8e30865a2be09c64f2bfa55",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-03efb21a4c4506030a3c3323995fcd8abbaf8a4c-98-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "2f1d16d8c9f9bf12293b592f5975d19020bfa51443d80238b28155c2858820b4",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-03efb21a4c4506030a3c3323995fcd8abbaf8a4c-98-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "b7bbe3139772701decd4efac4c076c55b4939706a59e62d0caf4306ff3c090ff",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_low_angle_subthreshold_peeling-03efb21a4c4506030a3c3323995fcd8abbaf8a4c-98-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "6395013371259120189b56b4dffdc7f54f26374d50cb9ac44fef2d72cbbd25d5",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000042/counterfactual_reverse_radius_change_during_axial_extension/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 5841417,
+      "expected_sha256": "0b6cd77739bb3ca565cd5bb6f0354955e81734f302d6534b55563ab13bf2bbf5",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000042/counterfactual_reverse_radius_change_during_axial_extension/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 4645198,
+      "expected_sha256": "e985809b701e2277dbd58f54bfbede64a7a49a3b7a8a04f3cbd1e6505aebfc63",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000042/counterfactual_reverse_radius_change_during_axial_extension/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 2331482,
+      "expected_sha256": "ff024446b8d46a0c80c999d953e6d44df4c3403b03b642c026ac675e731c359c",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000042/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 4357911,
+      "expected_sha256": "22de845f954582ddf35b7178f2e01b8c1d93a1021f8152c7cf54567570c7c0ed",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000098/counterfactual_reverse_radius_change_during_axial_extension/mask_overlay_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 5152388,
+      "expected_sha256": "6dc9015ed22578537aaccb4996c5f05d03d39d0d63f426dafa32913e053f2f93",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000098/counterfactual_reverse_radius_change_during_axial_extension/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 4200943,
+      "expected_sha256": "5904921b5701218be8ebd900731b1189436f67abe22c5a3fe9ca5f12d4b8d485",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000098/counterfactual_reverse_radius_change_during_axial_extension/mask_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 1803606,
+      "expected_sha256": "e22733b9aae4b10c28fa0852c12b9dbc2a7540a84db84a2b19eb8daf8bc1a7bf",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/cases/braided_sleeve_extension_radial_expansion_00000098/true/video_browser.mp4",
+      "kind": "browser_video",
+      "status_code": 200,
+      "content_type": "video/mp4",
+      "bytes_verified": 3807623,
+      "expected_sha256": "cfb2cfb9cf84c914f6ff3a04b6ad2b6abba02e31960b2d455f4f48200c09fc0e",
+      "proof": "complete anonymous response hash match"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-42-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "26e58e7ca73e5ec7620b7c0bd7d43cd758971a6601fc928d17874b5086173cf1",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-42-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "8c9582eb4397d833bcf7732c4a9ce6a1d8245efc32600a64a82d24781d427f9d",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-42-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "0eafdd0f663e83f6e979789f7547fd2c037637feabd3713094db07d9910ed58d",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-42-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "4c2cff3b3c979f065d0faaef4045ecb76a3c6992b037b810e8d7490145e699ed",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-98-true.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "52b547002d6ab3ac64860ce6e1da3c8bb0b819681a6d766dfedbf35163fa4544",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-98-video.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "ddec36cc31c5e179ef777609ba1167e9a1a59c55de0dc3838049ed460e0c6144",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-98-mask.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "7460859f1f009e5c348862727128148f53c287be30b4d7e7f152a1eaa895fee0",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    },
+    {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-98-mask_overlay.mp4",
+      "kind": "native_video",
+      "status_code": 206,
+      "content_type": "application/octet-stream",
+      "bytes_verified": 4096,
+      "expected_sha256": "30d9d481474b1882867d3cfeb8453a3bc6f1a5b16c5489e188943ca79e91c642",
+      "proof": "anonymous range bytes match; complete GitHub SHA256 verified"
+    }
+  ]
+}

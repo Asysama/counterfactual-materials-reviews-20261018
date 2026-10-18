@@ -4,12 +4,16 @@
     "sha256": "7e561dbf5e30b942ad3f51ed0cdf2a3c1a237ed03566e99d9b07db574ca6e1b3"
   },
   "application.json": {
-    "bytes": 532,
-    "sha256": "5d4c22d4eea541aefd199b615a534b84fd3bc02219447145f547b33febc9b057"
+    "bytes": 877,
+    "sha256": "c5268afb9acad7f5bb7f86922111ee6f602f62dddd5422e1429fbbd8d914a9e7"
   },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/browser-derivatives.json": {
     "bytes": 787,
     "sha256": "d13da65bfba4ee83d27c81d80389435f9d148fa3e5d7b95fb9b70a2e154a62da"
+  },
+  "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/consecutive-native.png": {
+    "bytes": 75232,
+    "sha256": "ed74a376e6aaba4407175d37aa55d7f3c20f122c7121990faa9973ab2706ba95"
   },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/counterfactual-all120.jpg": {
     "bytes": 372928,
@@ -42,6 +46,10 @@
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/decoded-contact-sheet.jpg": {
     "bytes": 370281,
     "sha256": "029e14a594879101d7177b7bb2059af7ae2d51564956fc2b6871301523059ca5"
+  },
+  "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/edge-binding.json": {
+    "bytes": 349,
+    "sha256": "7478e037c894386e766201844360f410b8daa936395e08dee433de101a531aae"
   },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -79,6 +87,10 @@
     "bytes": 787,
     "sha256": "141d7e17b4ccfe010e46baf476e8938d4cba2f3d3224b2b70b271352940793e7"
   },
+  "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/consecutive-native.png": {
+    "bytes": 83715,
+    "sha256": "9450b090b488f85ce5bcf8e8a61f4675183d0b53f0f4679a37c0b67a4253fdd4"
+  },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/counterfactual-all120.jpg": {
     "bytes": 380002,
     "sha256": "ec20c4e366bb4e5323b75f38b49284403ecc8fb2de608d22c852d8b26e889ae4"
@@ -110,6 +122,10 @@
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/decoded-contact-sheet.jpg": {
     "bytes": 383938,
     "sha256": "df5ba5be3c0821f0c4dfcc1f295b310778e6186590848e9e2a90a152609c02ec"
+  },
+  "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/edge-binding.json": {
+    "bytes": 349,
+    "sha256": "0e98b822886ebd6e965d58cd4b5b44e1818ac0d91a66dd29e8ea95e1ac1e00c5"
   },
   "cases/adhesive_tape_low_angle_subthreshold_peeling_00000098/frame-hashes.json": {
     "bytes": 34640,
@@ -143,9 +159,21 @@
     "bytes": 380728,
     "sha256": "8ab48beb3b9e6ae1d4bdac83633532eb5d2608ec4f11839016f0ad1991de3451"
   },
+  "evidence/2026-10-18_backup-verified.json": {
+    "bytes": 2607,
+    "sha256": "384c29cfdea6e1e826033241fe020e53c75f2619d4df38e1d91136f9f1f5457f"
+  },
   "evidence/2026-10-18_boundaries.py": {
     "bytes": 1045,
     "sha256": "083e2e984897ffa294befd1afed6a588310cebcab2a709d9b7c35e059080785c"
+  },
+  "evidence/2026-10-18_browser-playback.json": {
+    "bytes": 28078,
+    "sha256": "87ed54e5493bf0680664e14d6e93316ee4309d7fb20ae66229a79a5013652b76"
+  },
+  "evidence/2026-10-18_http-check.json": {
+    "bytes": 50425,
+    "sha256": "0bbae360f4bbabfc1ae21b50048fd2428d3590226b4ea966dbdf4e1724d3382a"
   },
   "evidence/2026-10-18_identity.py": {
     "bytes": 3756,
@@ -158,6 +186,14 @@
   "evidence/2026-10-18_mechanics.py": {
     "bytes": 4327,
     "sha256": "894e333ac917564a7965dc90f1986025c6730f6ee0552778d1a16944218b66ec"
+  },
+  "evidence/2026-10-18_native-edge-review.json": {
+    "bytes": 5034,
+    "sha256": "e6b958cf40d3e3f5851fdab201ded36e4fc4200f3ffc0e9822801182bf9af02c"
+  },
+  "evidence/2026-10-18_visual-review.json": {
+    "bytes": 18681,
+    "sha256": "ff7374214325ec7710dbb7df1c87bd68959262726bf8cd44d6b46c16301953b5"
   },
   "evidence/accepted-provenance.json": {
     "bytes": 2268,
@@ -460,15 +496,15 @@
     "sha256": "35a1d58c48b74e0e3e7b158b5545a9552f2371583edfef1ea0d022c59f5a0a1c"
   },
   "index.html": {
-    "bytes": 15178,
-    "sha256": "aeef993e9d160920aec8132d8f59fc495c36108fe11f281424e291f45dee04b2"
+    "bytes": 16170,
+    "sha256": "81c92b433ee453d0cb90f4d5e8eb804a4357ba312a12753db1166192cf852038"
   },
   "native-media.json": {
     "bytes": 4763,
     "sha256": "ba0bec41702d5ad81f9631958248e5d9611e7a8979732ff4db366f0f0d93311d"
   },
   "review-report.md": {
-    "bytes": 5422,
-    "sha256": "d2d6ce522de3e69b059b94033925150eda6a9b3f2a9aab36ee925397d5cd51e9"
+    "bytes": 5388,
+    "sha256": "e1b654b12b44d8144faa6281a648d9260c4e0d6f7bcb31de0441f8f1232e8936"
   }
 }

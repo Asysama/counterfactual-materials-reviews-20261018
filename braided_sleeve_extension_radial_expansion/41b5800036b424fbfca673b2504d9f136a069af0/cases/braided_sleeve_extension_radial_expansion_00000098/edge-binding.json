@@ -1,0 +1,17 @@
+{
+  "case_id": "braided_sleeve_extension_radial_expansion_00000098",
+  "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+  "frames": [
+    47,
+    48,
+    49
+  ],
+  "crop_native_pixels": [
+    698,
+    728,
+    384,
+    384
+  ],
+  "resized": false,
+  "metadata_sha256": "2bcb18974749ca8cd34afb134f1bfc926b616732ce4ca14d5af3aabbfdd62d9d"
+}

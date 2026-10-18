@@ -4,12 +4,16 @@
     "sha256": "8d4a41218f5e2c3c9c383dc918c2e223e6b8dc4168bca6625009afb36d45e53b"
   },
   "application.json": {
-    "bytes": 530,
-    "sha256": "8092b2f123813fae0a1c0388d7d8651f62017a6de3ab745a102ddb9733b077a1"
+    "bytes": 875,
+    "sha256": "fbfb57e0d2db7441486cf0742b191a2388500763b9b907ba9d6abaea5543414b"
   },
   "cases/locked_extension_viscoelastic_stress_growth_00000042/browser-derivatives.json": {
     "bytes": 781,
     "sha256": "06073c7caa8d58fd038dd989734f8df5d147dc7dec05053bc659d4818099ba8a"
+  },
+  "cases/locked_extension_viscoelastic_stress_growth_00000042/consecutive-native.png": {
+    "bytes": 63643,
+    "sha256": "a0d1c8becbdca714702321c4f427ed8777e37a052407474967fe6ba65babff3b"
   },
   "cases/locked_extension_viscoelastic_stress_growth_00000042/counterfactual-all120.jpg": {
     "bytes": 306002,
@@ -42,6 +46,10 @@
   "cases/locked_extension_viscoelastic_stress_growth_00000042/decoded-contact-sheet.jpg": {
     "bytes": 333379,
     "sha256": "51fb4808f83a3dbc057780623370d1ef785de488ce7516aff2bff73055e6e9bf"
+  },
+  "cases/locked_extension_viscoelastic_stress_growth_00000042/edge-binding.json": {
+    "bytes": 346,
+    "sha256": "a64939f0aba877aa5f80313f83151a38fe28a3a809d63c071bddc138b9c8a925"
   },
   "cases/locked_extension_viscoelastic_stress_growth_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -79,6 +87,10 @@
     "bytes": 781,
     "sha256": "2e2b40e5196a82c1407c2bc3731fa8f33ffed8fdf8c7c68cbb572697e3e8b7e9"
   },
+  "cases/locked_extension_viscoelastic_stress_growth_00000098/consecutive-native.png": {
+    "bytes": 68159,
+    "sha256": "0717f349858b1db1b46be9d78352568cde3a8186092eb72aa3ac6c92e82725f7"
+  },
   "cases/locked_extension_viscoelastic_stress_growth_00000098/counterfactual-all120.jpg": {
     "bytes": 301658,
     "sha256": "1348fc4ed32210b8d1333d322a83de445bd4559195093b9ff2fdef64142403d2"
@@ -110,6 +122,10 @@
   "cases/locked_extension_viscoelastic_stress_growth_00000098/decoded-contact-sheet.jpg": {
     "bytes": 344310,
     "sha256": "c82dd8ae4e53719aa898ec028bce766b8776c10db3606b1f77bebd9bd8ac9e78"
+  },
+  "cases/locked_extension_viscoelastic_stress_growth_00000098/edge-binding.json": {
+    "bytes": 346,
+    "sha256": "a82bb71493699163cd6ac4d44bdf3f547af3ed3baa571db47009af8f23d6d5a4"
   },
   "cases/locked_extension_viscoelastic_stress_growth_00000098/frame-hashes.json": {
     "bytes": 34640,
@@ -143,9 +159,21 @@
     "bytes": 300205,
     "sha256": "1168eb0096dcecb1683932f410bdf956ae48be2551689cd6a5c7b3ebcf49de10"
   },
+  "evidence/2026-10-18_backup-verified.json": {
+    "bytes": 2607,
+    "sha256": "384c29cfdea6e1e826033241fe020e53c75f2619d4df38e1d91136f9f1f5457f"
+  },
   "evidence/2026-10-18_boundaries.py": {
     "bytes": 1045,
     "sha256": "083e2e984897ffa294befd1afed6a588310cebcab2a709d9b7c35e059080785c"
+  },
+  "evidence/2026-10-18_browser-playback.json": {
+    "bytes": 28078,
+    "sha256": "87ed54e5493bf0680664e14d6e93316ee4309d7fb20ae66229a79a5013652b76"
+  },
+  "evidence/2026-10-18_http-check.json": {
+    "bytes": 50425,
+    "sha256": "0bbae360f4bbabfc1ae21b50048fd2428d3590226b4ea966dbdf4e1724d3382a"
   },
   "evidence/2026-10-18_identity.py": {
     "bytes": 3756,
@@ -158,6 +186,14 @@
   "evidence/2026-10-18_mechanics.py": {
     "bytes": 4327,
     "sha256": "894e333ac917564a7965dc90f1986025c6730f6ee0552778d1a16944218b66ec"
+  },
+  "evidence/2026-10-18_native-edge-review.json": {
+    "bytes": 5034,
+    "sha256": "e6b958cf40d3e3f5851fdab201ded36e4fc4200f3ffc0e9822801182bf9af02c"
+  },
+  "evidence/2026-10-18_visual-review.json": {
+    "bytes": 18681,
+    "sha256": "ff7374214325ec7710dbb7df1c87bd68959262726bf8cd44d6b46c16301953b5"
   },
   "evidence/accepted-provenance.json": {
     "bytes": 2268,
@@ -460,15 +496,15 @@
     "sha256": "0c15948e3e16483bedf87bc0f9680c9fc3067d50fcb935f6c932a701a875dec8"
   },
   "index.html": {
-    "bytes": 15162,
-    "sha256": "453c8cbecc5dba74c2c4ae35da1f8c77fb38463b9f4d9659a4abfb42654cd29f"
+    "bytes": 16150,
+    "sha256": "7642b36aaa93d24e38ce3e1de525293604ece50279e625158c96ec17f8e1d169"
   },
   "native-media.json": {
     "bytes": 4735,
     "sha256": "8e3ccce5f07a10bbf2f3d0ac49dd7ba5a4eeced194fbf95e4aecbf257e645f69"
   },
   "review-report.md": {
-    "bytes": 5418,
-    "sha256": "4b475fb0e462125fd942e73819b625e6c7c769619b37462412e5cf0f270789f4"
+    "bytes": 5384,
+    "sha256": "57a018638778791a56ff3c7117c1fdda53f0a98054d264dd3387d5b6d4cb8e8b"
   }
 }
