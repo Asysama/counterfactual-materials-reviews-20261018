@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "5bf53b909f44c74beef15755b880f8d95778e7ae0f9e137abb73c8345482765b": {
+      "path": "runtime-witness.json",
+      "sha256": "5bf53b909f44c74beef15755b880f8d95778e7ae0f9e137abb73c8345482765b",
+      "generator": "rubber_torsion_poynting_axial_contraction",
+      "case_set": "seeds-42-98",
+      "source_commit": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e"
+    }
+  },
+  "cases": {
+    "rubber_torsion_poynting_axial_contraction_00000042": {
+      "witness_id": "5bf53b909f44c74beef15755b880f8d95778e7ae0f9e137abb73c8345482765b",
+      "metadata_path": "rubber_torsion_poynting_axial_contraction_00000042/metadata.json",
+      "metadata_sha256": "e150aa82fe5abce3705bc58b49fb151d78012332adc9ff4a309dedca78efe627"
+    },
+    "rubber_torsion_poynting_axial_contraction_00000098": {
+      "witness_id": "5bf53b909f44c74beef15755b880f8d95778e7ae0f9e137abb73c8345482765b",
+      "metadata_path": "rubber_torsion_poynting_axial_contraction_00000098/metadata.json",
+      "metadata_sha256": "150a0ee5c64e5156aa488d099ae1d0ade8ff7b3715512baf4019b3c1360661a5"
+    }
+  },
+  "failures": []
+}

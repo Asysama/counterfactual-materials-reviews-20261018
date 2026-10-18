@@ -1,0 +1,12 @@
+{
+  "os": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "system_packages": [
+    "ffmpeg=7:6.1.1-3ubuntu5",
+    "libegl1=1.7.0-1build1",
+    "libxfixes3=1:6.0.0-2build1",
+    "libxi6=2:1.8.1-1build1",
+    "libxkbcommon0=1.6.0-1build1",
+    "libxrender1=1:0.9.10-1.1build1"
+  ],
+  "scope": "Actual official Ubuntu system prerequisites in the rendering worker; no patched package source"
+}

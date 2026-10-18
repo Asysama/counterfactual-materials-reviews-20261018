@@ -1,0 +1,538 @@
+{
+  "generator": "braided_sleeve_extension_radial_expansion",
+  "commit": "41b5800036b424fbfca673b2504d9f136a069af0",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.889114447945323
+      },
+      "images": {
+        "baseline-true-35.png": "a7e13796fe2972d2dfa7fbfb6ede6f340b4611823eeaf0c9190d1e3f9ee76951",
+        "baseline-true-90.png": "acbd6a352ce67550e1849067f6ce3b64b65e42ca6e6db9fc9590a36618546d1e",
+        "baseline-counterfactual-35.png": "ba91b20b633350cbf9830535a4b90c361aa1b17459797436bfcca338fe312e32",
+        "baseline-counterfactual-90.png": "c00eec7178ec91487f195db6e42160c70d1867db36e7b70a38f0b81aee2122a2"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.55,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.68660772172357
+      },
+      "images": {
+        "length_low-true-35.png": "f17028c4e297e78405a8d6f08f31746b9574e0a876b6b9f4fa0bb13a7d5c8c88",
+        "length_low-true-90.png": "684327be1d8faf7c91fc195d80c9778d27f1ef7bd64aaa007dfbe8685506f039",
+        "length_low-counterfactual-35.png": "5157b240ad9f0e7137c1b9ea32c499e6bc92c382f10850b3b9426b9eef607526",
+        "length_low-counterfactual-90.png": "e0291f704e752fa17ce47a800003279435c8f57757bce228bd1dc5c8253f9ce9"
+      },
+      "metrics": {
+        "true-35": 4.8977508544921875,
+        "true-90": 5.371042322229456,
+        "counterfactual-35": 4.958769621672453,
+        "counterfactual-90": 5.813351101345486
+      },
+      "changed_pixels": {
+        "true-35": 51112,
+        "true-90": 57811,
+        "counterfactual-35": 51842,
+        "counterfactual-90": 64152
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 2.108,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.9538244694519564
+      },
+      "images": {
+        "length_high-true-35.png": "e8dc1bc5fc1a9f156ee8ac88bab668886d444d284216fc94d3ded81aa4fb690a",
+        "length_high-true-90.png": "6e0fe4dce793e65b2c116dcee0fc68054fb78844081b857f2a00c917ef2f5153",
+        "length_high-counterfactual-35.png": "14721d6e2885ca7c39a43d2a94fa28f13ca1bdb37be1b150544660bbe6e7ed2b",
+        "length_high-counterfactual-90.png": "3ba3d2698515e554c65333f1920d74c1ca3eaf53f0fd48932cf88c897af77166"
+      },
+      "metrics": {
+        "true-35": 4.51386797869647,
+        "true-90": 4.528304488570602,
+        "counterfactual-35": 4.622407701280382,
+        "counterfactual-90": 5.21699297869647
+      },
+      "changed_pixels": {
+        "true-35": 50412,
+        "true-90": 54469,
+        "counterfactual-35": 51470,
+        "counterfactual-90": 62449
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.612,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.889114447945323
+      },
+      "images": {
+        "response_low-true-35.png": "57c8727102fbe4c43b4f026083e3aaece6b02110e4d5177bb1730923581b23be",
+        "response_low-true-90.png": "9bbb86c3b58f343c51edeef9606cd15f0f387c1bad6367ac8b7bb4e052a609f9",
+        "response_low-counterfactual-35.png": "d5d98e4bc144a92eb7c39846565bcca5cc0d7a5d5af53ae9ecb52f3ea065eb6b",
+        "response_low-counterfactual-90.png": "c3fa30f56352c31a4781f6757496095d9433f886af9faac4587f30d8307768c2"
+      },
+      "metrics": {
+        "true-35": 0.6779745596426504,
+        "true-90": 2.91343010796441,
+        "counterfactual-35": 0.6929157398365162,
+        "counterfactual-90": 3.4302034731264466
+      },
+      "changed_pixels": {
+        "true-35": 33729,
+        "true-90": 45649,
+        "counterfactual-35": 34159,
+        "counterfactual-90": 52248
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.8064,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.889114447945323
+      },
+      "images": {
+        "response_high-true-35.png": "0ffe1a58b62881ed1d02b634f1447aae404e6b094abd1f8e37b0e1abf235cf75",
+        "response_high-true-90.png": "19b6187537110e81ea1c68810aade06e77fab9c29e0f7520af61b0c4c7bf16a8",
+        "response_high-counterfactual-35.png": "897f24f7fc48a84543e20c228c270b2d812fba63749ad65e4bf39b42de8e4881",
+        "response_high-counterfactual-90.png": "84b782c2f421b0ef78a2f7781d47d7613be09d9d4776e93dfc47ad3c29916972"
+      },
+      "metrics": {
+        "true-35": 1.99488604510272,
+        "true-90": 4.924988923249422,
+        "counterfactual-35": 2.0422679759837963,
+        "counterfactual-90": 5.545466670283565
+      },
+      "changed_pixels": {
+        "true-35": 38551,
+        "true-90": 56549,
+        "counterfactual-35": 39370,
+        "counterfactual-90": 65049
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.889114447945323
+      },
+      "images": {
+        "onset_low-true-35.png": "c487500538bc3982655c9d56f02d7c71b498df792b92c218b29b2b4e8ce98b87",
+        "onset_low-true-90.png": "60b27f5d77b524ff79332939e3bad995b13ecc6deec553dd8b9c996fa3cacfb9",
+        "onset_low-counterfactual-35.png": "e735d675742c93018314c7e0ec10e8a1a6e8b00eabc80dd8e8cb8513355618cb",
+        "onset_low-counterfactual-90.png": "a3409d08078447a32d432571c5626a194ee6682b3454e3a3fc5a47cf9d6ca989"
+      },
+      "metrics": {
+        "true-35": 3.133044207537616,
+        "true-90": 0.0,
+        "counterfactual-35": 3.175397519712095,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 43678,
+        "true-90": 0,
+        "counterfactual-35": 44772,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.889114447945323
+      },
+      "images": {
+        "onset_high-true-35.png": "4b3500ddafbde1b2ab8bf7b84f894c8ca8a394271440cef450a443da0488441d",
+        "onset_high-true-90.png": "6e344a7e7558f63c6878a59be1f0b3b5e01541865e466cc365a700cbe349a2fa",
+        "onset_high-counterfactual-35.png": "6456b7223a9059dcda57f59b0a662565d015577dc51f31e5ae69f552dce4a4dc",
+        "onset_high-counterfactual-90.png": "354c926b06d8ee753148e4f8b569ddeadb09bd32b742d08d5ca7e92d46d78489"
+      },
+      "metrics": {
+        "true-35": 3.7269965277777777,
+        "true-90": 0.0,
+        "counterfactual-35": 3.700464884440104,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 46025,
+        "true-90": 0,
+        "counterfactual-35": 46401,
+        "counterfactual-90": 0
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.38333333333333336,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.1599859854875234
+      },
+      "images": {
+        "depth_low-true-35.png": "143d867a86b5f6de0e6bf13a36d808df1d62a36f5f1608e9dffc3ac7c1538bc3",
+        "depth_low-true-90.png": "dea4018926274a2822ee36aec71b4ef72ede77495ce3249ba1a5a0f4782babb8",
+        "depth_low-counterfactual-35.png": "d3ae9a9e09bfda97441140806eed423e4a37827edb45892e31c368229a877951",
+        "depth_low-counterfactual-90.png": "9eb05edfb1dea4ab8167cc5c2b9040d43a672d966254588482579eb4acbab3e2"
+      },
+      "metrics": {
+        "true-35": 2.7564962881582753,
+        "true-90": 2.916373358832465,
+        "counterfactual-35": 2.8400070755570024,
+        "counterfactual-90": 3.503410056785301
+      },
+      "changed_pixels": {
+        "true-35": 35607,
+        "true-90": 38624,
+        "counterfactual-35": 36557,
+        "counterfactual-90": 46553
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5673333333333334,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 4.109833991653515
+      },
+      "images": {
+        "depth_high-true-35.png": "df6b1b39a35168910cc91fbf11287ca804c47d50006f714010472109652e0dc4",
+        "depth_high-true-90.png": "bb7e327932d2693fc66020a395f30a0073d1583f5c119fd5a0b5c9ba892c901e",
+        "depth_high-counterfactual-35.png": "71285d711a0664f6e02970400e44cc467c08529c7dd70f3a06dc205da8e33494",
+        "depth_high-counterfactual-90.png": "2ef64ef58c60d71894acce345a6f1dc803a8603b3f0b6d415de49f7a4ef61f54"
+      },
+      "metrics": {
+        "true-35": 2.3910578974971064,
+        "true-90": 2.843388310185185,
+        "counterfactual-35": 2.3957971643518516,
+        "counterfactual-90": 2.8478421811704284
+      },
+      "changed_pixels": {
+        "true-35": 33690,
+        "true-90": 38403,
+        "counterfactual-35": 34205,
+        "counterfactual-90": 41953
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.889114447945323
+      },
+      "images": {
+        "appearance_low-true-35.png": "c92215a807abdc83f11e7bd1d1ef4b3f8a9165aba99656b71f0d9d4ca5cdc410",
+        "appearance_low-true-90.png": "f2934cf96cf8562561c93035a4d2bbef6ae726a70f9e7256665a03e9187c5eaf",
+        "appearance_low-counterfactual-35.png": "0d971cc395f68c968c9d7db2b390e61c2bc4617b2930273eb126aaa613551ca6",
+        "appearance_low-counterfactual-90.png": "374e92dbe067db2071427a1da7e9e1af3c74ec2f8d75d2c7e636e5be45c943b5"
+      },
+      "metrics": {
+        "true-35": 0.3147396511501736,
+        "true-90": 0.319488525390625,
+        "counterfactual-35": 0.3156760886863426,
+        "counterfactual-90": 0.32561351634837965
+      },
+      "changed_pixels": {
+        "true-35": 217938,
+        "true-90": 219677,
+        "counterfactual-35": 218221,
+        "counterfactual-90": 221992
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.889114447945323
+      },
+      "images": {
+        "appearance_high-true-35.png": "d933c3326f057060299b7347e38308afa7ce25948ed4bad9bb7fafd51aa4df29",
+        "appearance_high-true-90.png": "77b1426d07fee14d6eaacb3898c1fc56dbd00a5221e970e41ab5c5dc178b958c",
+        "appearance_high-counterfactual-35.png": "1e183c0c4af28284c08af03204c1fb9302029286f6c911195582f089646879c3",
+        "appearance_high-counterfactual-90.png": "b3fc994a84db59092c98f9add100b0d94ba0feaac2940f324022de232aead0b2"
+      },
+      "metrics": {
+        "true-35": 0.1615380181206597,
+        "true-90": 0.17831703468605323,
+        "counterfactual-35": 0.1647632740162037,
+        "counterfactual-90": 0.2012950755931713
+      },
+      "changed_pixels": {
+        "true-35": 28320,
+        "true-90": 29155,
+        "counterfactual-35": 28584,
+        "counterfactual-90": 31507
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.889114447945323
+      },
+      "images": {
+        "view_low-true-35.png": "92c093e7080d95749af8193263deed46ad14fd7a55cbe3329b7e350c353ffe40",
+        "view_low-true-90.png": "80c9d09ce6f5fa0bb74267d4a1116f2e91ecdd88c9f497cdb853584df7f29765",
+        "view_low-counterfactual-35.png": "420cd6bd1d04a6f19ba414652144c19702dac1f3ec12f336c6142b8834df1168",
+        "view_low-counterfactual-90.png": "3212bcef41c68fdd720d3400bde4ad689b0f242f0a53b5f20aaf21d366d70774"
+      },
+      "metrics": {
+        "true-35": 10.8704754864728,
+        "true-90": 10.5732421875,
+        "counterfactual-35": 10.924189249674479,
+        "counterfactual-90": 11.021529586226851
+      },
+      "changed_pixels": {
+        "true-35": 328776,
+        "true-90": 328296,
+        "counterfactual-35": 329264,
+        "counterfactual-90": 332897
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "initial_length": 1.9840000000000002,
+        "initial_radius": 0.5264444444444445,
+        "extension": 0.6551999999999999,
+        "strand_count": 8,
+        "weave_amplitude": 0.014,
+        "fiber_radius": 0.009,
+        "ramp_frames": 48,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+        "fiber_length": 3.889114447945323
+      },
+      "images": {
+        "view_high-true-35.png": "37fac69f229a8cddf8b02b08d83bebbc4508aba9ead04b26990ed9d41e172445",
+        "view_high-true-90.png": "ed663afa2b617f2f82e23602132dd824f29103c2c3731d4786b447ebc5951924",
+        "view_high-counterfactual-35.png": "919f5c7de05ff0e7463ac95185374555371a950d49ad9879659d607c4fafb4a4",
+        "view_high-counterfactual-90.png": "a7cb518416e14a2e3771607ef394caf5d2724495c877a680044538050fb68248"
+      },
+      "metrics": {
+        "true-35": 12.43703771520544,
+        "true-90": 12.398940474898726,
+        "counterfactual-35": 12.490075570565683,
+        "counterfactual-90": 12.918123033311632
+      },
+      "changed_pixels": {
+        "true-35": 298033,
+        "true-90": 298559,
+        "counterfactual-35": 298611,
+        "counterfactual-90": 303919
+      }
+    }
+  }
+}

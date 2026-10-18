@@ -1,0 +1,564 @@
+{
+  "generator": "adhesive_tape_low_angle_subthreshold_peeling",
+  "commit": "03efb21a4c4506030a3c3323995fcd8abbaf8a4c",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "baseline-true-35.png": "7f944221d1f74f668fa18a3fa63f741c3cc5e15b458e69628c5beb9999024bb8",
+        "baseline-true-90.png": "a004730a527f36c7e53acfc18c43a7c61566f19398c100e5c440e5e904f83cd3",
+        "baseline-counterfactual-35.png": "823459c63104c86a484a61d720288caca003605286e615631f70195438efca5a",
+        "baseline-counterfactual-90.png": "57a163fc61be782c984168c167daafb91d9d0827cd3891674f1157cefb8bd0b4"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.29,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "length_low-true-35.png": "a14cd9dc2c4b87f8571f489ee093c46bfc89ff30ddfbbdb73cae2383c5ec32e4",
+        "length_low-true-90.png": "14252bfc97d3b383c3980aace37e7606b2955a51de459bc5cf66de98d4cd4488",
+        "length_low-counterfactual-35.png": "625cabd2eff2acb4006a1fb4a47468a0fc7b42db21ea040352d94f7de50079dc",
+        "length_low-counterfactual-90.png": "5af5c422ff2c97eaf6bcf871dcb54ef3edbd644d9820d93e4a9165d013b4cc0c"
+      },
+      "metrics": {
+        "true-35": 0.06726865415219907,
+        "true-90": 0.05385787398726852,
+        "counterfactual-35": 0.06730934425636574,
+        "counterfactual-90": 0.05475927282262732
+      },
+      "changed_pixels": {
+        "true-35": 4329,
+        "true-90": 3921,
+        "counterfactual-35": 4316,
+        "counterfactual-90": 3791
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.39440000000000003,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "length_high-true-35.png": "34f7a2dc113b64f79579575cb5064d6564d47dc6ba567d7748e25885791a8034",
+        "length_high-true-90.png": "1dc59ccb11a2e922551ef4dbfc540c200be16df19b07ef22568edca4de2956a7",
+        "length_high-counterfactual-35.png": "0cec03baf2364440364339567c9c6f24b250884728a1738c5a2222ddfd3e15d2",
+        "length_high-counterfactual-90.png": "da61a23187c8e90c4df5b901e6af3c9ae66450424f87508189d512f132e072ad"
+      },
+      "metrics": {
+        "true-35": 0.019822297272858797,
+        "true-90": 0.01584088360821759,
+        "counterfactual-35": 0.019820601851851853,
+        "counterfactual-90": 0.016138147424768517
+      },
+      "changed_pixels": {
+        "true-35": 2998,
+        "true-90": 2672,
+        "counterfactual-35": 2986,
+        "counterfactual-90": 2667
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 55.25,
+        "adhesion_energy": 33.15,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "response_low-true-35.png": "dc9e8e957931186e2f04528ee38c32af7f25f27b475b271dfdae8597376418e9",
+        "response_low-true-90.png": "6696142ee38125832c852531bbf0a93da48250f8bdf02b0022861394288dc08f",
+        "response_low-counterfactual-35.png": "24d66e69fb7eb1d88f9dc339c81da21b8c5384c0bb3012a3ad5e22de420dcf9f",
+        "response_low-counterfactual-90.png": "27875d5343aace1337e5a2f6ad0a1e7707bf9ec422f81d1597795a630a2a7945"
+      },
+      "metrics": {
+        "true-35": 0.019875420464409724,
+        "true-90": 0.2946766040943287,
+        "counterfactual-35": 0.02156688548900463,
+        "counterfactual-90": 0.39942027904369215
+      },
+      "changed_pixels": {
+        "true-35": 3659,
+        "true-90": 5927,
+        "counterfactual-35": 4496,
+        "counterfactual-90": 10292
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 72.80000000000001,
+        "adhesion_energy": 43.68000000000001,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "response_high-true-35.png": "117658d815c46bd6b909ba3fabf8df41f3269dcb35ceea3e3eece44b22ee0267",
+        "response_high-true-90.png": "15926131d3835222cfae988fad6e3c898ff456c5b9d6bd696841073ea31a317b",
+        "response_high-counterfactual-35.png": "b4a08b286b5ea307fe36efcb8d9dfb985bede0a539dff93e09ce047243ac5464",
+        "response_high-counterfactual-90.png": "e974b058da9ab2890a5f44c3fd86aae75b8a6ac529c030a908809615e9accff7"
+      },
+      "metrics": {
+        "true-35": 0.06858091001157407,
+        "true-90": 0.33580582230179395,
+        "counterfactual-35": 0.07405259874131945,
+        "counterfactual-90": 0.6445295545789931
+      },
+      "changed_pixels": {
+        "true-35": 4942,
+        "true-90": 8996,
+        "counterfactual-35": 5729,
+        "counterfactual-90": 16094
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "onset_low-true-35.png": "f31f608088c88fc7338cb93926c79fef2b70e2bcca4bc7b09707b358deaeb43c",
+        "onset_low-true-90.png": "e0873bf4699e8c6b8fff9d35e9c7a95f75589285c86590cd6a0a6f50afcc9af7",
+        "onset_low-counterfactual-35.png": "eb185b34966bde5b87b517c2bdfa4472607eaa799104ba0846277f00983fc737",
+        "onset_low-counterfactual-90.png": "f46eff20ad28f05a66e8bb44f3fcfdd4ffe391f67cf6cefa5ecd375225212cf0"
+      },
+      "metrics": {
+        "true-35": 0.3148662425853588,
+        "true-90": 0.0,
+        "counterfactual-35": 0.40259693287037035,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 7275,
+        "true-90": 0,
+        "counterfactual-35": 9527,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "onset_high-true-35.png": "ec57b02469423c484a980ccddc64b551672d17b0fa13cf182469750577f8f04e",
+        "onset_high-true-90.png": "9328c2eeb8733745a552b1b1ca84d35bf164693ec94c31686c720a935c158b88",
+        "onset_high-counterfactual-35.png": "ec57b02469423c484a980ccddc64b551672d17b0fa13cf182469750577f8f04e",
+        "onset_high-counterfactual-90.png": "675d7e9a0bc0f75e017b24cf4604adb66d3935a27dc9e05bedcebd05cc4d27d7"
+      },
+      "metrics": {
+        "true-35": 0.2459140353732639,
+        "true-90": 0.0,
+        "counterfactual-35": 0.2780880398220486,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 6663,
+        "true-90": 0,
+        "counterfactual-35": 7693,
+        "counterfactual-90": 0
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 13500.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.3962634015954636,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "depth_low-true-35.png": "890ffe5f3a6308970455eab9291a2800f5841e76916c5b62bf5c0e7ded2564df",
+        "depth_low-true-90.png": "e5ec7acf8662c6a0f30a0dd654cfbf9f09d16dc7f9f29fa2c331c5e948f536be",
+        "depth_low-counterfactual-35.png": "98de8e3a25ed7f7d026f178aa399c365315e472825f99f4f21da193dc060abbb",
+        "depth_low-counterfactual-90.png": "517b76ce27ea7aa9a10a5971d42e04c1c7d49f9b878eab7413b50407ac0b51ee"
+      },
+      "metrics": {
+        "true-35": 0.34703855161313657,
+        "true-90": 0.37090160228587965,
+        "counterfactual-35": 0.3868515579788773,
+        "counterfactual-90": 0.785501550745081
+      },
+      "changed_pixels": {
+        "true-35": 8651,
+        "true-90": 10786,
+        "counterfactual-35": 9941,
+        "counterfactual-90": 18895
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 19980.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.7453292519943295,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "depth_high-true-35.png": "6843380c3c7e6f95d251b3943f5ad5a0df76477ac5097d73cabffe8d432108fd",
+        "depth_high-true-90.png": "086435eeac0eb7aebd1426d1674e81c3e5e4af39ae737c212831f30aa07ed5c7",
+        "depth_high-counterfactual-35.png": "1f84b124c3adbd1327afe969fbf75a29f7b9eb5aa37ff3ec412a7493beb11711",
+        "depth_high-counterfactual-90.png": "dc46851583d3c26cde249e9ad494bec00242d2bc12f8271d7018d2d6b916f6ec"
+      },
+      "metrics": {
+        "true-35": 0.2866261800130208,
+        "true-90": 0.33289365415219907,
+        "counterfactual-35": 0.30125144675925924,
+        "counterfactual-90": 0.5669261791087963
+      },
+      "changed_pixels": {
+        "true-35": 6061,
+        "true-90": 8413,
+        "counterfactual-35": 7938,
+        "counterfactual-90": 14858
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "appearance_low-true-35.png": "290b3ab93b5bb8c3855b0b0814c6b4f816095a1eb3cf2c4843b01490cff13b2b",
+        "appearance_low-true-90.png": "44af8f9a48bd795086babad9da2baf366f3e6218b7a0de9a4b494cb7f955ab9f",
+        "appearance_low-counterfactual-35.png": "22fb4dca020b749e0cd6a156eb5f3545e216fb3a7e15bc25cef5f19082f5c0a8",
+        "appearance_low-counterfactual-90.png": "2b95137d2ed3d6d6c3314f57a797e2abec4a4ab9bccfff76958a31adef4834bd"
+      },
+      "metrics": {
+        "true-35": 0.3313496907552083,
+        "true-90": 0.3232896592881944,
+        "counterfactual-35": 0.33116093388310186,
+        "counterfactual-90": 0.31746645326967593
+      },
+      "changed_pixels": {
+        "true-35": 223011,
+        "true-90": 221178,
+        "counterfactual-35": 222983,
+        "counterfactual-90": 220447
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "appearance_high-true-35.png": "247145b5654b0f3ebc87709fb549801c28095c3fdccd4cbe550cb66a4baffe6b",
+        "appearance_high-true-90.png": "a151e1371cfef5cfed2f4077b0ee8092c77c0dbd36144fbcf261528d78d9a299",
+        "appearance_high-counterfactual-35.png": "28f52ea0223b0ad6a85f953a2ae6886709c003f09fc279b21023f45fdf07a724",
+        "appearance_high-counterfactual-90.png": "8853d262b11747ddccf2cea860827b5da1bbb028581080cfb3406610c3998220"
+      },
+      "metrics": {
+        "true-35": 0.22309310347945602,
+        "true-90": 0.18116251627604166,
+        "counterfactual-35": 0.222320556640625,
+        "counterfactual-90": 0.1543742992259838
+      },
+      "changed_pixels": {
+        "true-35": 24802,
+        "true-90": 22974,
+        "counterfactual-35": 24771,
+        "counterfactual-90": 22184
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "view_low-true-35.png": "ff73a0e1af5ad8bedb65dc97c26940d1729ef8332403bcd5eb908d8531429895",
+        "view_low-true-90.png": "a7140cdfdfeb7efe4295629cd0a3dd494034a914d48f727cb12d250e0f359dcc",
+        "view_low-counterfactual-35.png": "4c8298fa74da8d7a2073d93be591513da3b06b894dd8efc6884796c31e89635b",
+        "view_low-counterfactual-90.png": "5c2ab61e6a290549073ff41f364b869b371b6a9315e34f942a1a74faaef5d199"
+      },
+      "metrics": {
+        "true-35": 10.844156901041666,
+        "true-90": 10.793106644241899,
+        "counterfactual-35": 10.850412439416957,
+        "counterfactual-90": 10.951731929072627
+      },
+      "changed_pixels": {
+        "true-35": 424088,
+        "true-90": 423900,
+        "counterfactual-35": 424039,
+        "counterfactual-90": 423078
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "tape_width": 0.3712,
+        "extensional_stiffness": 18540.0,
+        "force_per_width": 59.14999999999999,
+        "adhesion_energy": 35.489999999999995,
+        "angles": [
+          1.6677590630168038,
+          0.5235987755982988
+        ],
+        "mobility": 0.00036923076923076927,
+        "initial_free_length": 0.56,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control"
+      },
+      "images": {
+        "view_high-true-35.png": "663c1c70d49ee818534543527d0d274991873f615329ac2b0adbb2696b503934",
+        "view_high-true-90.png": "7ade0dddf108a24d9ef44f5966fa2ccb0649705bc55f5042b5fe8cdfd12ebc9c",
+        "view_high-counterfactual-35.png": "453114e60e0b30bed89dbdb867987085134c93470b15ed7fdca323e53e081665",
+        "view_high-counterfactual-90.png": "8b0d114b7ef9cc277ea09f7faf356365e9073fd051473debe25639746117ec18"
+      },
+      "metrics": {
+        "true-35": 12.820023713288483,
+        "true-90": 12.80004995840567,
+        "counterfactual-35": 12.840333726671007,
+        "counterfactual-90": 12.999647352430555
+      },
+      "changed_pixels": {
+        "true-35": 389237,
+        "true-90": 388450,
+        "counterfactual-35": 389222,
+        "counterfactual-90": 388248
+      }
+    }
+  }
+}

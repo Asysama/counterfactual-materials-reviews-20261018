@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "locked_extension_viscoelastic_stress_growth",
+  "case_set": "seeds-42-98",
+  "commit": "2bfca64576f6b829268f103b8a3c1dc034f1f745",
+  "artifact_count": 79,
+  "accepted_case_count": 2,
+  "failures": []
+}

@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "scope": "16 independent combined physical-axis corners, non-rendering",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_max_fiber_length_error": 2.5712765250318625e-12,
+        "cf_fiber_length_ratio": 1.266619332990716,
+        "true_final_radius": 0.2989528404948638,
+        "cf_final_radius": 0.4677138261718029
+      },
+      "evidence_frame": 46
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_max_fiber_length_error": 4.643396778192255e-12,
+        "cf_fiber_length_ratio": 1.1447680099709714,
+        "true_final_radius": 0.5141086485104933,
+        "cf_final_radius": 0.6205580181561734
+      },
+      "evidence_frame": 54
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_max_fiber_length_error": 2.5712765250318625e-12,
+        "cf_fiber_length_ratio": 1.266619332990716,
+        "true_final_radius": 0.2989528404948638,
+        "cf_final_radius": 0.4677138261718029
+      },
+      "evidence_frame": 55
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_max_fiber_length_error": 4.643396778192255e-12,
+        "cf_fiber_length_ratio": 1.1447680099709714,
+        "true_final_radius": 0.5141086485104933,
+        "cf_final_radius": 0.6205580181561734
+      },
+      "evidence_frame": 63
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_max_fiber_length_error": 2.5437429940211587e-12,
+        "cf_fiber_length_ratio": 1.3747790085232132,
+        "true_final_radius": 0.25906089054409076,
+        "cf_final_radius": 0.507605776122576
+      },
+      "evidence_frame": 42
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_max_fiber_length_error": 4.810818410305728e-12,
+        "cf_fiber_length_ratio": 1.1998061620530822,
+        "true_final_radius": 0.49198798394328214,
+        "cf_final_radius": 0.6426786827233846
+      },
+      "evidence_frame": 48
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_max_fiber_length_error": 2.5437429940211587e-12,
+        "cf_fiber_length_ratio": 1.3747790085232132,
+        "true_final_radius": 0.25906089054409076,
+        "cf_final_radius": 0.507605776122576
+      },
+      "evidence_frame": 51
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_max_fiber_length_error": 4.810818410305728e-12,
+        "cf_fiber_length_ratio": 1.1998061620530822,
+        "true_final_radius": 0.49198798394328214,
+        "cf_final_radius": 0.6426786827233846
+      },
+      "evidence_frame": 57
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_max_fiber_length_error": 2.19735341033811e-12,
+        "cf_fiber_length_ratio": 1.289419073380687,
+        "true_final_radius": 0.2684604512039187,
+        "cf_final_radius": 0.498206215462748
+      },
+      "evidence_frame": 42
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_max_fiber_length_error": 4.522604513113038e-12,
+        "cf_fiber_length_ratio": 1.167119458052987,
+        "true_final_radius": 0.49699589971943237,
+        "cf_final_radius": 0.6376707669472343
+      },
+      "evidence_frame": 48
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_max_fiber_length_error": 2.19735341033811e-12,
+        "cf_fiber_length_ratio": 1.289419073380687,
+        "true_final_radius": 0.2684604512039187,
+        "cf_final_radius": 0.498206215462748
+      },
+      "evidence_frame": 51
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_max_fiber_length_error": 4.522604513113038e-12,
+        "cf_fiber_length_ratio": 1.167119458052987,
+        "true_final_radius": 0.49699589971943237,
+        "cf_final_radius": 0.6376707669472343
+      },
+      "evidence_frame": 57
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_max_fiber_length_error": 2.142286348316702e-12,
+        "cf_fiber_length_ratio": 1.4131019059398686,
+        "true_final_radius": 0.21051190869884528,
+        "cf_final_radius": 0.5561547579678214
+      },
+      "evidence_frame": 39
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_max_fiber_length_error": 4.268585485078802e-12,
+        "cf_fiber_length_ratio": 1.2289037644889396,
+        "true_final_radius": 0.4682449588902079,
+        "cf_final_radius": 0.6664217077764588
+      },
+      "evidence_frame": 43
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "true_max_fiber_length_error": 2.142286348316702e-12,
+        "cf_fiber_length_ratio": 1.4131019059398686,
+        "true_final_radius": 0.21051190869884528,
+        "cf_final_radius": 0.5561547579678214
+      },
+      "evidence_frame": 48
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "true_max_fiber_length_error": 4.268585485078802e-12,
+        "cf_fiber_length_ratio": 1.2289037644889396,
+        "true_final_radius": 0.4682449588902079,
+        "cf_final_radius": 0.6664217077764588
+      },
+      "evidence_frame": 52
+    }
+  ]
+}

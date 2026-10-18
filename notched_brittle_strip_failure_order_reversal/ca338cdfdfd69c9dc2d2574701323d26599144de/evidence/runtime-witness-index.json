@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "d969c2ec19265a8e56f348e4f6005f080c5098828bdc45b7761bb717ea872a5f": {
+      "path": "runtime-witness.json",
+      "sha256": "d969c2ec19265a8e56f348e4f6005f080c5098828bdc45b7761bb717ea872a5f",
+      "generator": "notched_brittle_strip_failure_order_reversal",
+      "case_set": "seeds-42-98",
+      "source_commit": "ca338cdfdfd69c9dc2d2574701323d26599144de"
+    }
+  },
+  "cases": {
+    "notched_brittle_strip_failure_order_reversal_00000042": {
+      "witness_id": "d969c2ec19265a8e56f348e4f6005f080c5098828bdc45b7761bb717ea872a5f",
+      "metadata_path": "notched_brittle_strip_failure_order_reversal_00000042/metadata.json",
+      "metadata_sha256": "d34ee9c25abd0695839f740a298ffc6fb897fa2add0ad23bd61f84ee15fe0f55"
+    },
+    "notched_brittle_strip_failure_order_reversal_00000098": {
+      "witness_id": "d969c2ec19265a8e56f348e4f6005f080c5098828bdc45b7761bb717ea872a5f",
+      "metadata_path": "notched_brittle_strip_failure_order_reversal_00000098/metadata.json",
+      "metadata_sha256": "2ef1dc7a359f51fad48a685746d177ca89136003592f3b41117de6363191d392"
+    }
+  },
+  "failures": []
+}

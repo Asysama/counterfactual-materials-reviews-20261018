@@ -1,0 +1,358 @@
+{
+  "status": "PASS",
+  "scope": "Reviewer-named object sets, exact native decoded projection at six frames; visual review separate",
+  "cases": [
+    {
+      "case_id": "rubber_torsion_poynting_axial_contraction_00000042",
+      "head_sha": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e",
+      "no_scene_text_objects": true,
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.27714136242866516,
+              0.4041423499584198
+            ],
+            [
+              0.7414818406105042,
+              0.658099889755249
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.07353053241968155,
+              0.21220709383487701
+            ],
+            [
+              1.0038753747940063,
+              0.6806932091712952
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 24,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.2770646810531616,
+              0.40420886874198914
+            ],
+            [
+              0.7414498925209045,
+              0.658067524433136
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.07350395619869232,
+              0.2123839408159256
+            ],
+            [
+              1.0039632320404053,
+              0.6806603670120239
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 49,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.2767118215560913,
+              0.40219321846961975
+            ],
+            [
+              0.7281056642532349,
+              0.6596143245697021
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.0734768807888031,
+              0.21256794035434723
+            ],
+            [
+              1.0040541887283325,
+              0.6804871559143066
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 50,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.27667781710624695,
+              0.40196195244789124
+            ],
+            [
+              0.7266467809677124,
+              0.6597906947135925
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.07347564399242401,
+              0.21257515251636505
+            ],
+            [
+              1.0040578842163086,
+              0.6804706454277039
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.2759900391101837,
+              0.39786383509635925
+            ],
+            [
+              0.7015250325202942,
+              0.662953794002533
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.07343363761901855,
+              0.21287019550800323
+            ],
+            [
+              1.0042020082473755,
+              0.6801659464836121
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.2758933901786804,
+              0.397944837808609
+            ],
+            [
+              0.7014636993408203,
+              0.6629229187965393
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.07340395450592041,
+              0.21308404207229614
+            ],
+            [
+              1.0043056011199951,
+              0.6801328063011169
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "rubber_torsion_poynting_axial_contraction_00000098",
+      "head_sha": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e",
+      "no_scene_text_objects": true,
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.2773192822933197,
+              0.4387485086917877
+            ],
+            [
+              0.6410976052284241,
+              0.629770040512085
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.07988583296537399,
+              0.1918972283601761
+            ],
+            [
+              1.008917212486267,
+              0.646800696849823
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 28,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.27733197808265686,
+              0.4387091398239136
+            ],
+            [
+              0.6411439776420593,
+              0.6298000812530518
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.07998089492321014,
+              0.1916666179895401
+            ],
+            [
+              1.0088635683059692,
+              0.6468310952186584
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 53,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.2768791615962982,
+              0.43751028180122375
+            ],
+            [
+              0.6290552616119385,
+              0.6313628554344177
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.08006623387336731,
+              0.19146135449409485
+            ],
+            [
+              1.0088149309158325,
+              0.6468583941459656
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 54,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.27682745456695557,
+              0.43737679719924927
+            ],
+            [
+              0.6277422308921814,
+              0.6315360069274902
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.08006969839334488,
+              0.19145329296588898
+            ],
+            [
+              1.0088129043579102,
+              0.6468596458435059
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.27590200304985046,
+              0.4348999261856079
+            ],
+            [
+              0.6055920720100403,
+              0.6346563696861267
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.08019345998764038,
+              0.19115766882896423
+            ],
+            [
+              1.0087416172027588,
+              0.6468983292579651
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "rubber_plain",
+            "rubber_stripes"
+          ],
+          "target_bounds": [
+            [
+              0.2759128212928772,
+              0.4348740577697754
+            ],
+            [
+              0.6056451201438904,
+              0.6346854567527771
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.08029381930828094,
+              0.19091974198818207
+            ],
+            [
+              1.0086833238601685,
+              0.646929144859314
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "head_sha": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e",
+  "cases": [
+    {
+      "case_id": "rubber_torsion_poynting_axial_contraction_00000042",
+      "head_sha": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 24,
+      "mask_start_frame": 24,
+      "evidence_frame": 49,
+      "mask_area_min_active": 348927,
+      "mask_area_max": 363780,
+      "mechanics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 2.301536138155563,
+        "cf_final_length": 1.9224638618444372,
+        "reference_length": 2.112
+      },
+      "formal_case_diversity": null,
+      "files": {
+        "true/video.mp4": {
+          "bytes": 26019089,
+          "sha256": "7767145d274609d9e9641d8f1021a45d8de680302a62ca76c11e080fd74cb7ed"
+        },
+        "counterfactual_reverse_free_axial_poynting_strain/video.mp4": {
+          "bytes": 25990102,
+          "sha256": "d80a0677e389347eb5c84b16c655c85796e752eed27db94cc85344bc15fe9c10"
+        },
+        "counterfactual_reverse_free_axial_poynting_strain/mask.mp4": {
+          "bytes": 2164073,
+          "sha256": "7c1d3d3a29d613a4ae47eca16b27f3e06015733f2831753a2566ece36cf52469"
+        },
+        "counterfactual_reverse_free_axial_poynting_strain/mask_overlay.mp4": {
+          "bytes": 21725748,
+          "sha256": "30ee1beb9c59b57232a60275ce3d520af4283696b7494036a880fe20e89bcfc9"
+        }
+      }
+    },
+    {
+      "case_id": "rubber_torsion_poynting_axial_contraction_00000098",
+      "head_sha": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 28,
+      "mask_start_frame": 28,
+      "evidence_frame": 53,
+      "mask_area_min_active": 193260,
+      "mask_area_max": 205685,
+      "mechanics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 1.9001950214154086,
+        "cf_final_length": 1.5318049785845913,
+        "reference_length": 1.716
+      },
+      "formal_case_diversity": {
+        "mean_abs_difference": 11.751942952473959,
+        "changed_fraction": 0.5333480834960938
+      },
+      "files": {
+        "true/video.mp4": {
+          "bytes": 30701387,
+          "sha256": "310a6b95cb16787cd35aea4bfe08c9d066c3a0291c02deeaa37e8fb7810eefda"
+        },
+        "counterfactual_reverse_free_axial_poynting_strain/video.mp4": {
+          "bytes": 30573059,
+          "sha256": "6c30e8d15794279f4ea4e3178ae4f1286962887f00c30b81988bb6487e3b3c1f"
+        },
+        "counterfactual_reverse_free_axial_poynting_strain/mask.mp4": {
+          "bytes": 2143345,
+          "sha256": "70784c703816f67575c2790775f198f7ee635e6fd68f6130a17fed3a98826c95"
+        },
+        "counterfactual_reverse_free_axial_poynting_strain/mask_overlay.mp4": {
+          "bytes": 26973610,
+          "sha256": "fc1f74cf7461ca561816667b5f1a1521c0b1dfc44ae68c8f206d022ea07a32e1"
+        }
+      }
+    }
+  ]
+}

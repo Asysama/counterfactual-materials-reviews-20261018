@@ -1,0 +1,90 @@
+{
+  "head_sha": "2bfca64576f6b829268f103b8a3c1dc034f1f745",
+  "cases": [
+    {
+      "case_id": "locked_extension_viscoelastic_stress_growth_00000042",
+      "head_sha": "2bfca64576f6b829268f103b8a3c1dc034f1f745",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 43,
+      "mask_start_frame": 43,
+      "evidence_frame": 55,
+      "mask_area_min_active": 93812,
+      "mask_area_max": 96421,
+      "mechanics": {
+        "lock_frame": 42,
+        "force_at_lock": 27318.263725896013,
+        "final_true_force": 16197.036911295001,
+        "final_cf_force": 38439.49054049703,
+        "equilibrium_force": 16155.74074074074
+      },
+      "formal_case_diversity": null,
+      "files": {
+        "true/video.mp4": {
+          "bytes": 23805685,
+          "sha256": "22f5edcbb576d52eab1cc910b423c81006a0a506f424e3486f9b3ba49d580e2a"
+        },
+        "counterfactual_reflect_post_lock_force_relaxation/video.mp4": {
+          "bytes": 23898847,
+          "sha256": "28d903c54401d911727a2498d3c4a26cb647d311490d2c8e37f9d1b846292dfb"
+        },
+        "counterfactual_reflect_post_lock_force_relaxation/mask.mp4": {
+          "bytes": 2010910,
+          "sha256": "4e9f9d2fac6df51d0bcc894619ffb8e0eb5388ddddf444a30722f8510a2a7090"
+        },
+        "counterfactual_reflect_post_lock_force_relaxation/mask_overlay.mp4": {
+          "bytes": 22999126,
+          "sha256": "ddb6b088ea828131bac48d6c4ab4d6d8554296cb176d0eacb02ae2f1dd37078b"
+        }
+      }
+    },
+    {
+      "case_id": "locked_extension_viscoelastic_stress_growth_00000098",
+      "head_sha": "2bfca64576f6b829268f103b8a3c1dc034f1f745",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 47,
+      "mask_start_frame": 47,
+      "evidence_frame": 60,
+      "mask_area_min_active": 62373,
+      "mask_area_max": 65056,
+      "mechanics": {
+        "lock_frame": 46,
+        "force_at_lock": 20867.463554109174,
+        "final_true_force": 11885.78079306097,
+        "final_cf_force": 29849.146315157377,
+        "equilibrium_force": 11763.888888888887
+      },
+      "formal_case_diversity": {
+        "mean_abs_difference": 6.970364888509114,
+        "changed_fraction": 0.4849586486816406
+      },
+      "files": {
+        "true/video.mp4": {
+          "bytes": 28298660,
+          "sha256": "df8070990e62202e9f0fbc74b4be3e5765c0b80c849ccd0de0bc4f42ea02389c"
+        },
+        "counterfactual_reflect_post_lock_force_relaxation/video.mp4": {
+          "bytes": 28356473,
+          "sha256": "ed63d65a6133c4e2ddce98fa53e600a255c1f4c43993077bea6ded83a597a170"
+        },
+        "counterfactual_reflect_post_lock_force_relaxation/mask.mp4": {
+          "bytes": 2039439,
+          "sha256": "0e9edc9766fe8370d27aab955f09405e9c0f19752f47c9c262bc7f25465b36e0"
+        },
+        "counterfactual_reflect_post_lock_force_relaxation/mask_overlay.mp4": {
+          "bytes": 27354878,
+          "sha256": "daa55ac46c05618e90cf5cf969d298bfd8883ddca3c10aa17d6c582f9e181a86"
+        }
+      }
+    }
+  ]
+}

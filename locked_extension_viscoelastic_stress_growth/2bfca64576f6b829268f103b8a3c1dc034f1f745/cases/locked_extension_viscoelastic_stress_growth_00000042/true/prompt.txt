@@ -1,0 +1,1 @@
+A passive viscoelastic strip and a metal measuring spring are connected in series on a test rig. An actuator stretches the assembly and then locks its endpoint. The spring extension indicates tensile force. After the endpoint locks, the force relaxes: the measuring spring contracts while the viscoelastic strip gradually elongates. The total endpoint separation remains fixed.

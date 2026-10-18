@@ -1,0 +1,158 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.10000000149011612,
+      0.0,
+      1.149999976158142
+    ],
+    "pos": [
+      0.9165246486663818,
+      -6.699999809265137,
+      3.696000099182129
+    ],
+    "projection": "perspective"
+  },
+  "category": "braid_inextensibility",
+  "descriptions": {
+    "counterfactual": "A hollow braided sleeve made from inextensible interwoven fibers is held by end grips with freely sliding radial fingers. An actuator slowly pulls the grips apart along their common axis. As the sleeve lengthens, its diameter anomalously increases instead of decreasing, requiring the supposedly inextensible fibers to stretch.",
+    "true": "A hollow braided sleeve made from inextensible interwoven fibers is held by end grips with freely sliding radial fingers. An actuator slowly pulls the grips apart along their common axis. As the sleeve lengthens, its circumference and diameter decrease; the fibers keep their length while the braid angle changes."
+  },
+  "evidence_frame": 48,
+  "first_changed_frame": 28,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "41b5800036b424fbfca673b2504d9f136a069af0",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "8d2a95ec55da0d0a8ec54a67a16638e678ad8e36a87a13590a39921dbba57664",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "4753bcfe70eb10ff2b724b0c92520ddd958e45cb7a0821310cf66a06ef3745a5",
+      "engine/run.py": "dcead19281b1a4a56d2b3d95551132f553e0756d3878a82ca95d2dcd7ec95dcc",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "9a16946e50075278fd52c8ac87f63db95920f5ee242cc5bd37674e53c02fca59",
+      "src/scaling.py": "10f3b21a13116687dd471ebd02ad7ab41166f9fcc138ab2f3b14e9d0b8b1346e",
+      "src/violation.py": "53d6be55724df08dc993c6afbd5ae75203db0703a9a63507540ee7163d869e38",
+      "tests/test_design.py": "58b3d7e5ab2eb072f67192b6b7e08d6353214790cdf6de49314cb1974e6da02a"
+    }
+  },
+  "intervention_frame": 28,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "fiber_-1_0",
+      "fiber_-1_1",
+      "fiber_-1_2",
+      "fiber_-1_3",
+      "fiber_-1_4",
+      "fiber_-1_5",
+      "fiber_-1_6",
+      "fiber_-1_7",
+      "fiber_1_0",
+      "fiber_1_1",
+      "fiber_1_2",
+      "fiber_1_3",
+      "fiber_1_4",
+      "fiber_1_5",
+      "fiber_1_6",
+      "fiber_1_7"
+    ],
+    "target_ontology": [
+      "fiber_1",
+      "fiber_-1"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 28,
+  "onset_frame": 28,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_reverse_radius_change_during_axial_extension/mask.mp4",
+      "mask_overlay": "counterfactual_reverse_radius_change_during_axial_extension/mask_overlay.mp4",
+      "prompt": "counterfactual_reverse_radius_change_during_axial_extension/prompt.txt",
+      "trajectory": "counterfactual_reverse_radius_change_during_axial_extension/trajectory.npz",
+      "video": "counterfactual_reverse_radius_change_during_axial_extension/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "braided_sleeve_extension_radial_expansion",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 8,
+      "depth": 0.75,
+      "extension": 0.8064,
+      "fiber_length": 2.940633154740505,
+      "fiber_radius": 0.009,
+      "gravity": 9.81,
+      "initial_length": 1.612,
+      "initial_radius": 0.38333333333333336,
+      "length": 1.04,
+      "model": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+      "onset": 27,
+      "ramp_frames": 48,
+      "response": 1.12,
+      "scale": 1.0,
+      "solver_steps_per_frame": 1,
+      "strand_count": 8,
+      "time_scale": 1.0,
+      "view": 8,
+      "weave_amplitude": 0.014
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "As the sleeve lengthens, its circumference and diameter decrease; the fibers keep their length while the braid angle changes.",
+        "As the sleeve lengthens, its diameter anomalously increases instead of decreasing, requiring the supposedly inextensible fibers to stretch."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "As the sleeve lengthens, its circumference and diameter decrease; the fibers keep their length while the braid angle changes."
+        ],
+        "violation_if_true": [
+          "As the sleeve lengthens, its diameter anomalously increases instead of decreasing, requiring the supposedly inextensible fibers to stretch."
+        ]
+      },
+      "violation_types": [
+        "reverse_radius_change_during_axial_extension"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "braided_sleeve_extension_radial_expansion_00000098",
+  "timebase": {
+    "internal_dt": 0.041666666666666664,
+    "internal_substeps": 1,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "inextensible interlaced helical fibers; exact discretized strand arclength constraint; radially sliding end jaws",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "reverse_radius_change_during_axial_extension"
+}

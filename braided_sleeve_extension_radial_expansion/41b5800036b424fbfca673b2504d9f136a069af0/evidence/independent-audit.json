@@ -1,0 +1,88 @@
+{
+  "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+  "cases": [
+    {
+      "case_id": "braided_sleeve_extension_radial_expansion_00000042",
+      "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 24,
+      "mask_start_frame": 24,
+      "evidence_frame": 50,
+      "mask_area_min_active": 109414,
+      "mask_area_max": 138919,
+      "mechanics": {
+        "true_max_fiber_length_error": 3.913314117198752e-12,
+        "cf_fiber_length_ratio": 1.1970889896823136,
+        "true_final_radius": 0.4476542347701531,
+        "cf_final_radius": 0.6052346541187359
+      },
+      "formal_case_diversity": null,
+      "files": {
+        "true/video.mp4": {
+          "bytes": 82295791,
+          "sha256": "26e58e7ca73e5ec7620b7c0bd7d43cd758971a6601fc928d17874b5086173cf1"
+        },
+        "counterfactual_reverse_radius_change_during_axial_extension/video.mp4": {
+          "bytes": 88049136,
+          "sha256": "8c9582eb4397d833bcf7732c4a9ce6a1d8245efc32600a64a82d24781d427f9d"
+        },
+        "counterfactual_reverse_radius_change_during_axial_extension/mask.mp4": {
+          "bytes": 25893180,
+          "sha256": "0eafdd0f663e83f6e979789f7547fd2c037637feabd3713094db07d9910ed58d"
+        },
+        "counterfactual_reverse_radius_change_during_axial_extension/mask_overlay.mp4": {
+          "bytes": 72076788,
+          "sha256": "4c2cff3b3c979f065d0faaef4045ecb76a3c6992b037b810e8d7490145e699ed"
+        }
+      }
+    },
+    {
+      "case_id": "braided_sleeve_extension_radial_expansion_00000098",
+      "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 28,
+      "mask_start_frame": 28,
+      "evidence_frame": 48,
+      "mask_area_min_active": 75584,
+      "mask_area_max": 119546,
+      "mechanics": {
+        "true_max_fiber_length_error": 2.48245868306185e-12,
+        "cf_fiber_length_ratio": 1.3799925817444265,
+        "true_final_radius": 0.2541246750416577,
+        "cf_final_radius": 0.512541991625009
+      },
+      "formal_case_diversity": {
+        "mean_abs_difference": 11.7325439453125,
+        "changed_fraction": 0.4965248107910156
+      },
+      "files": {
+        "true/video.mp4": {
+          "bytes": 69666248,
+          "sha256": "52b547002d6ab3ac64860ce6e1da3c8bb0b819681a6d766dfedbf35163fa4544"
+        },
+        "counterfactual_reverse_radius_change_during_axial_extension/video.mp4": {
+          "bytes": 80371099,
+          "sha256": "ddec36cc31c5e179ef777609ba1167e9a1a59c55de0dc3838049ed460e0c6144"
+        },
+        "counterfactual_reverse_radius_change_during_axial_extension/mask.mp4": {
+          "bytes": 20300309,
+          "sha256": "7460859f1f009e5c348862727128148f53c287be30b4d7e7f152a1eaa895fee0"
+        },
+        "counterfactual_reverse_radius_change_during_axial_extension/mask_overlay.mp4": {
+          "bytes": 67622115,
+          "sha256": "30d9d481474b1882867d3cfeb8453a3bc6f1a5b16c5489e188943ca79e91c642"
+        }
+      }
+    }
+  ]
+}

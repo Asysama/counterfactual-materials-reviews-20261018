@@ -1,0 +1,61 @@
+{
+  "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+  "files": {
+    "braided_sleeve_extension_radial_expansion_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-42-true.mp4",
+      "bytes": 82295791,
+      "sha256": "26e58e7ca73e5ec7620b7c0bd7d43cd758971a6601fc928d17874b5086173cf1",
+      "github_asset_id": 652936222,
+      "server_digest": "sha256:26e58e7ca73e5ec7620b7c0bd7d43cd758971a6601fc928d17874b5086173cf1"
+    },
+    "braided_sleeve_extension_radial_expansion_00000042/counterfactual_reverse_radius_change_during_axial_extension/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-42-video.mp4",
+      "bytes": 88049136,
+      "sha256": "8c9582eb4397d833bcf7732c4a9ce6a1d8245efc32600a64a82d24781d427f9d",
+      "github_asset_id": 652938360,
+      "server_digest": "sha256:8c9582eb4397d833bcf7732c4a9ce6a1d8245efc32600a64a82d24781d427f9d"
+    },
+    "braided_sleeve_extension_radial_expansion_00000042/counterfactual_reverse_radius_change_during_axial_extension/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-42-mask.mp4",
+      "bytes": 25893180,
+      "sha256": "0eafdd0f663e83f6e979789f7547fd2c037637feabd3713094db07d9910ed58d",
+      "github_asset_id": 652941069,
+      "server_digest": "sha256:0eafdd0f663e83f6e979789f7547fd2c037637feabd3713094db07d9910ed58d"
+    },
+    "braided_sleeve_extension_radial_expansion_00000042/counterfactual_reverse_radius_change_during_axial_extension/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-42-mask_overlay.mp4",
+      "bytes": 72076788,
+      "sha256": "4c2cff3b3c979f065d0faaef4045ecb76a3c6992b037b810e8d7490145e699ed",
+      "github_asset_id": 652942374,
+      "server_digest": "sha256:4c2cff3b3c979f065d0faaef4045ecb76a3c6992b037b810e8d7490145e699ed"
+    },
+    "braided_sleeve_extension_radial_expansion_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-98-true.mp4",
+      "bytes": 69666248,
+      "sha256": "52b547002d6ab3ac64860ce6e1da3c8bb0b819681a6d766dfedbf35163fa4544",
+      "github_asset_id": 652943905,
+      "server_digest": "sha256:52b547002d6ab3ac64860ce6e1da3c8bb0b819681a6d766dfedbf35163fa4544"
+    },
+    "braided_sleeve_extension_radial_expansion_00000098/counterfactual_reverse_radius_change_during_axial_extension/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-98-video.mp4",
+      "bytes": 80371099,
+      "sha256": "ddec36cc31c5e179ef777609ba1167e9a1a59c55de0dc3838049ed460e0c6144",
+      "github_asset_id": 652946613,
+      "server_digest": "sha256:ddec36cc31c5e179ef777609ba1167e9a1a59c55de0dc3838049ed460e0c6144"
+    },
+    "braided_sleeve_extension_radial_expansion_00000098/counterfactual_reverse_radius_change_during_axial_extension/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-98-mask.mp4",
+      "bytes": 20300309,
+      "sha256": "7460859f1f009e5c348862727128148f53c287be30b4d7e7f152a1eaa895fee0",
+      "github_asset_id": 652948746,
+      "server_digest": "sha256:7460859f1f009e5c348862727128148f53c287be30b4d7e7f152a1eaa895fee0"
+    },
+    "braided_sleeve_extension_radial_expansion_00000098/counterfactual_reverse_radius_change_during_axial_extension/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/braided_sleeve_extension_radial_expansion-41b5800036b424fbfca673b2504d9f136a069af0-98-mask_overlay.mp4",
+      "bytes": 67622115,
+      "sha256": "30d9d481474b1882867d3cfeb8453a3bc6f1a5b16c5489e188943ca79e91c642",
+      "github_asset_id": 652949380,
+      "server_digest": "sha256:30d9d481474b1882867d3cfeb8453a3bc6f1a5b16c5489e188943ca79e91c642"
+    }
+  }
+}

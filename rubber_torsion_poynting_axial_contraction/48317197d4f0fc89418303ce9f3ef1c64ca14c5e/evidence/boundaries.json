@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "scope": "16 independent combined physical-axis corners, non-rendering",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 1.764476050694729,
+        "cf_final_length": 1.5355239493052708,
+        "reference_length": 1.65
+      },
+      "evidence_frame": 51
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 8.881784197001252e-16,
+        "true_final_length": 1.8838413837834664,
+        "cf_final_length": 1.4161586162165334,
+        "reference_length": 1.65
+      },
+      "evidence_frame": 44
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 1.764476050694729,
+        "cf_final_length": 1.5355239493052708,
+        "reference_length": 1.65
+      },
+      "evidence_frame": 60
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 8.881784197001252e-16,
+        "true_final_length": 1.8838413837834664,
+        "cf_final_length": 1.4161586162165334,
+        "reference_length": 1.65
+      },
+      "evidence_frame": 53
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 1.8401143954712107,
+        "cf_final_length": 1.4598856045287891,
+        "reference_length": 1.65
+      },
+      "evidence_frame": 46
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 2.024712157665938,
+        "cf_final_length": 1.2752878423340617,
+        "reference_length": 1.65
+      },
+      "evidence_frame": 40
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 1.8401143954712107,
+        "cf_final_length": 1.4598856045287891,
+        "reference_length": 1.65
+      },
+      "evidence_frame": 55
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 2.024712157665938,
+        "cf_final_length": 1.2752878423340617,
+        "reference_length": 1.65
+      },
+      "evidence_frame": 49
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 8.881784197001252e-16,
+        "true_final_length": 2.3307515607533427,
+        "cf_final_length": 2.1572484392466578,
+        "reference_length": 2.244
+      },
+      "evidence_frame": 56
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 8.881784197001252e-16,
+        "true_final_length": 2.426257629375439,
+        "cf_final_length": 2.0617423706245614,
+        "reference_length": 2.244
+      },
+      "evidence_frame": 46
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 8.881784197001252e-16,
+        "true_final_length": 2.3307515607533427,
+        "cf_final_length": 2.1572484392466578,
+        "reference_length": 2.244
+      },
+      "evidence_frame": 65
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 8.881784197001252e-16,
+        "true_final_length": 2.426257629375439,
+        "cf_final_length": 2.0617423706245614,
+        "reference_length": 2.244
+      },
+      "evidence_frame": 55
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 2.3907140304117487,
+        "cf_final_length": 2.0972859695882518,
+        "reference_length": 2.244
+      },
+      "evidence_frame": 49
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 8.881784197001252e-16,
+        "true_final_length": 2.5447287731789183,
+        "cf_final_length": 1.943271226821082,
+        "reference_length": 2.244
+      },
+      "evidence_frame": 42
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 1.3322676295501878e-15,
+        "true_final_length": 2.3907140304117487,
+        "cf_final_length": 2.0972859695882518,
+        "reference_length": 2.244
+      },
+      "evidence_frame": 58
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "zero_force_energy_derivative_max": 8.881784197001252e-16,
+        "true_final_length": 2.5447287731789183,
+        "cf_final_length": 1.943271226821082,
+        "reference_length": 2.244
+      },
+      "evidence_frame": 51
+    }
+  ]
+}

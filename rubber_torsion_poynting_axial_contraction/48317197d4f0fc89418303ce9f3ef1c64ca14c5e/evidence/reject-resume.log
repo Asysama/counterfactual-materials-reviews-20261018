@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/opt/siyuan-cf-materials-five-20261018/source-v4/repos/rubber_torsion_poynting_axial_contraction/generators/rubber_torsion_poynting_axial_contraction/examples/generate.py", line 5, in <module>
+    if __name__=='__main__':cli()
+                            ^^^^^
+  File "/opt/siyuan-cf-materials-five-20261018/source-v4/repos/rubber_torsion_poynting_axial_contraction/generators/rubber_torsion_poynting_axial_contraction/engine/run.py", line 94, in cli
+    assert a.resume and json.loads(hf.read_text())==header,'incompatible resume'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: incompatible resume

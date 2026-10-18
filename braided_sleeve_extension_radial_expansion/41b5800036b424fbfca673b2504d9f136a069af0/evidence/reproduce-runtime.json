@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "braided_sleeve_extension_radial_expansion",
+  "case_set": "reproduce-seed-42",
+  "commit": "41b5800036b424fbfca673b2504d9f136a069af0",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}

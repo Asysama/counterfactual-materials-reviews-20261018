@@ -1,0 +1,526 @@
+{
+  "status": "PASS",
+  "scope": "Reviewer-named object sets, exact native decoded projection at six frames; visual review separate",
+  "cases": [
+    {
+      "case_id": "braided_sleeve_extension_radial_expansion_00000042",
+      "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+      "no_scene_text_objects": true,
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.24170814454555511,
+              0.3920120298862457
+            ],
+            [
+              0.6594757437705994,
+              0.6625014543533325
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.042745787650346756,
+              0.2111261934041977
+            ],
+            [
+              0.9798715114593506,
+              0.7119225263595581
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 24,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.24163280427455902,
+              0.3920641541481018
+            ],
+            [
+              0.6595924496650696,
+              0.6625037789344788
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.04268452897667885,
+              0.21130388975143433
+            ],
+            [
+              0.9798948764801025,
+              0.7119119167327881
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 50,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.2398107945919037,
+              0.38087892532348633
+            ],
+            [
+              0.7415932416915894,
+              0.6725095510482788
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.04261898249387741,
+              0.2114969789981842
+            ],
+            [
+              0.9799193739891052,
+              0.7126092314720154
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 51,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.23970262706279755,
+              0.38021352887153625
+            ],
+            [
+              0.7458755970001221,
+              0.673091471195221
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.04261644184589386,
+              0.21150445938110352
+            ],
+            [
+              0.9799202680587769,
+              0.7126449942588806
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.2381325513124466,
+              0.3712848722934723
+            ],
+            [
+              0.798992931842804,
+              0.6808174848556519
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.04251915588974953,
+              0.21179428696632385
+            ],
+            [
+              0.9799561500549316,
+              0.7130459547042847
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.23803052306175232,
+              0.37137728929519653
+            ],
+            [
+              0.7989570498466492,
+              0.6807758212089539
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.04244781658053398,
+              0.21201051771640778
+            ],
+            [
+              0.9799818992614746,
+              0.7130101323127747
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "braided_sleeve_extension_radial_expansion_00000098",
+      "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+      "no_scene_text_objects": true,
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.24426627159118652,
+              0.4318147301673889
+            ],
+            [
+              0.5756158828735352,
+              0.6353563070297241
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.042653679847717285,
+              0.19415466487407684
+            ],
+            [
+              0.9705914855003357,
+              0.7146055102348328
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 28,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.24428127706050873,
+              0.4317644536495209
+            ],
+            [
+              0.5758582353591919,
+              0.6354135274887085
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.042720336467027664,
+              0.19396033883094788
+            ],
+            [
+              0.970468282699585,
+              0.7146188616752625
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 48,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.2413722574710846,
+              0.41816553473472595
+            ],
+            [
+              0.6360015273094177,
+              0.6442320346832275
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.0427684560418129,
+              0.19382166862487793
+            ],
+            [
+              0.9703797698020935,
+              0.7146281599998474
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 49,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.24110831320285797,
+              0.41698187589645386
+            ],
+            [
+              0.640601396560669,
+              0.6450150012969971
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.04277076944708824,
+              0.19381454586982727
+            ],
+            [
+              0.9703753590583801,
+              0.7146285772323608
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.23476293683052063,
+              0.390007883310318
+            ],
+            [
+              0.732032060623169,
+              0.663284182548523
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.04287024214863777,
+              0.19353064894676208
+            ],
+            [
+              0.9701927304267883,
+              0.714647114276886
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "fiber_-1_0",
+            "fiber_-1_1",
+            "fiber_-1_2",
+            "fiber_-1_3",
+            "fiber_-1_4",
+            "fiber_-1_5",
+            "fiber_-1_6",
+            "fiber_-1_7",
+            "fiber_1_0",
+            "fiber_1_1",
+            "fiber_1_2",
+            "fiber_1_3",
+            "fiber_1_4",
+            "fiber_1_5",
+            "fiber_1_6",
+            "fiber_1_7"
+          ],
+          "target_bounds": [
+            [
+              0.23476852476596832,
+              0.3899385333061218
+            ],
+            [
+              0.7319113612174988,
+              0.6633097529411316
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.042941320687532425,
+              0.19333010911941528
+            ],
+            [
+              0.9700626134872437,
+              0.7146598100662231
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}

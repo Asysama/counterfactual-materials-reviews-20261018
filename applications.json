@@ -1,0 +1,42 @@
+[
+  {
+    "generator_name": "notched_brittle_strip_failure_order_reversal",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/712",
+    "head_sha": "ca338cdfdfd69c9dc2d2574701323d26599144de",
+    "review_url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/ca338cdfdfd69c9dc2d2574701323d26599144de/index.html",
+    "note": "Preparation only. Public browser playback and final visual review are pending. Do not submit to Sara.",
+    "self_check_complete": false
+  },
+  {
+    "generator_name": "locked_extension_viscoelastic_stress_growth",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/713",
+    "head_sha": "2bfca64576f6b829268f103b8a3c1dc034f1f745",
+    "review_url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/locked_extension_viscoelastic_stress_growth/2bfca64576f6b829268f103b8a3c1dc034f1f745/index.html",
+    "note": "Preparation only. Public browser playback and final visual review are pending. Do not submit to Sara.",
+    "self_check_complete": false
+  },
+  {
+    "generator_name": "rubber_torsion_poynting_axial_contraction",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/714",
+    "head_sha": "48317197d4f0fc89418303ce9f3ef1c64ca14c5e",
+    "review_url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/rubber_torsion_poynting_axial_contraction/48317197d4f0fc89418303ce9f3ef1c64ca14c5e/index.html",
+    "note": "Preparation only. Public browser playback and final visual review are pending. Do not submit to Sara.",
+    "self_check_complete": false
+  },
+  {
+    "generator_name": "adhesive_tape_low_angle_subthreshold_peeling",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/715",
+    "head_sha": "03efb21a4c4506030a3c3323995fcd8abbaf8a4c",
+    "review_url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/adhesive_tape_low_angle_subthreshold_peeling/03efb21a4c4506030a3c3323995fcd8abbaf8a4c/index.html",
+    "note": "Preparation only. Public browser playback and final visual review are pending. Do not submit to Sara.",
+    "self_check_complete": false
+  },
+  {
+    "generator_name": "braided_sleeve_extension_radial_expansion",
+    "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/716",
+    "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+    "review_url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/braided_sleeve_extension_radial_expansion/41b5800036b424fbfca673b2504d9f136a069af0/index.html",
+    "note": "Preparation only. Public browser playback and final visual review are pending. Do not submit to Sara.",
+    "self_check_complete": false
+  }
+]

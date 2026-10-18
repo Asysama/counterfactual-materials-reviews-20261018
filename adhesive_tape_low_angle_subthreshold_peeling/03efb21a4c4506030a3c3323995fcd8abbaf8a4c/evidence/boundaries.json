@@ -1,0 +1,390 @@
+{
+  "status": "PASS",
+  "scope": "16 independent combined physical-axis corners, non-rendering",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 33.15,
+        "maximum_energy_release": [
+          45.76899605427246,
+          7.515154311280131
+        ],
+        "final_true_peel": [
+          0.30793319823281096,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.30793319823281096,
+          0.30793319823281096
+        ]
+      },
+      "evidence_frame": 50
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 33.15,
+        "maximum_energy_release": [
+          64.92045226905086,
+          7.478486893862715
+        ],
+        "final_true_peel": [
+          0.8320360391761171,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.8320360391761171,
+          0.8320360391761171
+        ]
+      },
+      "evidence_frame": 38
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 33.15,
+        "maximum_energy_release": [
+          45.76899605427246,
+          7.515154311280131
+        ],
+        "final_true_peel": [
+          0.30793319823281096,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.30793319823281096,
+          0.30793319823281096
+        ]
+      },
+      "evidence_frame": 59
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 33.15,
+        "maximum_energy_release": [
+          64.92045226905086,
+          7.478486893862715
+        ],
+        "final_true_peel": [
+          0.8320360391761171,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.8320360391761171,
+          0.8320360391761171
+        ]
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 43.68000000000001,
+        "maximum_energy_release": [
+          60.35470303621785,
+          9.949640974863234
+        ],
+        "final_true_peel": [
+          0.4069528355193496,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.4069528355193496,
+          0.4069528355193496
+        ]
+      },
+      "evidence_frame": 46
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 43.68000000000001,
+        "maximum_energy_release": [
+          85.57421596278117,
+          9.885979233121493
+        ],
+        "final_true_peel": [
+          1.0971844379361033,
+          0.0
+        ],
+        "final_cf_peel": [
+          1.0971844379361033,
+          1.0971844379361033
+        ]
+      },
+      "evidence_frame": 37
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 43.68000000000001,
+        "maximum_energy_release": [
+          60.35470303621785,
+          9.949640974863234
+        ],
+        "final_true_peel": [
+          0.4069528355193496,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.4069528355193496,
+          0.4069528355193496
+        ]
+      },
+      "evidence_frame": 55
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 43.68000000000001,
+        "maximum_energy_release": [
+          85.57421596278117,
+          9.885979233121493
+        ],
+        "final_true_peel": [
+          1.0971844379361033,
+          0.0
+        ],
+        "final_cf_peel": [
+          1.0971844379361033,
+          1.0971844379361033
+        ]
+      },
+      "evidence_frame": 46
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 33.15,
+        "maximum_energy_release": [
+          45.76899605427246,
+          7.515154311280131
+        ],
+        "final_true_peel": [
+          0.30793319823281096,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.30793319823281096,
+          0.30793319823281096
+        ]
+      },
+      "evidence_frame": 50
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 33.15,
+        "maximum_energy_release": [
+          64.92045226905086,
+          7.478486893862715
+        ],
+        "final_true_peel": [
+          0.8320360391761171,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.8320360391761171,
+          0.8320360391761171
+        ]
+      },
+      "evidence_frame": 38
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 33.15,
+        "maximum_energy_release": [
+          45.76899605427246,
+          7.515154311280131
+        ],
+        "final_true_peel": [
+          0.30793319823281096,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.30793319823281096,
+          0.30793319823281096
+        ]
+      },
+      "evidence_frame": 59
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 33.15,
+        "maximum_energy_release": [
+          64.92045226905086,
+          7.478486893862715
+        ],
+        "final_true_peel": [
+          0.8320360391761171,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.8320360391761171,
+          0.8320360391761171
+        ]
+      },
+      "evidence_frame": 47
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 43.68000000000001,
+        "maximum_energy_release": [
+          60.35470303621785,
+          9.949640974863234
+        ],
+        "final_true_peel": [
+          0.4069528355193496,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.4069528355193496,
+          0.4069528355193496
+        ]
+      },
+      "evidence_frame": 46
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 43.68000000000001,
+        "maximum_energy_release": [
+          85.57421596278117,
+          9.885979233121493
+        ],
+        "final_true_peel": [
+          1.0971844379361033,
+          0.0
+        ],
+        "final_cf_peel": [
+          1.0971844379361033,
+          1.0971844379361033
+        ]
+      },
+      "evidence_frame": 37
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 43.68000000000001,
+        "maximum_energy_release": [
+          60.35470303621785,
+          9.949640974863234
+        ],
+        "final_true_peel": [
+          0.4069528355193496,
+          0.0
+        ],
+        "final_cf_peel": [
+          0.4069528355193496,
+          0.4069528355193496
+        ]
+      },
+      "evidence_frame": 55
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 43.68000000000001,
+        "maximum_energy_release": [
+          85.57421596278117,
+          9.885979233121493
+        ],
+        "final_true_peel": [
+          1.0971844379361033,
+          0.0
+        ],
+        "final_cf_peel": [
+          1.0971844379361033,
+          1.0971844379361033
+        ]
+      },
+      "evidence_frame": 46
+    }
+  ]
+}

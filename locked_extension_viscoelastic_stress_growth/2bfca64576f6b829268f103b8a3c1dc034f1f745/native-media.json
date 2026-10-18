@@ -1,0 +1,61 @@
+{
+  "head_sha": "2bfca64576f6b829268f103b8a3c1dc034f1f745",
+  "files": {
+    "locked_extension_viscoelastic_stress_growth_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-42-true.mp4",
+      "bytes": 23805685,
+      "sha256": "22f5edcbb576d52eab1cc910b423c81006a0a506f424e3486f9b3ba49d580e2a",
+      "github_asset_id": 652917818,
+      "server_digest": "sha256:22f5edcbb576d52eab1cc910b423c81006a0a506f424e3486f9b3ba49d580e2a"
+    },
+    "locked_extension_viscoelastic_stress_growth_00000042/counterfactual_reflect_post_lock_force_relaxation/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-42-video.mp4",
+      "bytes": 23898847,
+      "sha256": "28d903c54401d911727a2498d3c4a26cb647d311490d2c8e37f9d1b846292dfb",
+      "github_asset_id": 652918918,
+      "server_digest": "sha256:28d903c54401d911727a2498d3c4a26cb647d311490d2c8e37f9d1b846292dfb"
+    },
+    "locked_extension_viscoelastic_stress_growth_00000042/counterfactual_reflect_post_lock_force_relaxation/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-42-mask.mp4",
+      "bytes": 2010910,
+      "sha256": "4e9f9d2fac6df51d0bcc894619ffb8e0eb5388ddddf444a30722f8510a2a7090",
+      "github_asset_id": 652919577,
+      "server_digest": "sha256:4e9f9d2fac6df51d0bcc894619ffb8e0eb5388ddddf444a30722f8510a2a7090"
+    },
+    "locked_extension_viscoelastic_stress_growth_00000042/counterfactual_reflect_post_lock_force_relaxation/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-42-mask_overlay.mp4",
+      "bytes": 22999126,
+      "sha256": "ddb6b088ea828131bac48d6c4ab4d6d8554296cb176d0eacb02ae2f1dd37078b",
+      "github_asset_id": 652919825,
+      "server_digest": "sha256:ddb6b088ea828131bac48d6c4ab4d6d8554296cb176d0eacb02ae2f1dd37078b"
+    },
+    "locked_extension_viscoelastic_stress_growth_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-98-true.mp4",
+      "bytes": 28298660,
+      "sha256": "df8070990e62202e9f0fbc74b4be3e5765c0b80c849ccd0de0bc4f42ea02389c",
+      "github_asset_id": 652920463,
+      "server_digest": "sha256:df8070990e62202e9f0fbc74b4be3e5765c0b80c849ccd0de0bc4f42ea02389c"
+    },
+    "locked_extension_viscoelastic_stress_growth_00000098/counterfactual_reflect_post_lock_force_relaxation/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-98-video.mp4",
+      "bytes": 28356473,
+      "sha256": "ed63d65a6133c4e2ddce98fa53e600a255c1f4c43993077bea6ded83a597a170",
+      "github_asset_id": 652921240,
+      "server_digest": "sha256:ed63d65a6133c4e2ddce98fa53e600a255c1f4c43993077bea6ded83a597a170"
+    },
+    "locked_extension_viscoelastic_stress_growth_00000098/counterfactual_reflect_post_lock_force_relaxation/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-98-mask.mp4",
+      "bytes": 2039439,
+      "sha256": "0e9edc9766fe8370d27aab955f09405e9c0f19752f47c9c262bc7f25465b36e0",
+      "github_asset_id": 652922108,
+      "server_digest": "sha256:0e9edc9766fe8370d27aab955f09405e9c0f19752f47c9c262bc7f25465b36e0"
+    },
+    "locked_extension_viscoelastic_stress_growth_00000098/counterfactual_reflect_post_lock_force_relaxation/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/locked_extension_viscoelastic_stress_growth-2bfca64576f6b829268f103b8a3c1dc034f1f745-98-mask_overlay.mp4",
+      "bytes": 27354878,
+      "sha256": "daa55ac46c05618e90cf5cf969d298bfd8883ddca3c10aa17d6c582f9e181a86",
+      "github_asset_id": 652922449,
+      "server_digest": "sha256:daa55ac46c05618e90cf5cf969d298bfd8883ddca3c10aa17d6c582f9e181a86"
+    }
+  }
+}
