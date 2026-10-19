@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "notched_brittle_strip_failure_order_reversal",
+  "case_set": "reproduce-seed-42",
+  "commit": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}

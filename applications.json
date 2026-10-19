@@ -2,10 +2,10 @@
   {
     "generator_name": "notched_brittle_strip_failure_order_reversal",
     "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/712",
-    "head_sha": "3886de294f413fcae2c1174aca19ce12b225035f",
-    "review_url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/3886de294f413fcae2c1174aca19ce12b225035f/index.html",
-    "note": "Contributor self-check complete for this exact PR head: two native 2048×2048, 24fps, 120-frame cases; four decoded streams, matched prefix, object-only binary masks/red overlays, independent mechanics, geometry identity and native edge checks; 100000 static profiles, rendered axis probes, boundary cases, runtime witnesses and seed42 reproduction verified. Public browser copies play and seek. User review pending; no Sara application submitted.",
-    "self_check_complete": true
+    "head_sha": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+    "review_url": "https://asysama.github.io/counterfactual-materials-reviews-20261018/notched_brittle_strip_failure_order_reversal/e32ad766a78cb731247d6d5bd04b24c115e7a93a/index.html",
+    "note": "Preparation only. Public browser playback and final visual review are pending. Do not submit to Sara.",
+    "self_check_complete": false
   },
   {
     "generator_name": "locked_extension_viscoelastic_stress_growth",

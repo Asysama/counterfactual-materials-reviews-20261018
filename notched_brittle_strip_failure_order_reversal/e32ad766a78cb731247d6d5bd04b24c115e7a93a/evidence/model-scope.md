@@ -1,0 +1,7 @@
+# 缺口断裂顺序反转
+
+A calibrated brittle strip pair with identical minimum section and different elliptical notch root radii is loaded quasistatically. The sharp notch has the larger local stress multiplier and fractures first. The counterfactual increases only the sharp-notch local strength so that it remains intact while the rounded notch fractures. True eventually splits both on their predefined transverse plane; force-controlled grips retract to a stroke stop after failure. This is a reduced local-stress failure model, not fracture propagation FEM; K=1+2 sqrt(a/rho) is the calibrated isolated-elliptical-notch approximation, not an exact finite-width solution. Both strips have identical material strength in True. Self-weight is neglected relative to applied tension.
+
+No correctness or scale PASS is claimed until exact-head artifacts have been independently checked.
+
+Two identically calibrated 0–300 kN force gauges are attached to the lower load cells. Before fracture, equal actual forces produce equal indicated forces and synchronized needles. Each instrument has a critically damped 0.15-second response, so a broken strip unloads immediately in the force model while its physical needle returns continuously toward zero. The other intact strip continues carrying the commanded force. Indicated force is stored separately from actual measured force; damping changes only the instrument response, not the fracture model. The same instrument dynamics apply in both branches. Seven-frame upper-grip retraction remains unchanged.

@@ -1,0 +1,382 @@
+{
+  "status": "PASS",
+  "scope": "Reviewer-named object sets, exact native decoded projection at six frames; visual review separate",
+  "cases": [
+    {
+      "case_id": "notched_brittle_strip_failure_order_reversal_00000042",
+      "head_sha": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+      "no_floating_annotations": true,
+      "attached_calibration_markings": [
+        "gauge_label_0_0",
+        "gauge_label_0_100",
+        "gauge_label_0_200",
+        "gauge_label_0_300",
+        "gauge_label_1_0",
+        "gauge_label_1_100",
+        "gauge_label_1_200",
+        "gauge_label_1_300",
+        "gauge_unit_0",
+        "gauge_unit_1"
+      ],
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.2136312574148178,
+              0.2536006569862366
+            ],
+            [
+              0.3872588872909546,
+              0.702404260635376
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.1555321216583252,
+              0.08870015293359756
+            ],
+            [
+              0.8450236916542053,
+              0.9527654051780701
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 43,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.2136581391096115,
+              0.2537845969200134
+            ],
+            [
+              0.38726964592933655,
+              0.70245760679245
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.15547588467597961,
+              0.08900180459022522
+            ],
+            [
+              0.8450632691383362,
+              0.9527854919433594
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 59,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.21366851031780243,
+              0.25385260581970215
+            ],
+            [
+              0.3872736990451813,
+              0.7024768590927124
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.15545524656772614,
+              0.08911367505788803
+            ],
+            [
+              0.845077633857727,
+              0.9527921080589294
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 60,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.21366913616657257,
+              0.2538573145866394
+            ],
+            [
+              0.38727396726608276,
+              0.7024785280227661
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.15545397996902466,
+              0.08912114053964615
+            ],
+            [
+              0.8450785279273987,
+              0.9527930021286011
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.21368899941444397,
+              0.2539858818054199
+            ],
+            [
+              0.3872818350791931,
+              0.7025153636932373
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.15541596710681915,
+              0.08933203667402267
+            ],
+            [
+              0.8451049327850342,
+              0.9528059959411621
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.21370874345302582,
+              0.254110187292099
+            ],
+            [
+              0.3872896432876587,
+              0.7025506496429443
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.15537981688976288,
+              0.08953612297773361
+            ],
+            [
+              0.8451299071311951,
+              0.9528179168701172
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "notched_brittle_strip_failure_order_reversal_00000098",
+      "head_sha": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+      "no_floating_annotations": true,
+      "attached_calibration_markings": [
+        "gauge_label_0_0",
+        "gauge_label_0_100",
+        "gauge_label_0_200",
+        "gauge_label_0_300",
+        "gauge_label_1_0",
+        "gauge_label_1_100",
+        "gauge_label_1_200",
+        "gauge_label_1_300",
+        "gauge_unit_0",
+        "gauge_unit_1"
+      ],
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.2386511266231537,
+              0.2692955434322357
+            ],
+            [
+              0.3790646195411682,
+              0.709345281124115
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.15826983749866486,
+              0.07539721578359604
+            ],
+            [
+              0.8402457237243652,
+              0.9507303237915039
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 44,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.2388022094964981,
+              0.269417405128479
+            ],
+            [
+              0.3791313171386719,
+              0.7093896269798279
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.15837186574935913,
+              0.07512789964675903
+            ],
+            [
+              0.840119481086731,
+              0.9506624341011047
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 59,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.23885394632816315,
+              0.2694590091705322
+            ],
+            [
+              0.37915414571762085,
+              0.7094046473503113
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.15840695798397064,
+              0.07503634691238403
+            ],
+            [
+              0.8400761485099792,
+              0.950639009475708
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 60,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.23885740339756012,
+              0.26946181058883667
+            ],
+            [
+              0.3791556656360626,
+              0.7094056010246277
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.1584092527627945,
+              0.07503025978803635
+            ],
+            [
+              0.84007328748703,
+              0.9506374597549438
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.2389611154794693,
+              0.2695452868938446
+            ],
+            [
+              0.3792014420032501,
+              0.7094356417655945
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.15847977995872498,
+              0.07484763860702515
+            ],
+            [
+              0.8399860262870789,
+              0.9505905508995056
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "sharp_lower",
+            "sharp_upper"
+          ],
+          "target_bounds": [
+            [
+              0.23906195163726807,
+              0.26962530612945557
+            ],
+            [
+              0.3792458772659302,
+              0.7094635963439941
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.1585484892129898,
+              0.0746706947684288
+            ],
+            [
+              0.8399010896682739,
+              0.950543999671936
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}

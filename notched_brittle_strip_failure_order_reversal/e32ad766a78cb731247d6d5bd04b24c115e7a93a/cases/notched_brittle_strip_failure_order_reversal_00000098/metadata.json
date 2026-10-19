@@ -1,0 +1,148 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      2.0199999809265137
+    ],
+    "pos": [
+      0.7434030175209045,
+      -6.099999904632568,
+      4.338000297546387
+    ],
+    "projection": "perspective"
+  },
+  "category": "brittle_notch_strength",
+  "descriptions": {
+    "counterfactual": "Two brittle strips of the same material and minimum cross-section are clamped in a tensile test rig. One strip has sharp side notches; the other has rounded side notches. The actuators apply the same rising tensile-load command. Two identically calibrated force gauges show matching rising readings while both strips remain intact. After a strip breaks, its damped gauge needle returns smoothly toward zero. The rounded-notch strip splits first, while the sharply notched strip anomalously remains intact at a load that should already fracture it. The sharply notched strip remains intact during the final hold. An upper grip retracts only after its strip fractures.",
+    "true": "Two brittle strips of the same material and minimum cross-section are clamped in a tensile test rig. One strip has sharp side notches; the other has rounded side notches. The actuators apply the same rising tensile-load command. Two identically calibrated force gauges show matching rising readings while both strips remain intact. After a strip breaks, its damped gauge needle returns smoothly toward zero. The sharply notched strip splits first; the rounded-notch strip splits later. Each upper grip retracts a short distance after its strip breaks."
+  },
+  "evidence_frame": 59,
+  "first_changed_frame": 44,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "8d2a95ec55da0d0a8ec54a67a16638e678ad8e36a87a13590a39921dbba57664",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "4753bcfe70eb10ff2b724b0c92520ddd958e45cb7a0821310cf66a06ef3745a5",
+      "engine/run.py": "dcead19281b1a4a56d2b3d95551132f553e0756d3878a82ca95d2dcd7ec95dcc",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "8aa59ecb7c16c04c966539202d0f05ee6124bba3a0c13bd91a8677acceabce8a",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "23dd7469183ede7ce96f9a2c6d208cd8d7fb652f9beeb6c154b1eee8e40c4d32",
+      "src/scaling.py": "3fb53884e176dd1688fba6c3796bca89c16fa0600059b8cdff73143494290e41",
+      "src/violation.py": "d3770ebd7452daed9ac65465c5f052e3b09c62aca74eaf06a5a5ee11f1a8d35c",
+      "tests/test_design.py": "f402f4681b607c45279f0478e1fd99ba73ea0e62d363364e999459ff5f99b60d"
+    }
+  },
+  "intervention_frame": 44,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "sharp_lower",
+      "sharp_upper"
+    ],
+    "target_ontology": [
+      "sharp_upper",
+      "sharp_lower"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 44,
+  "onset_frame": 44,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_sharp_notch_strength_increase/mask.mp4",
+      "mask_overlay": "counterfactual_sharp_notch_strength_increase/mask_overlay.mp4",
+      "prompt": "counterfactual_sharp_notch_strength_increase/prompt.txt",
+      "trajectory": "counterfactual_sharp_notch_strength_increase/trajectory.npz",
+      "video": "counterfactual_sharp_notch_strength_increase/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "notched_brittle_strip_failure_order_reversal",
+  "phenomenon_data": {
+    "scene_params": {
+      "K_round": 3.0,
+      "K_sharp": 6.8423739467217715,
+      "appearance": 8,
+      "depth": 0.75,
+      "gauge_full_scale_newtons": 300000.0,
+      "gauge_response_seconds": 0.15,
+      "gravity": 9.81,
+      "length": 1.04,
+      "material_strength": 12000000.0,
+      "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane",
+      "notch_depth": 0.16,
+      "onset": 27,
+      "peak_nominal_stress": 7280000.000000001,
+      "ramp_frames": 51,
+      "response": 1.12,
+      "rho_round": 0.16,
+      "rho_sharp": 0.018750000000000003,
+      "scale": 1.0,
+      "solver_steps_per_frame": 1,
+      "thickness": 0.09,
+      "time_scale": 1.0,
+      "view": 8,
+      "width": 0.5824
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "The sharply notched strip splits first; the rounded-notch strip splits later. Each upper grip retracts a short distance after its strip breaks.",
+        "The rounded-notch strip splits first, while the sharply notched strip anomalously remains intact at a load that should already fracture it. The sharply notched strip remains intact during the final hold. An upper grip retracts only after its strip fractures."
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "The sharply notched strip splits first; the rounded-notch strip splits later. Each upper grip retracts a short distance after its strip breaks."
+        ],
+        "violation_if_true": [
+          "The rounded-notch strip splits first, while the sharply notched strip anomalously remains intact at a load that should already fracture it. The sharply notched strip remains intact during the final hold. An upper grip retracts only after its strip fractures."
+        ]
+      },
+      "violation_types": [
+        "sharp_notch_strength_increase"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "notched_brittle_strip_failure_order_reversal_00000098",
+  "timebase": {
+    "internal_dt": 0.041666666666666664,
+    "internal_substeps": 1,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "sharp_notch_strength_increase"
+}

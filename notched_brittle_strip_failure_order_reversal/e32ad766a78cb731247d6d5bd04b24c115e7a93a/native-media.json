@@ -1,0 +1,61 @@
+{
+  "head_sha": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+  "files": {
+    "notched_brittle_strip_failure_order_reversal_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-e32ad766a78cb731247d6d5bd04b24c115e7a93a-42-true.mp4",
+      "bytes": 21877555,
+      "sha256": "46bafe26cd0ac51fbc928123a97b771216b5bcc5f113bbc4e7c5895651c2bf86",
+      "github_asset_id": 654895620,
+      "server_digest": "sha256:46bafe26cd0ac51fbc928123a97b771216b5bcc5f113bbc4e7c5895651c2bf86"
+    },
+    "notched_brittle_strip_failure_order_reversal_00000042/counterfactual_sharp_notch_strength_increase/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-e32ad766a78cb731247d6d5bd04b24c115e7a93a-42-video.mp4",
+      "bytes": 21915242,
+      "sha256": "4df5704d0045a6169f8453db9e408b57cfacb6d78123b1c8cb43398311122fff",
+      "github_asset_id": 654895806,
+      "server_digest": "sha256:4df5704d0045a6169f8453db9e408b57cfacb6d78123b1c8cb43398311122fff"
+    },
+    "notched_brittle_strip_failure_order_reversal_00000042/counterfactual_sharp_notch_strength_increase/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-e32ad766a78cb731247d6d5bd04b24c115e7a93a-42-mask.mp4",
+      "bytes": 2186364,
+      "sha256": "4ab5d1c3d937414d2643d85fcfa628985540cd96ed374c29b888a36fd2f16dce",
+      "github_asset_id": 654896082,
+      "server_digest": "sha256:4ab5d1c3d937414d2643d85fcfa628985540cd96ed374c29b888a36fd2f16dce"
+    },
+    "notched_brittle_strip_failure_order_reversal_00000042/counterfactual_sharp_notch_strength_increase/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-e32ad766a78cb731247d6d5bd04b24c115e7a93a-42-mask_overlay.mp4",
+      "bytes": 21413186,
+      "sha256": "a91e4e94e82b89ce75b2f7656804cdd102048c46a680d6cfcb870b2964ca822c",
+      "github_asset_id": 654896176,
+      "server_digest": "sha256:a91e4e94e82b89ce75b2f7656804cdd102048c46a680d6cfcb870b2964ca822c"
+    },
+    "notched_brittle_strip_failure_order_reversal_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-e32ad766a78cb731247d6d5bd04b24c115e7a93a-98-true.mp4",
+      "bytes": 25086657,
+      "sha256": "f9cb5c0e9cb8bf9ee5269b9667327da07b35ead907fb845ca7ea8919ef0c2f81",
+      "github_asset_id": 654896346,
+      "server_digest": "sha256:f9cb5c0e9cb8bf9ee5269b9667327da07b35ead907fb845ca7ea8919ef0c2f81"
+    },
+    "notched_brittle_strip_failure_order_reversal_00000098/counterfactual_sharp_notch_strength_increase/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-e32ad766a78cb731247d6d5bd04b24c115e7a93a-98-video.mp4",
+      "bytes": 25122137,
+      "sha256": "f8f49a5813bc3ea8434590c22811d3fd1fa1246c929e5dc44d966d0a176673e3",
+      "github_asset_id": 654896612,
+      "server_digest": "sha256:f8f49a5813bc3ea8434590c22811d3fd1fa1246c929e5dc44d966d0a176673e3"
+    },
+    "notched_brittle_strip_failure_order_reversal_00000098/counterfactual_sharp_notch_strength_increase/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-e32ad766a78cb731247d6d5bd04b24c115e7a93a-98-mask.mp4",
+      "bytes": 2199370,
+      "sha256": "dcb2d8a4353d57fcdd2254967cbb1655b0e764e2ce485a34cc70a60844b67b88",
+      "github_asset_id": 654896808,
+      "server_digest": "sha256:dcb2d8a4353d57fcdd2254967cbb1655b0e764e2ce485a34cc70a60844b67b88"
+    },
+    "notched_brittle_strip_failure_order_reversal_00000098/counterfactual_sharp_notch_strength_increase/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/notched_brittle_strip_failure_order_reversal-e32ad766a78cb731247d6d5bd04b24c115e7a93a-98-mask_overlay.mp4",
+      "bytes": 24567305,
+      "sha256": "33a10f3cc2a3697f90333f598faaba213478c3bbd43eb0cf0e55a9e2d3de4c89",
+      "github_asset_id": 654896865,
+      "server_digest": "sha256:33a10f3cc2a3697f90333f598faaba213478c3bbd43eb0cf0e55a9e2d3de4c89"
+    }
+  }
+}

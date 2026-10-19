@@ -1,0 +1,669 @@
+{
+  "generator": "notched_brittle_strip_failure_order_reversal",
+  "commit": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct 14 2026, 01:05:33) [Clang 23.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probe_frames": [
+    35,
+    46,
+    90
+  ],
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "baseline-true-35.png": "2455f066910251898c000da4dcd60ca48d2a8faa7e76924ad57ff8e5e8bbd785",
+        "baseline-true-46.png": "c0420d29dd62e0dbd389d9a8344d9bf6724acf23a4da9f89c1f607c0401b493e",
+        "baseline-true-90.png": "ae644d16a21f85035d407b29251868067fe687a9db758bb85a5b68b2cb947c78",
+        "baseline-counterfactual-35.png": "76afb8c30385302a1b1e0c5532186f9dca715434c26e67ee267968acbf60e5d4",
+        "baseline-counterfactual-46.png": "8e016742ab6295ff4e6ce009cb55721fdfc805914852d0b3e485d659004858ff",
+        "baseline-counterfactual-90.png": "a086fb04bc122cff400760271d345ecfe9889fbeb6b6fbeb8d279ae829c7d594"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.56,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "length_low-true-35.png": "71a98e6e119c9878aaef97283c0d632487d05f930c91ec18270850ef95dc8d78",
+        "length_low-true-46.png": "fd095208ed7495f26e4782b8b9a270fabc0be62677add289cffb3543e0b1afb5",
+        "length_low-true-90.png": "2d03ff63a91691636651d2ab860b49e1b0d029ba69ad05c2677dce602fb3ef9c",
+        "length_low-counterfactual-35.png": "d6ff923397b3ff94b0959e0825c190bb92bd5d0902c1a6a4fe6e3a3b3a67d963",
+        "length_low-counterfactual-46.png": "d3e999c1bc344aa2e30b6fc78a4f677f40005f5b7a15b1fe4c36f9975e02b471",
+        "length_low-counterfactual-90.png": "038851905b10f647715a9f21b842ac85d0313bd31aadd4381b21ce5e5965b5eb"
+      },
+      "metrics": {
+        "true-35": 2.3639034695095487,
+        "true-46": 2.4173369231047452,
+        "true-90": 2.500540839301215,
+        "counterfactual-35": 2.3639034695095487,
+        "counterfactual-46": 2.3734537760416665,
+        "counterfactual-90": 2.435128106011285
+      },
+      "changed_pixels": {
+        "true-35": 19066,
+        "true-46": 19391,
+        "true-90": 19726,
+        "counterfactual-35": 19066,
+        "counterfactual-46": 19154,
+        "counterfactual-90": 19455
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7616000000000002,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "length_high-true-35.png": "684c5f586243641bdfed7ee68d4e1ec37dc07d1a1e87cb79336d0d24b37d3ba3",
+        "length_high-true-46.png": "1696f59157236bd972c3914eb74665c45aee55edc424436c388395b47001606b",
+        "length_high-true-90.png": "2ff3f0f2281031debb6d6ffc056d306d4c1add8ac1b3c5ee2a49306f4570d8b8",
+        "length_high-counterfactual-35.png": "4541b3899e329285072f2c5961febe3eb3395de3363901c10a85c5ac54b1a406",
+        "length_high-counterfactual-46.png": "35926ae6b306e41656c7462a6ff2db78f31ce1edef282ee2bda92010e8089ac4",
+        "length_high-counterfactual-90.png": "61355b14c79d14cb63dc19a09e87510910103e3710f3b2388d14c34783a22b8e"
+      },
+      "metrics": {
+        "true-35": 0.6954283537688078,
+        "true-46": 0.7125888400607638,
+        "true-90": 0.7348627161096644,
+        "counterfactual-35": 0.6954283537688078,
+        "counterfactual-46": 0.7005338315610532,
+        "counterfactual-90": 0.7197276927806713
+      },
+      "changed_pixels": {
+        "true-35": 8028,
+        "true-46": 8158,
+        "true-90": 8200,
+        "counterfactual-35": 8028,
+        "counterfactual-46": 8065,
+        "counterfactual-90": 8170
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5525000.0,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "response_low-true-35.png": "55e476c799ba17141cdd811f2d5a83db2eb6b52f6a2f14e2b2673f7a07e7ab02",
+        "response_low-true-46.png": "0f75d01222f4fa14bdb02fcd0ac9f195ce6433e546d7bea58502bdd3494e41a2",
+        "response_low-true-90.png": "bc70a76b2e206d0bb8ffe29033fa81cb0b5f8fce42dde486858ae59f68bb8386",
+        "response_low-counterfactual-35.png": "fa0919806bde5982e573d348835a25088c137b3a8319f2b944feda0f6b198bd2",
+        "response_low-counterfactual-46.png": "170760207619c32c27ce704025d80a10f0734cd4bde3d01fd07f766602eed042",
+        "response_low-counterfactual-90.png": "cef2707025e5689742101b139663935be37deebb273ebec89111cc0b9573876f"
+      },
+      "metrics": {
+        "true-35": 0.0007550274884259259,
+        "true-46": 0.5549943712022569,
+        "true-90": 4.57763671875e-05,
+        "counterfactual-35": 0.0007550274884259259,
+        "counterfactual-46": 0.003898338035300926,
+        "counterfactual-90": 0.005315709997106482
+      },
+      "changed_pixels": {
+        "true-35": 142,
+        "true-46": 6739,
+        "true-90": 24,
+        "counterfactual-35": 142,
+        "counterfactual-46": 174,
+        "counterfactual-90": 136
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 7280000.000000001,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "response_high-true-35.png": "613c3ac6172908f07257d22d046c66e61dc38146f2e557a342a33d92d7821e4f",
+        "response_high-true-46.png": "aa31d8de7f3af03c82733c755eaec484d3b95809901e12d46976c7b12589b094",
+        "response_high-true-90.png": "f6281056f6dbe1426d7b91c1011136ef252b498f4f85dec61a9547448bc95e41",
+        "response_high-counterfactual-35.png": "ff1283b526315f1a48d35291e7424f11a08b11d3bc1be443ac2c46ac9910d312",
+        "response_high-counterfactual-46.png": "86eabe43289e84cfcf8830580b01d1521710123e6578c6de5d68743f4fac4622",
+        "response_high-counterfactual-90.png": "ee7ddf7e7f20f9d288186979a312556253d147f01abcda8eb74344bfe821baa0"
+      },
+      "metrics": {
+        "true-35": 0.002483226634837963,
+        "true-46": 1.1653289794921875,
+        "true-90": 3.673412181712963e-05,
+        "counterfactual-35": 0.002483226634837963,
+        "counterfactual-46": 0.01103775589554398,
+        "counterfactual-90": 0.006642659505208333
+      },
+      "changed_pixels": {
+        "true-35": 159,
+        "true-46": 10315,
+        "true-90": 18,
+        "counterfactual-35": 159,
+        "counterfactual-46": 223,
+        "counterfactual-90": 170
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "onset_low-true-35.png": "fc63844e4b6fcff93b9faf393373544016929e589e70bd37813e40547bb2901b",
+        "onset_low-true-46.png": "5ec1fdb9215dd04d785690604c578402fbd31f5e249cb55b5637f9c958b526f3",
+        "onset_low-true-90.png": "f1d5153af7a8c375cfcd7e211b424eee5a4138acf124bf57cd164ed3a7bdd891",
+        "onset_low-counterfactual-35.png": "a4a508109f538cba1bb2683d0d492c0419d9101fc878ce485b759600e5516c8e",
+        "onset_low-counterfactual-46.png": "4ddcaca74808d949c8ca88783974227ff51a67b87033e08864832f60514903d6",
+        "onset_low-counterfactual-90.png": "9e064ac3cdb26d26884545664ab8a7c13d291350cbc671d99986e0f5647ca6eb"
+      },
+      "metrics": {
+        "true-35": 0.007418032045717593,
+        "true-46": 1.5725589328342013,
+        "true-90": 3.673412181712963e-05,
+        "counterfactual-35": 0.007418032045717593,
+        "counterfactual-46": 0.012713962131076388,
+        "counterfactual-90": 0.0001384593822337963
+      },
+      "changed_pixels": {
+        "true-35": 194,
+        "true-46": 12039,
+        "true-90": 17,
+        "counterfactual-35": 194,
+        "counterfactual-46": 241,
+        "counterfactual-90": 73
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "onset_high-true-35.png": "3def8b09ec4f27a801b7ddb02d5cca958107d1ec67a098016debb9d981a6fc66",
+        "onset_high-true-46.png": "02532fd144f588cc94da94495f988b78ee2afa21d68f416eb7a33b44268493bc",
+        "onset_high-true-90.png": "713bc6ca77612767c419eb717e5487a9d0f0062fe17226a021a42b8984d67a5b",
+        "onset_high-counterfactual-35.png": "0e9dda0e917d021bd5060b0ebe2fa3d251a4985b17ca95e59dd7cd49036183eb",
+        "onset_high-counterfactual-46.png": "02532fd144f588cc94da94495f988b78ee2afa21d68f416eb7a33b44268493bc",
+        "onset_high-counterfactual-90.png": "07fb4eeb2619c57ae5f86a88a22afe96afc5505753aef13be1b7f2fa2e68d002"
+      },
+      "metrics": {
+        "true-35": 0.007108335141782407,
+        "true-46": 1.0479352032696758,
+        "true-90": 0.00016389069733796296,
+        "counterfactual-35": 0.007108335141782407,
+        "counterfactual-46": 0.014338175455729166,
+        "counterfactual-90": 0.0008477105034722222
+      },
+      "changed_pixels": {
+        "true-35": 209,
+        "true-46": 9934,
+        "true-90": 57,
+        "counterfactual-35": 209,
+        "counterfactual-46": 272,
+        "counterfactual-90": 125
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.018750000000000003,
+        "rho_round": 0.16,
+        "K_sharp": 6.8423739467217715,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "depth_low-true-35.png": "c20d9c69a9340b74cd0a3bded066f91280afee2ae73072e959bc00f27cca139a",
+        "depth_low-true-46.png": "70165269f4f78bc071d66be4a407f863170c5e5dbc8d0e0868ab72f3e2231701",
+        "depth_low-true-90.png": "942a935a8357b418fe26d4c85d946b226286c012eaeea745a50057c27b5d87c1",
+        "depth_low-counterfactual-35.png": "c20d9c69a9340b74cd0a3bded066f91280afee2ae73072e959bc00f27cca139a",
+        "depth_low-counterfactual-46.png": "d34bf249575c2dd071f5b193e91dcc642e0f99fe0fbcf2e099014104917bab8d",
+        "depth_low-counterfactual-90.png": "4c2dd593b20c1fd362af1e2fee266f8e46107e179de6d549d56d6f10e09e341e"
+      },
+      "metrics": {
+        "true-35": 0.016260782877604168,
+        "true-46": 0.5992239492910879,
+        "true-90": 0.01716331199363426,
+        "counterfactual-35": 0.016260782877604168,
+        "counterfactual-46": 0.016260782877604168,
+        "counterfactual-90": 0.016260782877604168
+      },
+      "changed_pixels": {
+        "true-35": 547,
+        "true-46": 7408,
+        "true-90": 574,
+        "counterfactual-35": 547,
+        "counterfactual-46": 547,
+        "counterfactual-90": 547
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.027750000000000004,
+        "rho_round": 0.16,
+        "K_sharp": 5.802401801501314,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "depth_high-true-35.png": "5caf465608cf5a9a7b19cefa8ca1122fc0160382d2bdc5ac05a8bb9a0dd2a684",
+        "depth_high-true-46.png": "71a6ea9af75f1471cac35ece1b78545a4fdd18e670cd809efc888cafab776cf5",
+        "depth_high-true-90.png": "31c0f5f7a29e3786d99a032264f37294eff466ddafa320a3e0274a2805414d66",
+        "depth_high-counterfactual-35.png": "b705efeaf07054cb2a8aba0da4d9c38fec76985192aec69f89f02815776bbdb3",
+        "depth_high-counterfactual-46.png": "0a8f0457187efb4e1420b894000a9eb3b0015bce7576607e6707a99984745d97",
+        "depth_high-counterfactual-90.png": "495f72910414b93727b35c6d049d32d344859445a85be890566bcfdc76dec392"
+      },
+      "metrics": {
+        "true-35": 0.006307531286168982,
+        "true-46": 0.5516442192925347,
+        "true-90": 0.006565235279224537,
+        "counterfactual-35": 0.006307531286168982,
+        "counterfactual-46": 0.006307531286168982,
+        "counterfactual-90": 0.006307531286168982
+      },
+      "changed_pixels": {
+        "true-35": 474,
+        "true-46": 6998,
+        "true-90": 498,
+        "counterfactual-35": 474,
+        "counterfactual-46": 474,
+        "counterfactual-90": 474
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "appearance_low-true-35.png": "b7698a3580321eeba3975a49d4c6bec0dd0b3b3e9c3b8cbaab13b9b07ec4a4a0",
+        "appearance_low-true-46.png": "ec8dcd30c51413138e85020983c7ac9258001e52a0eb3b5092198f4dbdfdb6fa",
+        "appearance_low-true-90.png": "519f38bd215bc6850e74c74ea0d2e593bb680295e52fb837cc9cd9f124e4bc6b",
+        "appearance_low-counterfactual-35.png": "ba29edadeccf2d8c112269b61f025fdef2186c8ecf7237f6c4fd30ab519d8ebc",
+        "appearance_low-counterfactual-46.png": "7e93c9fc7b0aebba1da87ea98bda57b8526e34a670d4c121419a73190427c006",
+        "appearance_low-counterfactual-90.png": "7787d067d61d99afbfccebfad8136083483c4dc3169304ac9ec4b51a97c8b137"
+      },
+      "metrics": {
+        "true-35": 0.6130082872178819,
+        "true-46": 0.6174672444661459,
+        "true-90": 0.6267067238136574,
+        "counterfactual-35": 0.6130082872178819,
+        "counterfactual-46": 0.6130082872178819,
+        "counterfactual-90": 0.6183466028284144
+      },
+      "changed_pixels": {
+        "true-35": 251862,
+        "true-46": 252582,
+        "true-90": 254318,
+        "counterfactual-35": 251862,
+        "counterfactual-46": 251862,
+        "counterfactual-90": 253049
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "appearance_high-true-35.png": "277a11e8718e209a6717184a3dc9f61b423d63d22795f3eb21de24a74c8392b1",
+        "appearance_high-true-46.png": "3fcf1497db09df73584c3c68696a1b2587d349e9b870cb64becff2ae10700c64",
+        "appearance_high-true-90.png": "5f16c22cb18b0339a59962b6bc57e8f3a1f9b280d4dbf5d4d342ecdb0391fbb3",
+        "appearance_high-counterfactual-35.png": "41e49f7039046383e70655d57e2a69eeb8f3c091c482db5cf017354e48f68d11",
+        "appearance_high-counterfactual-46.png": "7aa6233d79fbb5b4155163a16f76088a6d784f3bc1c2c34007d29ab16b3f53a9",
+        "appearance_high-counterfactual-90.png": "6454fbae2530405fa61ee713edd999caac1634e206cab75265f1a07e1658d750"
+      },
+      "metrics": {
+        "true-35": 1.6890343560112848,
+        "true-46": 1.7067882396556713,
+        "true-90": 1.7460010669849537,
+        "counterfactual-35": 1.6890343560112848,
+        "counterfactual-46": 1.6890343560112848,
+        "counterfactual-90": 1.7129053186487269
+      },
+      "changed_pixels": {
+        "true-35": 88561,
+        "true-46": 89332,
+        "true-90": 91079,
+        "counterfactual-35": 88561,
+        "counterfactual-46": 88561,
+        "counterfactual-90": 89776
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "view_low-true-35.png": "3599e0e79bb7fe796dfd4fcd50f85884a07c24c441e1411f4036761bd447c4e9",
+        "view_low-true-46.png": "c99aff09fab09d8da7ffd92be5ae9a791437ca12e399f050d59d154a67198e9d",
+        "view_low-true-90.png": "9e0831666dc29a0b1d51615e81bf78b2a00416a115ae4503cb04cb7a3971e676",
+        "view_low-counterfactual-35.png": "da50aa6b84f4ca8c4fc1985574c959087d9121faa60e688b4ae1048a30b75f28",
+        "view_low-counterfactual-46.png": "bea1b44b0a7f2018461fd484adee6322979ac5c60d0bb7ca3eb3be6ebb88ca87",
+        "view_low-counterfactual-90.png": "67d215d53ff5713fc27f86847debe899fae85c014f96fc2ff47950fa80642670"
+      },
+      "metrics": {
+        "true-35": 8.70624570493345,
+        "true-46": 8.926771375868055,
+        "true-90": 9.080806025752315,
+        "counterfactual-35": 8.70624570493345,
+        "counterfactual-46": 8.70714427806713,
+        "counterfactual-90": 8.84202406141493
+      },
+      "changed_pixels": {
+        "true-35": 338014,
+        "true-46": 339058,
+        "true-90": 340516,
+        "counterfactual-35": 338014,
+        "counterfactual-46": 338014,
+        "counterfactual-90": 338925
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "scale": 1.0,
+        "width": 0.7168000000000001,
+        "notch_depth": 0.16,
+        "rho_sharp": 0.025750000000000002,
+        "rho_round": 0.16,
+        "K_sharp": 5.985415622798047,
+        "K_round": 3.0,
+        "material_strength": 12000000.0,
+        "thickness": 0.09,
+        "peak_nominal_stress": 5914999.999999999,
+        "ramp_frames": 51,
+        "gauge_full_scale_newtons": 300000.0,
+        "gauge_response_seconds": 0.15,
+        "solver_steps_per_frame": 1,
+        "time_scale": 1.0,
+        "model": "quasistatic calibrated brittle maximum local stress; fixed transverse fracture plane"
+      },
+      "images": {
+        "view_high-true-35.png": "d931ceb9ee2336acd1440f6fef535444672c3785f9e9a8dc756cb735d3c19abb",
+        "view_high-true-46.png": "b700f0e266c4fe5cfa3edd41b4c640d9ae7522063ed109609bc1049ed28e9d9a",
+        "view_high-true-90.png": "60c895d81b7ceb6540735f7a986551a6a115fb101cde1f378bb3d5454a7bb37b",
+        "view_high-counterfactual-35.png": "712777e0fe4d466d2ae90cc036a55b701e594e5850ee14b5688a8b0ffba68368",
+        "view_high-counterfactual-46.png": "183c1d566d55e3982ca7eec98fa1d6cf4d22a2fe29216d180ad166c179e65cea",
+        "view_high-counterfactual-90.png": "28bd4ff40ad93fc016081cf140ff8988d2e763ac8a33146d7d806087900f5a18"
+      },
+      "metrics": {
+        "true-35": 9.226546110930267,
+        "true-46": 9.465653596100983,
+        "true-90": 9.6649249041522,
+        "counterfactual-35": 9.226546110930267,
+        "counterfactual-46": 9.231556080005786,
+        "counterfactual-90": 9.408971715856481
+      },
+      "changed_pixels": {
+        "true-35": 309441,
+        "true-46": 310444,
+        "true-90": 312067,
+        "counterfactual-35": 309441,
+        "counterfactual-46": 309441,
+        "counterfactual-90": 310678
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "scope": "Independent force equality, closed-form damped response, unload tails and all120 decoded red-needle directions; same actual force only while both specimens intact",
+  "cases": [
+    {
+      "case_id": "notched_brittle_strip_failure_order_reversal_00000042",
+      "head_sha": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+      "branches": [
+        {
+          "branch": "true",
+          "first_fracture": 43,
+          "equal_actual_and_indicated_before_fracture": true,
+          "max_model_angular_step_degrees": 6.149049191301534,
+          "max_decoded_angular_step_degrees": 6.410458071893773,
+          "max_decoded_direction_error_degrees": 1.4307018196732921,
+          "video_sha256": "46bafe26cd0ac51fbc928123a97b771216b5bcc5f113bbc4e7c5895651c2bf86"
+        },
+        {
+          "branch": "counterfactual",
+          "first_fracture": 55,
+          "equal_actual_and_indicated_before_fracture": true,
+          "max_model_angular_step_degrees": 6.149049191301534,
+          "max_decoded_angular_step_degrees": 6.410458071893773,
+          "max_decoded_direction_error_degrees": 1.6981721980430655,
+          "video_sha256": "4df5704d0045a6169f8453db9e408b57cfacb6d78123b1c8cb43398311122fff"
+        }
+      ]
+    },
+    {
+      "case_id": "notched_brittle_strip_failure_order_reversal_00000098",
+      "head_sha": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+      "branches": [
+        {
+          "branch": "true",
+          "first_fracture": 44,
+          "equal_actual_and_indicated_before_fracture": true,
+          "max_model_angular_step_degrees": 3.8599871730911253,
+          "max_decoded_angular_step_degrees": 3.4267181687131396,
+          "max_decoded_direction_error_degrees": 1.0653489578924584,
+          "video_sha256": "f9cb5c0e9cb8bf9ee5269b9667327da07b35ead907fb845ca7ea8919ef0c2f81"
+        },
+        {
+          "branch": "counterfactual",
+          "first_fracture": 55,
+          "equal_actual_and_indicated_before_fracture": true,
+          "max_model_angular_step_degrees": 3.8599871730911253,
+          "max_decoded_angular_step_degrees": 3.4267181687131396,
+          "max_decoded_direction_error_degrees": 1.4526342927902938,
+          "video_sha256": "f8f49a5813bc3ea8434590c22811d3fd1fa1246c929e5dc44d966d0a176673e3"
+        }
+      ]
+    }
+  ]
+}

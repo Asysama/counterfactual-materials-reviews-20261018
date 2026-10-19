@@ -1,0 +1,358 @@
+{
+  "status": "PASS",
+  "scope": "16 independent combined physical-axis corners, non-rendering",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            40,
+            54
+          ],
+          [
+            120,
+            54
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 58
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            42,
+            54
+          ],
+          [
+            120,
+            54
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 58
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            49,
+            63
+          ],
+          [
+            120,
+            63
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 67
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            51,
+            63
+          ],
+          [
+            120,
+            63
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 67
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            37,
+            48
+          ],
+          [
+            120,
+            48
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 52
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            38,
+            48
+          ],
+          [
+            120,
+            48
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 52
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            46,
+            57
+          ],
+          [
+            120,
+            57
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 61
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            47,
+            57
+          ],
+          [
+            120,
+            57
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 61
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            40,
+            54
+          ],
+          [
+            120,
+            54
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 58
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            42,
+            54
+          ],
+          [
+            120,
+            54
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 58
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            49,
+            63
+          ],
+          [
+            120,
+            63
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 67
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            51,
+            63
+          ],
+          [
+            120,
+            63
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 67
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            37,
+            48
+          ],
+          [
+            120,
+            48
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 52
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            38,
+            48
+          ],
+          [
+            120,
+            48
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 52
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            46,
+            57
+          ],
+          [
+            120,
+            57
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 61
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "fracture_frames_true_cf": [
+          [
+            47,
+            57
+          ],
+          [
+            120,
+            57
+          ]
+        ],
+        "single_change": "sharp_notch_strength"
+      },
+      "evidence_frame": 61
+    }
+  ]
+}

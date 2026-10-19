@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/opt/siyuan-cf-materials-five-20261018/source-v7/repos/notched_brittle_strip_failure_order_reversal/generators/notched_brittle_strip_failure_order_reversal/examples/generate.py", line 5, in <module>
+    if __name__=='__main__':cli()
+                            ^^^^^
+  File "/opt/siyuan-cf-materials-five-20261018/source-v7/repos/notched_brittle_strip_failure_order_reversal/generators/notched_brittle_strip_failure_order_reversal/engine/run.py", line 94, in cli
+    assert a.resume and json.loads(hf.read_text())==header,'incompatible resume'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: incompatible resume
