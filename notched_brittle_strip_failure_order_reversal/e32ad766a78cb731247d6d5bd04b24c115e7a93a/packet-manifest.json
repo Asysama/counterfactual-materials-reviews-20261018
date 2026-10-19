@@ -4,12 +4,16 @@
     "sha256": "f3a7d10ea1af8164a85af0613c69ba47211d3122ba1227388ea59305c98eabd0"
   },
   "application.json": {
-    "bytes": 532,
-    "sha256": "a8a31c674c1659f6de601c2a07ba5dc6fe4792af39804df093f5b47e2cb442a1"
+    "bytes": 877,
+    "sha256": "091ee65bf57bef1ee304f4f7d9d8d67454065d1923d639f55bcf7cc8778377b5"
   },
   "cases/notched_brittle_strip_failure_order_reversal_00000042/browser-derivatives.json": {
     "bytes": 766,
     "sha256": "992914b078f50a6624c89bad0c04731cf6b5ec8568b75b34b5df0c64a6658cff"
+  },
+  "cases/notched_brittle_strip_failure_order_reversal_00000042/consecutive-native.png": {
+    "bytes": 45838,
+    "sha256": "3d6fa4881d234bafc88fb7bbeaecf6977faeaaf15097de7cfda24d96cc5df205"
   },
   "cases/notched_brittle_strip_failure_order_reversal_00000042/counterfactual-all120.jpg": {
     "bytes": 424820,
@@ -42,6 +46,10 @@
   "cases/notched_brittle_strip_failure_order_reversal_00000042/decoded-contact-sheet.jpg": {
     "bytes": 382231,
     "sha256": "5da15fb4076fa5f6ecbe8f70f9dacb41143ab1e61be55fa7034b70b2afff0fac"
+  },
+  "cases/notched_brittle_strip_failure_order_reversal_00000042/edge-binding.json": {
+    "bytes": 347,
+    "sha256": "6d2fab29e75a2e495ca6098e52bb86654c7f3fcdbd35a8296551a27ce3e177cd"
   },
   "cases/notched_brittle_strip_failure_order_reversal_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -79,6 +87,10 @@
     "bytes": 766,
     "sha256": "06c261ed82423770d1e462ca83579dead8cdcffc0c19e11fb46075a960b5c946"
   },
+  "cases/notched_brittle_strip_failure_order_reversal_00000098/consecutive-native.png": {
+    "bytes": 52707,
+    "sha256": "44c8c726d17f8f96e60d25d2161e7f3c4e6db4ed0c6ae72d0b162f99839bc8f6"
+  },
   "cases/notched_brittle_strip_failure_order_reversal_00000098/counterfactual-all120.jpg": {
     "bytes": 430243,
     "sha256": "29725d9ce19875033abe7e823914fe4beba552c3907e4f90fdf4e5c3bc335553"
@@ -110,6 +122,10 @@
   "cases/notched_brittle_strip_failure_order_reversal_00000098/decoded-contact-sheet.jpg": {
     "bytes": 386976,
     "sha256": "f592f1f7883e3ef32879905e7bb3c3a5fb3aaf5c73940e6fe63866c4c41485b4"
+  },
+  "cases/notched_brittle_strip_failure_order_reversal_00000098/edge-binding.json": {
+    "bytes": 347,
+    "sha256": "4a4b45551a4c9f5b679721c7947a29d1e8e9a17cac58e74c002ea5a6a1ea8cf8"
   },
   "cases/notched_brittle_strip_failure_order_reversal_00000098/frame-hashes.json": {
     "bytes": 34640,
@@ -158,6 +174,26 @@
   "evidence/2026-10-18_mechanics.py": {
     "bytes": 4378,
     "sha256": "de89eb98ddfa2c9f5e55d8ee5578f7e3f721746c72880100cabf87d1d9025069"
+  },
+  "evidence/2026-10-18_v7-backup-verified.json": {
+    "bytes": 2648,
+    "sha256": "20d829e459e9536143f45f8d69f1eb6bfb4d360b087a41f09158f4a3cfa6ea6a"
+  },
+  "evidence/2026-10-18_v7-browser-playback.json": {
+    "bytes": 29285,
+    "sha256": "7ed88d967bb6f3360a9c979e4865380ecb3cfec74718cc3d9989c63473b86570"
+  },
+  "evidence/2026-10-18_v7-http-check.json": {
+    "bytes": 57684,
+    "sha256": "fea66770dcf692fade57fb196327255594099b81022a130b8e4a8c0456752fb7"
+  },
+  "evidence/2026-10-18_v7-native-edge-review.json": {
+    "bytes": 5078,
+    "sha256": "88485ea39904bbfd06d3c8e606b0e681c941dde2e948e7366188c795ef73a8c9"
+  },
+  "evidence/2026-10-18_v7-visual-review.json": {
+    "bytes": 22312,
+    "sha256": "3148a85078c7bb3285099b89392ca779263ec7652713de79718cbd44c036db12"
   },
   "evidence/accepted-provenance.json": {
     "bytes": 2268,
@@ -572,15 +608,15 @@
     "sha256": "ba687f67e739d608d0c2920e1525f9fa9c54bbaf5dbf028d4955aed5701ab533"
   },
   "index.html": {
-    "bytes": 16669,
-    "sha256": "0fbb59f3176f9678736a47676b4837c8b09afb05566a77e582efd1a2e0edf029"
+    "bytes": 17661,
+    "sha256": "ab517ee08581d22b93afbbcb9e5d7ee481447f68d785bc1e4c60e6acdea98bba"
   },
   "native-media.json": {
     "bytes": 4721,
     "sha256": "8e839c6427b26e9a547b2bdd108fa2ce5b69eeedb85d1d032bedf5e99e9e07ad"
   },
   "review-report.md": {
-    "bytes": 6146,
-    "sha256": "b7b80eb40bfca6b08cd4b8f731fc911068b8e085ccac112bb86cd056e6a8cde4"
+    "bytes": 6112,
+    "sha256": "64d7aad0763f4a943cc07251f15c047b79698002a1eea9eb0e230f622e93caf5"
   }
 }
