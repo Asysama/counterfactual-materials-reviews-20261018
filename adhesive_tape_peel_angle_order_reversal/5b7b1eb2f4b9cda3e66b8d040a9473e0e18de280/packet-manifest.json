@@ -4,12 +4,16 @@
     "sha256": "8ca641d5a6317b18bede002017a86ad3e2ad7295e5e74e8e9f315e3f3b668501"
   },
   "application.json": {
-    "bytes": 522,
-    "sha256": "fef4621b98bb16053f88feb803743636b6db972f67e8bd6635bf485d29754656"
+    "bytes": 867,
+    "sha256": "3ddab826d13664d28070feab3e5cd254a425124f407a99e92d25a48737ed699a"
   },
   "cases/adhesive_tape_peel_angle_order_reversal_00000042/browser-derivatives.json": {
     "bytes": 775,
     "sha256": "86b27524a9fd983574a4207e8618e909d95f8e4df516ca81e9cf8b140a666532"
+  },
+  "cases/adhesive_tape_peel_angle_order_reversal_00000042/consecutive-native.png": {
+    "bytes": 90325,
+    "sha256": "ee592cc2e1304f95d2de1a4fd7a7eb3cd71dd6bd2c8ba7f081241f02cbf13403"
   },
   "cases/adhesive_tape_peel_angle_order_reversal_00000042/counterfactual-all120.jpg": {
     "bytes": 386886,
@@ -46,6 +50,10 @@
   "cases/adhesive_tape_peel_angle_order_reversal_00000042/decoded-contact-sheet.jpg": {
     "bytes": 387961,
     "sha256": "9f98b4efb2b5e31771ec18847c97f083c8398343ae958ead3ba249fe6f6e6f92"
+  },
+  "cases/adhesive_tape_peel_angle_order_reversal_00000042/edge-binding.json": {
+    "bytes": 343,
+    "sha256": "b2d204eae765e73e7d66da13fd425e902a43de40bfa8347dcd43b40cc2831764"
   },
   "cases/adhesive_tape_peel_angle_order_reversal_00000042/frame-hashes.json": {
     "bytes": 34640,
@@ -87,6 +95,10 @@
     "bytes": 775,
     "sha256": "7cc4f286988e3f7b9e872001bec0b1e675e76806b54303afa86820d7152f3cf4"
   },
+  "cases/adhesive_tape_peel_angle_order_reversal_00000098/consecutive-native.png": {
+    "bytes": 82606,
+    "sha256": "dff3617b60a7a297ea15d4ac361986a9ccfb6bb7c76066ba0df8afe18ca22af0"
+  },
   "cases/adhesive_tape_peel_angle_order_reversal_00000098/counterfactual-all120.jpg": {
     "bytes": 394173,
     "sha256": "652ff1db71fea3bb27f6b1b6b6db3190c5bb3e05d364753a9d5c6b9891dd1819"
@@ -122,6 +134,10 @@
   "cases/adhesive_tape_peel_angle_order_reversal_00000098/decoded-contact-sheet.jpg": {
     "bytes": 402566,
     "sha256": "06ba808619fc4001a30dbbcdcfe8eb865724e4ccbef95fee5a35d442264a9426"
+  },
+  "cases/adhesive_tape_peel_angle_order_reversal_00000098/edge-binding.json": {
+    "bytes": 343,
+    "sha256": "9353fd60c1bcf96677f2bf4f9156b34d764bbdfbe0db0a98c5baa773d097a84b"
   },
   "cases/adhesive_tape_peel_angle_order_reversal_00000098/frame-hashes.json": {
     "bytes": 34640,
@@ -174,6 +190,26 @@
   "evidence/2026-10-18_mechanics.py": {
     "bytes": 5293,
     "sha256": "43141fe3d0e319df7470b65052e2390a4f30c48c8230ed2537f40e5ddb75aa89"
+  },
+  "evidence/2026-10-19_v8-backup-verified.json": {
+    "bytes": 2633,
+    "sha256": "c41fa354842c11b37dae66c10eac6fdd414ff4997edca406f756383f5eb5b2b3"
+  },
+  "evidence/2026-10-19_v8-browser-playback.json": {
+    "bytes": 29548,
+    "sha256": "37a410c51b9eaf39720f5fcda683c6abf31f420c17e0601e36aecfdea8476785"
+  },
+  "evidence/2026-10-19_v8-http-check.json": {
+    "bytes": 57527,
+    "sha256": "9676a59f6c3814bc97e0990c187e87989b9ad08c4c0a9bd1c18ce0a051fe46de"
+  },
+  "evidence/2026-10-19_v8-native-edge-review.json": {
+    "bytes": 5060,
+    "sha256": "8d639ba8c425af64d3ad0f9bd57f98f8f5df8075257e4af00758b53d8291f857"
+  },
+  "evidence/2026-10-19_v8-visual-review.json": {
+    "bytes": 24965,
+    "sha256": "c8601a92ba976acf56449c6f8a4724a35abf8a9a211d4e610a0d1b4dd7a9c0e9"
   },
   "evidence/accepted-provenance.json": {
     "bytes": 2258,
@@ -484,15 +520,15 @@
     "sha256": "35a1d58c48b74e0e3e7b158b5545a9552f2371583edfef1ea0d022c59f5a0a1c"
   },
   "index.html": {
-    "bytes": 17111,
-    "sha256": "07117cc038808c154fcdb015b230a7401a77fa8813f879984330f91a82123365"
+    "bytes": 18083,
+    "sha256": "695fc8c2ea09978e044f598d8f790e581442b3abe315a46aae8759de41bd8a70"
   },
   "native-media.json": {
     "bytes": 4659,
     "sha256": "018ac1a854f8ab34dfff9bef22cadbb60dbe2ddfd3a3190a6da9a15af26cea3b"
   },
   "review-report.md": {
-    "bytes": 6148,
-    "sha256": "b623b23356ca877cfdde4091e7f04d9e14be09dc98ba91182b860ef8eb1220ae"
+    "bytes": 6114,
+    "sha256": "229b9b46dc4980d5a6e82e9d42fd16bec8c236f8864260e097648ffee808e1b1"
   }
 }

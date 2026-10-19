@@ -1,0 +1,17 @@
+{
+  "case_id": "adhesive_tape_peel_angle_order_reversal_00000098",
+  "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+  "frames": [
+    74,
+    75,
+    76
+  ],
+  "crop_native_pixels": [
+    1184,
+    855,
+    384,
+    384
+  ],
+  "resized": false,
+  "metadata_sha256": "2d4a6a2161cc9e2f16cd2bff4c1651e19833ec72c79c3402545a6fedb3a23340"
+}

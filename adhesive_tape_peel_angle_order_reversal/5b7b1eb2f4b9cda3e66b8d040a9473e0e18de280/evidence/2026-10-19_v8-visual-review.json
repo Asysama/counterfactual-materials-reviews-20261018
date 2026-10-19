@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-19T02:06:09Z",
+  "scope": "Fresh tape-generator full120-frame/needle/native-edge/axis/prompt inspection and browser playback; original observations retained for four unchanged exact heads and artifacts; contributor self-check, not Sara approval",
+  "generators": {
+    "braided_sleeve_extension_radial_expansion": {
+      "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+      "seeds": [
+        42,
+        98
+      ],
+      "reviewed": [
+        "both prompts",
+        "all 120 decoded True frames",
+        "all 120 decoded counterfactual frames",
+        "four-stream keyframe sheets",
+        "unscaled consecutive native edge crops",
+        "all six controlled low/high axes in both branches"
+      ],
+      "observation": "Shared axial extension causes radial contraction in True and visible radial expansion in Counterfactual. Hollow interior and interwoven fibers remain visible; end fingers stay connected and move radially inside the fixed grip rings. Guide carriages remain on supported rails, with actuator offset behind the sleeve. Native curved fiber silhouettes are smooth and stable across consecutive frames. Mask selects visible fibers and excludes grip hardware/background. Hosted browser playback/seek was subsequently verified; see browser-playback.json.",
+      "axis_review": "Length, extension response, event onset and initial radius change final geometry/dynamics; camera and color vary independently. All inspected probes remain fully framed.",
+      "artifacts": {
+        "backups/visual-frames-v4/braided_sleeve_extension_radial_expansion/braided_sleeve_extension_radial_expansion_00000098-true-all120.jpg": "448c9e2e4336a86c0531e047100408509d8d3653658c726b688028ad12a232be",
+        "backups/visual-frames-v4/braided_sleeve_extension_radial_expansion/braided_sleeve_extension_radial_expansion_00000042-true-all120.jpg": "30ac605e470555f8d3f865fbdd124d67177151bc9f76541f38062a9b5ab76eec",
+        "backups/visual-frames-v4/braided_sleeve_extension_radial_expansion/braided_sleeve_extension_radial_expansion_00000042-decoded-contact-sheet.jpg": "a88fea7e5d76ba49bd3c79daa1daa71a8e22143047cf11c6a3aaa8b2a9602a8a",
+        "backups/visual-frames-v4/braided_sleeve_extension_radial_expansion/braided_sleeve_extension_radial_expansion_00000098-decoded-contact-sheet.jpg": "fc7777a4a3bf19dd24a2f283fdb2ca82c3978d41abb4361d30324faeca2d702d",
+        "backups/visual-frames-v4/braided_sleeve_extension_radial_expansion/braided_sleeve_extension_radial_expansion_00000098-counterfactual-all120.jpg": "23cf71f0ece1cf87c53bf8d3dd31060d1c5ac7d17f5af65ecb7d089bb420cd5d",
+        "backups/visual-frames-v4/braided_sleeve_extension_radial_expansion/braided_sleeve_extension_radial_expansion_00000042-counterfactual-all120.jpg": "63a3f2193e395fea0f83a209f67b1b5d9e0122b989f25ff0539f05ead4e4465b",
+        "backups/native-edges-v4/braided_sleeve_extension_radial_expansion_00000098/binding.json": "2dc7dfa6f2aaddb3facdcdcad4405e53e75e8cca24c7e4281679e1f0f0356744",
+        "backups/native-edges-v4/braided_sleeve_extension_radial_expansion_00000098/consecutive-native.png": "5816fab234bb7e97242600600cb00f3ca91e4b19450b83cdcfe8e0876a6c71ba",
+        "backups/native-edges-v4/braided_sleeve_extension_radial_expansion_00000042/binding.json": "b3bcdf929c9f9e25d94a6f235d3ff5ef5b4bd201e2b1b6350682339e9ec5641e",
+        "backups/native-edges-v4/braided_sleeve_extension_radial_expansion_00000042/consecutive-native.png": "7ce93a8cb4da9dfcf324e41d837b3b46091dbb6500da2016c0177e7a108a747b",
+        "backups/axis-visual-v4/braided_sleeve_extension_radial_expansion/axes-1.jpg": "69e2972d9de192ade9d8ea32f309921a6dde4b4cc8972d23b00e8af92ff4524f",
+        "backups/axis-visual-v4/braided_sleeve_extension_radial_expansion/axes-0.jpg": "8f711bdbbae66f70276fbdbef0d3bf66489b19ecf776977d8f7051fb620d497f"
+      },
+      "checked_at_utc": "2026-10-18T08:30:42Z",
+      "retention_note": "Retained observation for unchanged exact head and unchanged artifacts; no new visual inspection claimed.",
+      "browser_playback": "PASS; separately recorded after hosted playback and seek checks"
+    },
+    "locked_extension_viscoelastic_stress_growth": {
+      "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+      "seeds": [
+        42,
+        98
+      ],
+      "reviewed": [
+        "both prompts",
+        "all 120 decoded True frames",
+        "all 120 decoded counterfactual frames",
+        "four-stream keyframe sheets",
+        "unscaled consecutive native edge crops",
+        "all six controlled low/high axes in both branches"
+      ],
+      "observation": "Rounded colored banded specimen clearly lengthens and thins during shared loading. After the actuator locks, True specimen gradually lengthens as the metal spring shortens; Counterfactual specimen shortens and thickens as the spring lengthens. Outer endpoint stays fixed; clamps and spring ends remain attached, carriages supported. Motion is continuous in all120 frames of both seeds, with settled tail. Mask includes rubber and its paint bands, excluding measuring spring, pointer, grips and frame; overlay follows exactly that target. Native smooth specimen contours and material bands remain stable over consecutive frames. Hosted browser playback/seek was subsequently verified; see browser-playback.json.",
+      "axis_review": "Length and section depth alter the specimen dimensions; response and onset alter spring/specimen displacement and timing; color and viewpoint change independently. Six low/high probe pairs stay fully framed with connected supports.",
+      "artifacts": {
+        "backups/visual-frames-v6/locked_extension_viscoelastic_stress_growth/locked_extension_viscoelastic_stress_growth_00000098-counterfactual-all120.jpg": "cfc18d8f72bccea176ec94c408d6ebdb3a16bf7d2601be806ff8d24a5df66545",
+        "backups/visual-frames-v6/locked_extension_viscoelastic_stress_growth/locked_extension_viscoelastic_stress_growth_00000042-counterfactual-all120.jpg": "688a35115b3eb58ba6fc07d3bafa24ccaa238ceea7316e0a3e9ffe644efaa93e",
+        "backups/visual-frames-v6/locked_extension_viscoelastic_stress_growth/locked_extension_viscoelastic_stress_growth_00000042-decoded-contact-sheet.jpg": "cd405cb1988d550a12ef3b722cf9cb0dd6ce7812ad441a2b4df62073e0d6fb27",
+        "backups/visual-frames-v6/locked_extension_viscoelastic_stress_growth/locked_extension_viscoelastic_stress_growth_00000042-true-all120.jpg": "c51b09398758f85bd27661aead8e535b1f50c6c11ff8e13d11dcbfc10bb10437",
+        "backups/visual-frames-v6/locked_extension_viscoelastic_stress_growth/locked_extension_viscoelastic_stress_growth_00000098-decoded-contact-sheet.jpg": "34041643251d49305281a49893e8578446cce3b3acf22e637ded68333cf4e785",
+        "backups/visual-frames-v6/locked_extension_viscoelastic_stress_growth/locked_extension_viscoelastic_stress_growth_00000098-true-all120.jpg": "17b986315d1ebd5abc9dee7c2cf5943b5c98a94db1f8cc87723372e72e7283f2",
+        "backups/axis-visual-v6/locked_extension_viscoelastic_stress_growth/axes-1.jpg": "511e4ab2481f304989abb5524921f87ede65688616b21d846072b3a06b1ce6d0",
+        "backups/axis-visual-v6/locked_extension_viscoelastic_stress_growth/axes-0.jpg": "7c459b6e47feedad360371eefb0460a89d6cde116723e300237bf287461a3587",
+        "backups/native-edges-v6/locked_extension_viscoelastic_stress_growth_00000098/binding.json": "fd7d13abd435535ab66c025c9d2406b070c6aa7ea61a14ec17a3e65893a58597",
+        "backups/native-edges-v6/locked_extension_viscoelastic_stress_growth_00000098/consecutive-native.png": "697a3aba5f4eed5e8c5ce52f33d1d6fd1ab4d0bcf26757239c8c7c7fcd7eccc6",
+        "backups/native-edges-v6/locked_extension_viscoelastic_stress_growth_00000042/binding.json": "089914c21270bd662961a26ab40d120544855c95a253cdaf9c5e07e88f5cd290",
+        "backups/native-edges-v6/locked_extension_viscoelastic_stress_growth_00000042/consecutive-native.png": "0dddd086ef9c1b755cf1ec272d49ba2c432eb115671bab93f8e2c2f1c2b46154"
+      },
+      "checked_at_utc": "2026-10-18T10:49:52Z",
+      "retention_note": "Retained observation for unchanged exact head and unchanged artifacts; no new visual inspection claimed.",
+      "browser_playback": "PASS; separately recorded after hosted playback and seek checks"
+    },
+    "rubber_torsion_poynting_axial_contraction": {
+      "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
+      "seeds": [
+        42,
+        98
+      ],
+      "reviewed": [
+        "both prompts",
+        "all 120 decoded True frames",
+        "all 120 decoded counterfactual frames",
+        "four-stream keyframe sheets",
+        "unscaled consecutive native edge crops",
+        "all six controlled low/high axes in both branches"
+      ],
+      "observation": "Initially straight white material stripes continuously turn into helices. Left grip markings remain stationary while right grip markings rotate; the whole specimen is not in rigid-body rotation. True cylinder elongates and narrows while right carriage moves outward; Counterfactual shortens and widens with inward carriage motion. Grip connections and guide support remain continuous across all120 frames of both seeds, with clear final holds. Mask includes rubber and its white material stripes, excludes yellow grip markings, spindle, support and ruler; red overlay tracks rubber only. Native cylinder silhouette and white stripe edges are smooth and stable over consecutive evidence frames. Prompt interpretation is confined to the documented uniform neo-Hookean model and axially free boundary. Hosted browser playback/seek was subsequently verified; see browser-playback.json.",
+      "axis_review": "Length, reference radius/depth, twist-response and onset change visible cylinder geometry, helix angle and carriage position. Appearance and camera vary independently. All six low/high probe pairs remain connected and framed.",
+      "artifacts": {
+        "backups/visual-frames-v6/rubber_torsion_poynting_axial_contraction/rubber_torsion_poynting_axial_contraction_00000098-counterfactual-all120.jpg": "76403b57a492439a95a06857d2a98948eb8e4a95bdbd8de402d41610295d4e1e",
+        "backups/visual-frames-v6/rubber_torsion_poynting_axial_contraction/rubber_torsion_poynting_axial_contraction_00000042-counterfactual-all120.jpg": "f3868a68f31e26eedfab7ccdface06c34f2a748cbdca7de80f44de662deef2bd",
+        "backups/visual-frames-v6/rubber_torsion_poynting_axial_contraction/rubber_torsion_poynting_axial_contraction_00000042-true-all120.jpg": "6c185a2690be762cf53d2a8f85ce97f0ad8c9bb932ac8e840e5445230b8c43c3",
+        "backups/visual-frames-v6/rubber_torsion_poynting_axial_contraction/rubber_torsion_poynting_axial_contraction_00000042-decoded-contact-sheet.jpg": "c54846bfd8348f2f865ed5a7cd2bc9e95ab9b4e22e40ed597b983c03ae327325",
+        "backups/visual-frames-v6/rubber_torsion_poynting_axial_contraction/rubber_torsion_poynting_axial_contraction_00000098-true-all120.jpg": "40adb2468b2e1ab03dd53677504f8fd168f8e99584821eedf34aca521c4f618f",
+        "backups/visual-frames-v6/rubber_torsion_poynting_axial_contraction/rubber_torsion_poynting_axial_contraction_00000098-decoded-contact-sheet.jpg": "d4ccb4ba51559d79001858b9cbac9b71d589c3ac6f6002be22107876ee407a89",
+        "backups/axis-visual-v6/rubber_torsion_poynting_axial_contraction/axes-1.jpg": "8343caf8edf67590aa3ffe3b740412d0a34e2f90aa014099c322086c606fb546",
+        "backups/axis-visual-v6/rubber_torsion_poynting_axial_contraction/axes-0.jpg": "c03ef61b5b0678cfca8df7e0e895de2f56273289836c0664f70c41f542ec8105",
+        "backups/native-edges-v6/rubber_torsion_poynting_axial_contraction_00000098/binding.json": "f788345a5035992dd1967a3ce921d172974f0a5192fdf16561be800ab841111b",
+        "backups/native-edges-v6/rubber_torsion_poynting_axial_contraction_00000098/consecutive-native.png": "e4570100b4a3826a101afcbbc882b4f64801349f24c387e34f528c54c7b1a99f",
+        "backups/native-edges-v6/rubber_torsion_poynting_axial_contraction_00000042/binding.json": "451b6fe122899116462804a93cb7b173bb703b831ac0686ff3d7e8858a81898e",
+        "backups/native-edges-v6/rubber_torsion_poynting_axial_contraction_00000042/consecutive-native.png": "4c93fe56e75aef9833935e444bacf5a0a2738232bda306d6ae956fc869fcf495"
+      },
+      "checked_at_utc": "2026-10-18T11:21:47Z",
+      "retention_note": "Retained observation for unchanged exact head and unchanged artifacts; no new visual inspection claimed.",
+      "browser_playback": "PASS; separately recorded after hosted playback and seek checks"
+    },
+    "notched_brittle_strip_failure_order_reversal": {
+      "head_sha": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+      "seeds": [
+        42,
+        98
+      ],
+      "reviewed": [
+        "both standalone prompts",
+        "all 120 decoded True frames and counterfactual frames for both seeds",
+        "four-stream keyframe sheets",
+        "all 120 red-needle close-ups in both branches and both seeds",
+        "unscaled consecutive native notch/mask and gauge crops",
+        "all six controlled low/high axes in both branches"
+      ],
+      "observation": "Both matching 0\u2013300 kN instruments show the same rising reading while both strips remain intact. True sharp strip fractures first, round later; CF sharp strip stays intact while round fractures. Needle return is continuous through fracture, with visible physically consistent instrument lag. Gauges are mounted, scales are fixed on their faces, grips retract smoothly, apparatus stays supported. Mask includes only the sharp specimen and excludes gauges, markings, hardware and rear supports. Full outcomes and final holds remain visible. Native needle, dial and notch contours are smooth with stable binary mask raster steps. Hosted browser playback/seek was subsequently verified; see browser-playback.json.",
+      "axis_review": "Six low/high axes inspected; specimen width/notch geometry, response and onset timing vary visibly, plus appearance and viewpoint; matched force scales remain consistent and apparatus framed.",
+      "artifacts": {
+        "backups/independent-v7/notched_brittle_strip_failure_order_reversal_00000098-true-all120.jpg": "ad22c2252c8bc182348b0bb96cf9d608d9983b8bb56b04065c1622793c5e0d32",
+        "backups/independent-v7/notched_brittle_strip_failure_order_reversal_00000098-decoded-contact-sheet.jpg": "f592f1f7883e3ef32879905e7bb3c3a5fb3aaf5c73940e6fe63866c4c41485b4",
+        "backups/independent-v7/notched_brittle_strip_failure_order_reversal_00000042-decoded-contact-sheet.jpg": "5da15fb4076fa5f6ecbe8f70f9dacb41143ab1e61be55fa7034b70b2afff0fac",
+        "backups/independent-v7/notched_brittle_strip_failure_order_reversal_00000042-true-all120.jpg": "8468cb91f332dee90fcfbb64fa6fd0b3948127eb22cb6cc169e3c6f417b89fe3",
+        "backups/independent-v7/notched_brittle_strip_failure_order_reversal_00000042-counterfactual-all120.jpg": "f6c55d79da712e971734cd56f2b7a44985503514b540d0647a9e2dbdc6e4c2bc",
+        "backups/independent-v7/notched_brittle_strip_failure_order_reversal_00000098-counterfactual-all120.jpg": "29725d9ce19875033abe7e823914fe4beba552c3907e4f90fdf4e5c3bc335553",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000042-true-needles-all120.jpg": "6004ac7965b56b91577bc2dcf5a2352fae734790164bff4467a75c405a424062",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000042-true-unloading.jpg": "61b5d159a957d91a721d1a75861bd52c6e3eee686f9a11bd71d4ef9f5dba2600",
+        "backups/gauge-audit-v7/audit.json": "b17995efeb18f089d77f567d024603f287155bc145b5186eaabc7e5aa72f80f5",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000042-counterfactual-unloading.jpg": "1a04bd93b838bc8b01391b6e2ae2922b23ee89185d7493fb0d613127ac9de9ba",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000098-counterfactual-unloading.jpg": "d64827d39cae8cbbba1c44636f222a359f05060f7a12484cf977d57d6c9595ed",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000042-counterfactual-needles-all120.jpg": "6c1f583b95ad74c3c70312f4d0a8aba273dcc660454e544e7c9462f30aa89162",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000098-native-consecutive.png": "338a60cf5e1645bda8eeed07bf45829c3aebca75a0d85b13d78c87b822434654",
+        "backups/gauge-audit-v7/README.md": "8b8011286e0e7459c4cd17782c393bdb6c68be3ac1762e5e091e4b8801f94ebe",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000042-native-consecutive.png": "d26fd9eb28f6003912498c9619e88f79dcb4add059d2619f5c87191663506d38",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000098-counterfactual-needles-all120.jpg": "6b8afb233690ab48ee795f035cdcda34925e0afcedeb0cc1f185470f80c44007",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000098-true-unloading.jpg": "8f45e689bd797906a6937293664db97924ba09f1dfe61af59b72db88c2d1067b",
+        "backups/gauge-audit-v7/notched_brittle_strip_failure_order_reversal_00000098-true-needles-all120.jpg": "26e763e1f88aaead7fdc2e07b522fc0b800859c4306f4529027a25144171ded0",
+        "backups/axis-visual-v7/notched_brittle_strip_failure_order_reversal/axes-1.jpg": "ce0d9af866dbbe17efd2ec4a546fe3806ab45f140cbd073ffd7d69053b45ae4b",
+        "backups/axis-visual-v7/notched_brittle_strip_failure_order_reversal/axes-0.jpg": "581aeb50391606988bf02e72e4963cb0bf0481e35e1f21da0b8b02290d0719e0",
+        "backups/native-edges-v7/notched_brittle_strip_failure_order_reversal_00000098/binding.json": "4a4b45551a4c9f5b679721c7947a29d1e8e9a17cac58e74c002ea5a6a1ea8cf8",
+        "backups/native-edges-v7/notched_brittle_strip_failure_order_reversal_00000098/consecutive-native.png": "44c8c726d17f8f96e60d25d2161e7f3c4e6db4ed0c6ae72d0b162f99839bc8f6",
+        "backups/native-edges-v7/notched_brittle_strip_failure_order_reversal_00000042/binding.json": "6d2fab29e75a2e495ca6098e52bb86654c7f3fcdbd35a8296551a27ce3e177cd",
+        "backups/native-edges-v7/notched_brittle_strip_failure_order_reversal_00000042/consecutive-native.png": "3d6fa4881d234bafc88fb7bbeaecf6977faeaaf15097de7cfda24d96cc5df205"
+      },
+      "checked_at_utc": "2026-10-19T01:10:32Z",
+      "browser_playback": "PASS; separately recorded after hosted playback and seek checks"
+    },
+    "adhesive_tape_peel_angle_order_reversal": {
+      "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+      "seeds": [
+        42,
+        98
+      ],
+      "reviewed": [
+        "both independent prompts for both seeds",
+        "all 120 decoded True and counterfactual frames for both seeds",
+        "four-stream contact sheets",
+        "unscaled consecutive native edge crops",
+        "native shallow tape and grip position sequences",
+        "all 120 needle frames in all four RGB movies",
+        "six controlled rendered parameter axes",
+        "hosted eight-stream playback and last-second seek"
+      ],
+      "axis_review": "Length, response, onset, tape depth, appearance and viewpoint visibly change appropriate geometry, dynamics or presentation. Both branches remain framed with connected grip/tape geometry.",
+      "observation": "Both normal tapes advance, high angle farther; native low-angle crops show connected grip and peel front movement. Counterfactual starts normally, then low-angle peel passes high-angle. Equal calibrated gauges rise and return smoothly together with no teleport. No disconnected guides or tape jumps observed. Counterfactual masks select only the low-angle tape, initially blank; overlays align. Native consecutive contours are stable and smooth; binary masks retain intentional pixel edges. All eight hosted streams played to 5 seconds and sought to 4 seconds without errors. Rendered reduced-model scope and actual prompts agree.",
+      "artifacts": {
+        "backups/independent-v8/adhesive_tape_peel_angle_order_reversal_00000042-counterfactual-all120.jpg": "f35a3bc68d01f667c5444edfcfe3fd2578a6f4c0f1784260897c106a2ae13b44",
+        "backups/independent-v8/adhesive_tape_peel_angle_order_reversal_00000042-decoded-contact-sheet.jpg": "9f98b4efb2b5e31771ec18847c97f083c8398343ae958ead3ba249fe6f6e6f92",
+        "backups/independent-v8/adhesive_tape_peel_angle_order_reversal_00000042-true-all120.jpg": "0489830589a1797b6066401cddf4fbfe0804bb6034f75d62a5be3b95c9bc12f8",
+        "backups/native-edges-v8/adhesive_tape_peel_angle_order_reversal_00000042/binding.json": "b2d204eae765e73e7d66da13fd425e902a43de40bfa8347dcd43b40cc2831764",
+        "backups/native-edges-v8/adhesive_tape_peel_angle_order_reversal_00000042/consecutive-native.png": "ee592cc2e1304f95d2de1a4fd7a7eb3cd71dd6bd2c8ba7f081241f02cbf13403",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000042-counterfactual-shallow-motion-native.png": "0bcea576a6ce49e55109559694a89798b5e79f272649a0842b7365e40805afb2",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000042-true-shallow-motion-native.png": "69d36e79e5d1e0534b20887ed4470d202c1dce52ad2010a10caf95bb61a1f845",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000042-counterfactual-needles-all120.jpg": "0fb0d5ba67de2ee8ce09a9a17ec7e8ff93eb98f0492917b744bb77b2d8102999",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000042-counterfactual-unloading.jpg": "9853348c7dcbe15a0a9fb9fc4a4b5b06fbc5c547b71b1765db9b942007b763e7",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000042-true-unloading.jpg": "48a2dd7da0a9db3f25041bb763dccf4fc39f9a90f36c8f4e92b1f0b7435a36c3",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000042-true-needles-all120.jpg": "0fb0d5ba67de2ee8ce09a9a17ec7e8ff93eb98f0492917b744bb77b2d8102999",
+        "backups/formal-v8/adhesive_tape_peel_angle_order_reversal/adhesive_tape_peel_angle_order_reversal_00000042/counterfactual_low_angle_peel_response_reversal/prompt.txt": "ab6001d7bdb6661435ece1a29f767f7724e3edf1127a624d09f348944d42ef1d",
+        "backups/formal-v8/adhesive_tape_peel_angle_order_reversal/adhesive_tape_peel_angle_order_reversal_00000042/true/prompt.txt": "02e53fcd6bad9c8e914eaca6110af8c4b55e6a72cb39d70c4da0a2afccbbcf01",
+        "backups/independent-v8/adhesive_tape_peel_angle_order_reversal_00000098-counterfactual-all120.jpg": "652ff1db71fea3bb27f6b1b6b6db3190c5bb3e05d364753a9d5c6b9891dd1819",
+        "backups/independent-v8/adhesive_tape_peel_angle_order_reversal_00000098-decoded-contact-sheet.jpg": "06ba808619fc4001a30dbbcdcfe8eb865724e4ccbef95fee5a35d442264a9426",
+        "backups/independent-v8/adhesive_tape_peel_angle_order_reversal_00000098-true-all120.jpg": "83d2d59d6eda4752cfcd9e8b42d5dd6d74b635264227106e0428d22c2c274553",
+        "backups/native-edges-v8/adhesive_tape_peel_angle_order_reversal_00000098/binding.json": "9353fd60c1bcf96677f2bf4f9156b34d764bbdfbe0db0a98c5baa773d097a84b",
+        "backups/native-edges-v8/adhesive_tape_peel_angle_order_reversal_00000098/consecutive-native.png": "dff3617b60a7a297ea15d4ac361986a9ccfb6bb7c76066ba0df8afe18ca22af0",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000098-counterfactual-shallow-motion-native.png": "e432e39d0402069cd2e4c1ee9cfbc85ad1edb9852cc29db8e5c8222421b7f15d",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000098-true-shallow-motion-native.png": "52c96062f0f9e740a28ea36c12a55abb24e055cd34d4341edf23d00a4530b8b5",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000098-true-needles-all120.jpg": "99b04bdc25180e80cc7b47a8999f74fe037adfcd5dec11f83dd58cd568918b61",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000098-true-unloading.jpg": "e440a23a4cb7b78f922ae5caccb4b212209d761eeab5d1ccdea08625efa3b212",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000098-counterfactual-unloading.jpg": "4c713e347bb88ab42f193ccc98924c157b030cedf64bbb70c1a4160f75cd558a",
+        "backups/gauge-audit-v8/adhesive_tape_peel_angle_order_reversal_00000098-counterfactual-needles-all120.jpg": "99b04bdc25180e80cc7b47a8999f74fe037adfcd5dec11f83dd58cd568918b61",
+        "backups/formal-v8/adhesive_tape_peel_angle_order_reversal/adhesive_tape_peel_angle_order_reversal_00000098/counterfactual_low_angle_peel_response_reversal/prompt.txt": "ab6001d7bdb6661435ece1a29f767f7724e3edf1127a624d09f348944d42ef1d",
+        "backups/formal-v8/adhesive_tape_peel_angle_order_reversal/adhesive_tape_peel_angle_order_reversal_00000098/true/prompt.txt": "02e53fcd6bad9c8e914eaca6110af8c4b55e6a72cb39d70c4da0a2afccbbcf01",
+        "published-review/adhesive_tape_peel_angle_order_reversal/5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280/evidence/axis-comparison.jpg": "d68d661e170a6cf7e8bfd539c58a696423ee37b162d8a2378435604e20407628"
+      },
+      "checked_at_utc": "2026-10-19T02:05:58Z",
+      "browser_playback": "PASS; separately recorded after hosted playback and seek checks"
+    }
+  }
+}
