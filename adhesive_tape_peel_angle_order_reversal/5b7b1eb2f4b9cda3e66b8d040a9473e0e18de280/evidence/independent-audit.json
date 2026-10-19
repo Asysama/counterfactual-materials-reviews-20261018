@@ -1,0 +1,112 @@
+{
+  "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+  "cases": [
+    {
+      "case_id": "adhesive_tape_peel_angle_order_reversal_00000042",
+      "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 52,
+      "mask_start_frame": 52,
+      "evidence_frame": 73,
+      "mask_area_min_active": 21219,
+      "mask_area_max": 31391,
+      "mechanics": {
+        "adhesion_threshold": 2.3659999999999997,
+        "maximum_energy_release": [
+          67.24920243469704,
+          17.418989947292516
+        ],
+        "final_true_peel": [
+          0.6325658191765771,
+          0.14010848230913012
+        ],
+        "final_cf_peel": [
+          0.6325658191765771,
+          0.8395439819078616
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.956479999999996,
+        "single_change": "low_angle_interface_response"
+      },
+      "formal_case_diversity": null,
+      "files": {
+        "true/video.mp4": {
+          "bytes": 25028037,
+          "sha256": "7f40cd32d761ec34bf4ec9530d3ac741c95bc49e1c1ba9fc6c7bd92b4a173747"
+        },
+        "counterfactual_low_angle_peel_response_reversal/video.mp4": {
+          "bytes": 25593278,
+          "sha256": "db06d20628332076d9bfec088d256d784ab717615df2db81aa6999e84d29ca3c"
+        },
+        "counterfactual_low_angle_peel_response_reversal/mask.mp4": {
+          "bytes": 2426456,
+          "sha256": "559d5eb839d955e1984e7a2376ce7b7fb7fe4eb9e3edc49fae65582b75dc9de7"
+        },
+        "counterfactual_low_angle_peel_response_reversal/mask_overlay.mp4": {
+          "bytes": 25451836,
+          "sha256": "b2ce11501a129daeb97c9f2f7c8b34f3e23fc35852f627b4275a256e4d072ea4"
+        }
+      }
+    },
+    {
+      "case_id": "adhesive_tape_peel_angle_order_reversal_00000098",
+      "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+      "status": "PASS",
+      "frames": 120,
+      "native_resolution": [
+        2048,
+        2048
+      ],
+      "first_changed_frame": 56,
+      "mask_start_frame": 56,
+      "evidence_frame": 75,
+      "mask_area_min_active": 24353,
+      "mask_area_max": 30243,
+      "mechanics": {
+        "adhesion_threshold": 2.9120000000000004,
+        "maximum_energy_release": [
+          72.99629037037037,
+          21.51891669998971
+        ],
+        "final_true_peel": [
+          0.6815729652677007,
+          0.17312172795756048
+        ],
+        "final_cf_peel": [
+          0.6815729652677007,
+          0.9145095039164198
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.956480000000003,
+        "single_change": "low_angle_interface_response"
+      },
+      "formal_case_diversity": {
+        "mean_abs_difference": 11.39419174194336,
+        "changed_fraction": 0.665924072265625
+      },
+      "files": {
+        "true/video.mp4": {
+          "bytes": 30936133,
+          "sha256": "c582fb8b673b4925fd2aeef9e68e42a561feae54464901ba74440733a0eed86d"
+        },
+        "counterfactual_low_angle_peel_response_reversal/video.mp4": {
+          "bytes": 31433289,
+          "sha256": "5515ac3c384726aff6a7c017ab638379c67a3b4f5c1a451f58085ac9a47cc12a"
+        },
+        "counterfactual_low_angle_peel_response_reversal/mask.mp4": {
+          "bytes": 2459651,
+          "sha256": "4f961544f22131fbd0d2a039d9a6589a4ad572692e798c2b1c0a65e41fcb440e"
+        },
+        "counterfactual_low_angle_peel_response_reversal/mask_overlay.mp4": {
+          "bytes": 31309903,
+          "sha256": "bb2b20e37a24f4a68de8fc62b9af0df4084a85c8224ff16f20b96ec57da3b420"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "scope": "Independent all-frame force equality, continuous load/unload and all120 decoded red-needle directions",
+  "cases": [
+    {
+      "case_id": "adhesive_tape_peel_angle_order_reversal_00000042",
+      "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+      "branches": [
+        {
+          "projected_shallow_front_travel_native_pixels": 46.245598884988844,
+          "projected_shallow_grip_travel_native_pixels": 34.836677195998654,
+          "native_motion_crop_frames": [
+            0,
+            43,
+            51,
+            75,
+            95,
+            119
+          ],
+          "projection_note": "Computed from stored geometry with fixed initial camera; actual unscaled decoded crops retained for visual confirmation.",
+          "branch": "true",
+          "peak_load_frame": 47,
+          "equal_actual_force_all_frames": true,
+          "max_model_angular_step_degrees": 6.16096541666667,
+          "max_decoded_angular_step_degrees": 6.68119726794458,
+          "max_decoded_direction_error_degrees": 1.4744397276925023,
+          "video_sha256": "7f40cd32d761ec34bf4ec9530d3ac741c95bc49e1c1ba9fc6c7bd92b4a173747"
+        },
+        {
+          "projected_shallow_front_travel_native_pixels": 275.9619641455,
+          "projected_shallow_grip_travel_native_pixels": 213.13756022413764,
+          "native_motion_crop_frames": [
+            0,
+            43,
+            51,
+            75,
+            95,
+            119
+          ],
+          "projection_note": "Computed from stored geometry with fixed initial camera; actual unscaled decoded crops retained for visual confirmation.",
+          "branch": "counterfactual",
+          "peak_load_frame": 47,
+          "equal_actual_force_all_frames": true,
+          "max_model_angular_step_degrees": 6.16096541666667,
+          "max_decoded_angular_step_degrees": 6.68119726794458,
+          "max_decoded_direction_error_degrees": 1.4744397276925023,
+          "video_sha256": "db06d20628332076d9bfec088d256d784ab717615df2db81aa6999e84d29ca3c"
+        }
+      ]
+    },
+    {
+      "case_id": "adhesive_tape_peel_angle_order_reversal_00000098",
+      "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+      "branches": [
+        {
+          "projected_shallow_front_travel_native_pixels": 58.39156859071815,
+          "projected_shallow_grip_travel_native_pixels": 42.204597576812866,
+          "native_motion_crop_frames": [
+            0,
+            47,
+            55,
+            75,
+            95,
+            119
+          ],
+          "projection_note": "Computed from stored geometry with fixed initial camera; actual unscaled decoded crops retained for visual confirmation.",
+          "branch": "true",
+          "peak_load_frame": 51,
+          "equal_actual_force_all_frames": true,
+          "max_model_angular_step_degrees": 6.16096541666667,
+          "max_decoded_angular_step_degrees": 6.240261785867431,
+          "max_decoded_direction_error_degrees": 1.41398060231634,
+          "video_sha256": "c582fb8b673b4925fd2aeef9e68e42a561feae54464901ba74440733a0eed86d"
+        },
+        {
+          "projected_shallow_front_travel_native_pixels": 311.66983772037133,
+          "projected_shallow_grip_travel_native_pixels": 228.94093745136928,
+          "native_motion_crop_frames": [
+            0,
+            47,
+            55,
+            75,
+            95,
+            119
+          ],
+          "projection_note": "Computed from stored geometry with fixed initial camera; actual unscaled decoded crops retained for visual confirmation.",
+          "branch": "counterfactual",
+          "peak_load_frame": 51,
+          "equal_actual_force_all_frames": true,
+          "max_model_angular_step_degrees": 6.16096541666667,
+          "max_decoded_angular_step_degrees": 6.240261785867431,
+          "max_decoded_direction_error_degrees": 1.41398060231634,
+          "video_sha256": "5515ac3c384726aff6a7c017ab638379c67a3b4f5c1a451f58085ac9a47cc12a"
+        }
+      ]
+    }
+  ]
+}

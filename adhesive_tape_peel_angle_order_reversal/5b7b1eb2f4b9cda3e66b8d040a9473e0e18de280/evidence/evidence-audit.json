@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "scope": "Independent trajectory-based earliest readable-evidence thresholds; decoded evidence-frame contrast is audited separately",
+  "generators": {
+    "notched_brittle_strip_failure_order_reversal": [
+      {
+        "case_id": "notched_brittle_strip_failure_order_reversal_00000042",
+        "head_sha": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+        "evidence_frame": 59,
+        "threshold": 0.12,
+        "value_at_evidence": 0.15160349854227403,
+        "previous_frame_value": 0.09839650145772594,
+        "metadata_sha256": "79cbd0d7f253e60fd4887fc706d58222613424386956281d913aa00271c26dca"
+      },
+      {
+        "case_id": "notched_brittle_strip_failure_order_reversal_00000098",
+        "head_sha": "e32ad766a78cb731247d6d5bd04b24c115e7a93a",
+        "evidence_frame": 59,
+        "threshold": 0.12,
+        "value_at_evidence": 0.15160349854227403,
+        "previous_frame_value": 0.09839650145772594,
+        "metadata_sha256": "97b8b63968ac8a0c6af4927cc86a3fbd857c7a5b28bedde9527281e8e1fcdd89"
+      }
+    ],
+    "locked_extension_viscoelastic_stress_growth": [
+      {
+        "case_id": "locked_extension_viscoelastic_stress_growth_00000042",
+        "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+        "evidence_frame": 50,
+        "threshold": 0.12,
+        "value_at_evidence": 0.12642103888631662,
+        "previous_frame_value": 0.11433792434150741,
+        "metadata_sha256": "f1efccff8b15deedc06ae9f2869d4e819993afee7569fae59e53d2b4e004cca3"
+      },
+      {
+        "case_id": "locked_extension_viscoelastic_stress_growth_00000098",
+        "head_sha": "3a1319eff79afcb318065f97b96ed664b10a53ed",
+        "evidence_frame": 54,
+        "threshold": 0.12,
+        "value_at_evidence": 0.12091590444950578,
+        "previous_frame_value": 0.10873700097489558,
+        "metadata_sha256": "b913a45bdfe554bcb76d20ca558cd50da904c89a1f8a51745eef73478a5e6859"
+      }
+    ],
+    "rubber_torsion_poynting_axial_contraction": [
+      {
+        "case_id": "rubber_torsion_poynting_axial_contraction_00000042",
+        "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
+        "evidence_frame": 49,
+        "threshold": 0.12,
+        "value_at_evidence": 0.1270966369061961,
+        "previous_frame_value": 0.1137725944251553,
+        "metadata_sha256": "168e08a7b7acc9520e2dcb8d5d563dbe9235c2f26242ab547b39f7da437dfa15"
+      },
+      {
+        "case_id": "rubber_torsion_poynting_axial_contraction_00000098",
+        "head_sha": "070be973579305f2494c86e1fbe3f8c334f73556",
+        "evidence_frame": 53,
+        "threshold": 0.12,
+        "value_at_evidence": 0.12485622506351124,
+        "previous_frame_value": 0.11183698623205851,
+        "metadata_sha256": "fec6400277d66756c5138f91bffd330b1f3516129aa71ba2df97933d3e53edd5"
+      }
+    ],
+    "adhesive_tape_peel_angle_order_reversal": [
+      {
+        "case_id": "adhesive_tape_peel_angle_order_reversal_00000042",
+        "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+        "evidence_frame": 73,
+        "threshold": 0.1,
+        "value_at_evidence": 0.11434074817536943,
+        "previous_frame_value": 0.099746144048387,
+        "metadata_sha256": "9c34fc22e5f22da25d84bde925a58735ca250714e636bee8eb78af041c027f1d"
+      },
+      {
+        "case_id": "adhesive_tape_peel_angle_order_reversal_00000098",
+        "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+        "evidence_frame": 75,
+        "threshold": 0.1,
+        "value_at_evidence": 0.10139885331350218,
+        "previous_frame_value": 0.08387740139033673,
+        "metadata_sha256": "2d4a6a2161cc9e2f16cd2bff4c1651e19833ec72c79c3402545a6fedb3a23340"
+      }
+    ],
+    "braided_sleeve_extension_radial_expansion": [
+      {
+        "case_id": "braided_sleeve_extension_radial_expansion_00000042",
+        "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+        "evidence_frame": 50,
+        "threshold": 0.08,
+        "value_at_evidence": 0.08493046635918455,
+        "previous_frame_value": 0.07993413419697748,
+        "metadata_sha256": "a273e2e3bf6dc27976008f800e28f459b5d785a793ddc367bd00ef3c5c5bdca8"
+      },
+      {
+        "case_id": "braided_sleeve_extension_radial_expansion_00000098",
+        "head_sha": "41b5800036b424fbfca673b2504d9f136a069af0",
+        "evidence_frame": 48,
+        "threshold": 0.08,
+        "value_at_evidence": 0.08133474343394498,
+        "previous_frame_value": 0.07433915428185467,
+        "metadata_sha256": "2bcb18974749ca8cd34afb134f1bfc926b616732ce4ca14d5af3aabbfdd62d9d"
+      }
+    ]
+  }
+}

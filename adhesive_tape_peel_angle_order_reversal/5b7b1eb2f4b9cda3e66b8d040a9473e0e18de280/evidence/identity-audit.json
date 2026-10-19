@@ -1,0 +1,374 @@
+{
+  "status": "PASS",
+  "scope": "Reviewer-named object sets, exact native decoded projection at six frames; visual review separate",
+  "cases": [
+    {
+      "case_id": "adhesive_tape_peel_angle_order_reversal_00000042",
+      "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+      "no_floating_annotations": true,
+      "attached_calibration_markings": [
+        "gauge_label_0_0",
+        "gauge_label_0_10",
+        "gauge_label_0_20",
+        "gauge_label_0_30",
+        "gauge_label_0_40",
+        "gauge_label_1_0",
+        "gauge_label_1_10",
+        "gauge_label_1_20",
+        "gauge_label_1_30",
+        "gauge_label_1_40",
+        "gauge_unit_0",
+        "gauge_unit_1"
+      ],
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.549054741859436,
+              0.4217666983604431
+            ],
+            [
+              0.8803244233131409,
+              0.5127227306365967
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.061967819929122925,
+              0.2802165150642395
+            ],
+            [
+              0.9377095103263855,
+              0.8071882128715515
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 52,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5514664649963379,
+              0.42178067564964294
+            ],
+            [
+              0.8811692595481873,
+              0.5186616778373718
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.0619068406522274,
+              0.2805202305316925
+            ],
+            [
+              0.9377776384353638,
+              0.807133138179779
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 73,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5798740983009338,
+              0.4223761260509491
+            ],
+            [
+              0.8887708783149719,
+              0.5854623317718506
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.061882589012384415,
+              0.28064295649528503
+            ],
+            [
+              0.9378046989440918,
+              0.807110607624054
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 74,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5810515284538269,
+              0.4224003255367279
+            ],
+            [
+              0.8890847563743591,
+              0.5882127285003662
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.06188145652413368,
+              0.28064876794815063
+            ],
+            [
+              0.9378060102462769,
+              0.807109534740448
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5881182551383972,
+              0.4225330948829651
+            ],
+            [
+              0.8909186720848083,
+              0.6039711833000183
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.06186327338218689,
+              0.2807423174381256
+            ],
+            [
+              0.9378264546394348,
+              0.8070923089981079
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.588153064250946,
+              0.4224987328052521
+            ],
+            [
+              0.8910098075866699,
+              0.6038900017738342
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.061830684542655945,
+              0.2809118926525116
+            ],
+            [
+              0.9378630518913269,
+              0.8070608377456665
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    },
+    {
+      "case_id": "adhesive_tape_peel_angle_order_reversal_00000098",
+      "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+      "no_floating_annotations": true,
+      "attached_calibration_markings": [
+        "gauge_label_0_0",
+        "gauge_label_0_10",
+        "gauge_label_0_20",
+        "gauge_label_0_30",
+        "gauge_label_0_40",
+        "gauge_label_1_0",
+        "gauge_label_1_10",
+        "gauge_label_1_20",
+        "gauge_label_1_30",
+        "gauge_label_1_40",
+        "gauge_unit_0",
+        "gauge_unit_1"
+      ],
+      "shadows_disabled": true,
+      "frames": [
+        {
+          "frame": 0,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5492955446243286,
+              0.4044373631477356
+            ],
+            [
+              0.8875885009765625,
+              0.501762866973877
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.06747432053089142,
+              0.2663704454898834
+            ],
+            [
+              0.9329109787940979,
+              0.8089359998703003
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 56,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5521523952484131,
+              0.404209166765213
+            ],
+            [
+              0.8884755373001099,
+              0.5093622207641602
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.06763298809528351,
+              0.26607537269592285
+            ],
+            [
+              0.9327458739280701,
+              0.808955729007721
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 75,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5811574459075928,
+              0.4041317105293274
+            ],
+            [
+              0.8963019847869873,
+              0.5752748847007751
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.06768710911273956,
+              0.26597529649734497
+            ],
+            [
+              0.932689368724823,
+              0.8089621067047119
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 76,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5826612114906311,
+              0.40412768721580505
+            ],
+            [
+              0.8967024683952332,
+              0.5786504745483398
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.06769005209207535,
+              0.2659701108932495
+            ],
+            [
+              0.9326863288879395,
+              0.8089625239372253
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 90,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5934576392173767,
+              0.4040704071521759
+            ],
+            [
+              0.899413526058197,
+              0.601500928401947
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.06773024052381516,
+              0.2658962607383728
+            ],
+            [
+              0.9326444268226624,
+              0.8089668154716492
+            ]
+          ],
+          "exact_identity_match": true
+        },
+        {
+          "frame": 119,
+          "objects": [
+            "peeling_tape_1"
+          ],
+          "target_bounds": [
+            [
+              0.5935301780700684,
+              0.4039524793624878
+            ],
+            [
+              0.8994049429893494,
+              0.6014834642410278
+            ]
+          ],
+          "apparatus_bounds": [
+            [
+              0.06781335175037384,
+              0.2657439708709717
+            ],
+            [
+              0.9325575232505798,
+              0.8089765310287476
+            ]
+          ],
+          "exact_identity_match": true
+        }
+      ]
+    }
+  ]
+}

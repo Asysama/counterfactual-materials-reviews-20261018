@@ -1,0 +1,438 @@
+{
+  "status": "PASS",
+  "scope": "16 independent combined physical-axis corners, non-rendering",
+  "cases": [
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 2.21,
+        "maximum_energy_release": [
+          55.36305787037036,
+          16.295408209813615
+        ],
+        "final_true_peel": [
+          0.5169599868709452,
+          0.13108214562407586
+        ],
+        "final_cf_peel": [
+          0.5169599868709452,
+          0.6935343578537321
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 16.022499999999997,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 70
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 2.21,
+        "maximum_energy_release": [
+          64.92045226905086,
+          16.2587407923962
+        ],
+        "final_true_peel": [
+          0.6117414268865112,
+          0.13077085667596636
+        ],
+        "final_cf_peel": [
+          0.6117414268865112,
+          0.8097899907205587
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 16.022499999999997,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 70
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 2.21,
+        "maximum_energy_release": [
+          55.36305787037036,
+          16.295408209813615
+        ],
+        "final_true_peel": [
+          0.5169599868709452,
+          0.13108214562407586
+        ],
+        "final_cf_peel": [
+          0.5169599868709452,
+          0.6935343578537321
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 16.022499999999997,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 79
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 2.21,
+        "maximum_energy_release": [
+          64.92045226905086,
+          16.2587407923962
+        ],
+        "final_true_peel": [
+          0.6117414268865112,
+          0.13077085667596636
+        ],
+        "final_cf_peel": [
+          0.6117414268865112,
+          0.8097899907205587
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 16.022499999999997,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 79
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 2.9120000000000004,
+        "maximum_energy_release": [
+          72.99629037037037,
+          21.51891669998971
+        ],
+        "final_true_peel": [
+          0.6815729652677007,
+          0.17312172795756048
+        ],
+        "final_cf_peel": [
+          0.6815729652677007,
+          0.9145095039164198
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.112000000000002,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 68
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 2.9120000000000004,
+        "maximum_energy_release": [
+          85.57421596278117,
+          21.45525495824797
+        ],
+        "final_true_peel": [
+          0.8063310209770809,
+          0.17258127002467674
+        ],
+        "final_cf_peel": [
+          0.8063310209770809,
+          1.0674741543332067
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.112000000000002,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 68
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 2.9120000000000004,
+        "maximum_energy_release": [
+          72.99629037037037,
+          21.51891669998971
+        ],
+        "final_true_peel": [
+          0.6815729652677007,
+          0.17312172795756048
+        ],
+        "final_cf_peel": [
+          0.6815729652677007,
+          0.9145095039164198
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.112000000000002,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 77
+    },
+    {
+      "parameters": {
+        "length": 1.0,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 2.9120000000000004,
+        "maximum_energy_release": [
+          85.57421596278117,
+          21.45525495824797
+        ],
+        "final_true_peel": [
+          0.8063310209770809,
+          0.17258127002467674
+        ],
+        "final_cf_peel": [
+          0.8063310209770809,
+          1.0674741543332067
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.112000000000002,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 77
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 2.21,
+        "maximum_energy_release": [
+          55.36305787037036,
+          16.295408209813615
+        ],
+        "final_true_peel": [
+          0.5169599868709452,
+          0.13108214562407586
+        ],
+        "final_cf_peel": [
+          0.5169599868709452,
+          0.6935343578537321
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.7906,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 70
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 2.21,
+        "maximum_energy_release": [
+          64.92045226905086,
+          16.2587407923962
+        ],
+        "final_true_peel": [
+          0.6117414268865112,
+          0.13077085667596636
+        ],
+        "final_cf_peel": [
+          0.6117414268865112,
+          0.8097899907205587
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.7906,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 70
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 2.21,
+        "maximum_energy_release": [
+          55.36305787037036,
+          16.295408209813615
+        ],
+        "final_true_peel": [
+          0.5169599868709452,
+          0.13108214562407586
+        ],
+        "final_cf_peel": [
+          0.5169599868709452,
+          0.6935343578537321
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.7906,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 79
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 0.85,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 2.21,
+        "maximum_energy_release": [
+          64.92045226905086,
+          16.2587407923962
+        ],
+        "final_true_peel": [
+          0.6117414268865112,
+          0.13077085667596636
+        ],
+        "final_cf_peel": [
+          0.6117414268865112,
+          0.8097899907205587
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 21.7906,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 79
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 2.9120000000000004,
+        "maximum_energy_release": [
+          72.99629037037037,
+          21.51891669998971
+        ],
+        "final_true_peel": [
+          0.6815729652677007,
+          0.17312172795756048
+        ],
+        "final_cf_peel": [
+          0.6815729652677007,
+          0.9145095039164198
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 28.712320000000005,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 68
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 20,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 2.9120000000000004,
+        "maximum_energy_release": [
+          85.57421596278117,
+          21.45525495824797
+        ],
+        "final_true_peel": [
+          0.8063310209770809,
+          0.17258127002467674
+        ],
+        "final_cf_peel": [
+          0.8063310209770809,
+          1.0674741543332067
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 28.712320000000005,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 68
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 0.75
+      },
+      "physics": {
+        "adhesion_threshold": 2.9120000000000004,
+        "maximum_energy_release": [
+          72.99629037037037,
+          21.51891669998971
+        ],
+        "final_true_peel": [
+          0.6815729652677007,
+          0.17312172795756048
+        ],
+        "final_cf_peel": [
+          0.6815729652677007,
+          0.9145095039164198
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 28.712320000000005,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 77
+    },
+    {
+      "parameters": {
+        "length": 1.36,
+        "response": 1.12,
+        "onset": 29,
+        "depth": 1.11
+      },
+      "physics": {
+        "adhesion_threshold": 2.9120000000000004,
+        "maximum_energy_release": [
+          85.57421596278117,
+          21.45525495824797
+        ],
+        "final_true_peel": [
+          0.8063310209770809,
+          0.17258127002467674
+        ],
+        "final_cf_peel": [
+          0.8063310209770809,
+          1.0674741543332067
+        ],
+        "both_move_before_intervention": true,
+        "matched_force_newtons_max": 28.712320000000005,
+        "single_change": "low_angle_interface_response"
+      },
+      "evidence_frame": 77
+    }
+  ]
+}

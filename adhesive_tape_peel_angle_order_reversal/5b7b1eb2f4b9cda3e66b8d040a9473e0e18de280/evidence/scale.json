@@ -1,0 +1,32 @@
+{
+  "accepted_static": 100000,
+  "audit_samples": 100000,
+  "axis_bucket_coverage": {
+    "appearance": 1.0,
+    "depth": 1.0,
+    "length": 1.0,
+    "onset": 1.0,
+    "response": 1.0,
+    "view": 1.0
+  },
+  "axis_policy_exception": null,
+  "contract": "CGC-v1",
+  "distinct_effective_signatures": 100000,
+  "distinct_profile_ids": 100000,
+  "errors": [],
+  "generator": "adhesive_tape_peel_angle_order_reversal",
+  "processed": 100000,
+  "profile_space_size": 1000000,
+  "rejection_reasons": {},
+  "samples": 100000,
+  "scaling_target_cases": 100000,
+  "scaling_target_declared": true,
+  "scaling_target_rationale": null,
+  "shards": {
+    "count": 8,
+    "overlaps": [],
+    "seeds_probed_per_shard": 20000
+  },
+  "static_acceptance_rate": 1.0,
+  "status": "PASS"
+}

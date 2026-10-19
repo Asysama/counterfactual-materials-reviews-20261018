@@ -1,0 +1,61 @@
+{
+  "head_sha": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+  "files": {
+    "adhesive_tape_peel_angle_order_reversal_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_peel_angle_order_reversal-5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280-42-true.mp4",
+      "bytes": 25028037,
+      "sha256": "7f40cd32d761ec34bf4ec9530d3ac741c95bc49e1c1ba9fc6c7bd92b4a173747",
+      "github_asset_id": 654977111,
+      "server_digest": "sha256:7f40cd32d761ec34bf4ec9530d3ac741c95bc49e1c1ba9fc6c7bd92b4a173747"
+    },
+    "adhesive_tape_peel_angle_order_reversal_00000042/counterfactual_low_angle_peel_response_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_peel_angle_order_reversal-5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280-42-video.mp4",
+      "bytes": 25593278,
+      "sha256": "db06d20628332076d9bfec088d256d784ab717615df2db81aa6999e84d29ca3c",
+      "github_asset_id": 654977297,
+      "server_digest": "sha256:db06d20628332076d9bfec088d256d784ab717615df2db81aa6999e84d29ca3c"
+    },
+    "adhesive_tape_peel_angle_order_reversal_00000042/counterfactual_low_angle_peel_response_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_peel_angle_order_reversal-5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280-42-mask.mp4",
+      "bytes": 2426456,
+      "sha256": "559d5eb839d955e1984e7a2376ce7b7fb7fe4eb9e3edc49fae65582b75dc9de7",
+      "github_asset_id": 654977539,
+      "server_digest": "sha256:559d5eb839d955e1984e7a2376ce7b7fb7fe4eb9e3edc49fae65582b75dc9de7"
+    },
+    "adhesive_tape_peel_angle_order_reversal_00000042/counterfactual_low_angle_peel_response_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_peel_angle_order_reversal-5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280-42-mask_overlay.mp4",
+      "bytes": 25451836,
+      "sha256": "b2ce11501a129daeb97c9f2f7c8b34f3e23fc35852f627b4275a256e4d072ea4",
+      "github_asset_id": 654977628,
+      "server_digest": "sha256:b2ce11501a129daeb97c9f2f7c8b34f3e23fc35852f627b4275a256e4d072ea4"
+    },
+    "adhesive_tape_peel_angle_order_reversal_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_peel_angle_order_reversal-5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280-98-true.mp4",
+      "bytes": 30936133,
+      "sha256": "c582fb8b673b4925fd2aeef9e68e42a561feae54464901ba74440733a0eed86d",
+      "github_asset_id": 654977857,
+      "server_digest": "sha256:c582fb8b673b4925fd2aeef9e68e42a561feae54464901ba74440733a0eed86d"
+    },
+    "adhesive_tape_peel_angle_order_reversal_00000098/counterfactual_low_angle_peel_response_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_peel_angle_order_reversal-5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280-98-video.mp4",
+      "bytes": 31433289,
+      "sha256": "5515ac3c384726aff6a7c017ab638379c67a3b4f5c1a451f58085ac9a47cc12a",
+      "github_asset_id": 654978135,
+      "server_digest": "sha256:5515ac3c384726aff6a7c017ab638379c67a3b4f5c1a451f58085ac9a47cc12a"
+    },
+    "adhesive_tape_peel_angle_order_reversal_00000098/counterfactual_low_angle_peel_response_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_peel_angle_order_reversal-5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280-98-mask.mp4",
+      "bytes": 2459651,
+      "sha256": "4f961544f22131fbd0d2a039d9a6589a4ad572692e798c2b1c0a65e41fcb440e",
+      "github_asset_id": 654978438,
+      "server_digest": "sha256:4f961544f22131fbd0d2a039d9a6589a4ad572692e798c2b1c0a65e41fcb440e"
+    },
+    "adhesive_tape_peel_angle_order_reversal_00000098/counterfactual_low_angle_peel_response_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-materials-reviews-20261018/releases/download/native-20261018-v4/adhesive_tape_peel_angle_order_reversal-5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280-98-mask_overlay.mp4",
+      "bytes": 31309903,
+      "sha256": "bb2b20e37a24f4a68de8fc62b9af0df4084a85c8224ff16f20b96ec57da3b420",
+      "github_asset_id": 654978509,
+      "server_digest": "sha256:bb2b20e37a24f4a68de8fc62b9af0df4084a85c8224ff16f20b96ec57da3b420"
+    }
+  }
+}

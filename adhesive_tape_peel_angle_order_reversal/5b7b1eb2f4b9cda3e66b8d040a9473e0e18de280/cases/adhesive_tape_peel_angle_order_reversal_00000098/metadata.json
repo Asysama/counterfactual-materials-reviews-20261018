@@ -1,0 +1,148 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "pos": [
+      0.9140200614929199,
+      -7.5,
+      3.8499999046325684
+    ],
+    "projection": "perspective"
+  },
+  "category": "tape_peeling_energy",
+  "descriptions": {
+    "counterfactual": "Two identical adhesive tapes with identical adhesion are partly peeled from rigid plates on a force-controlled test rig. One tape is pulled nearly perpendicular to its plate and the other at a lower angle. Two identically calibrated force gauges show the same smoothly rising and falling force. Both tapes initially peel along their plates with the high-angle tape advancing farther. While the applied forces remain matched, the low-angle tape then anomalously accelerates and ultimately peels farther than the high-angle tape. Both stop advancing after unloading.",
+    "true": "Two identical adhesive tapes with identical adhesion are partly peeled from rigid plates on a force-controlled test rig. One tape is pulled nearly perpendicular to its plate and the other at a lower angle. Two identically calibrated force gauges show the same smoothly rising and falling force. Both tapes visibly peel along their plates. Under the matched force history, the high-angle tape peels farther and the low-angle tape peels a shorter, nonzero distance. Both stop advancing after unloading."
+  },
+  "evidence_frame": 75,
+  "first_changed_frame": 56,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "8d2a95ec55da0d0a8ec54a67a16638e678ad8e36a87a13590a39921dbba57664",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "4753bcfe70eb10ff2b724b0c92520ddd958e45cb7a0821310cf66a06ef3745a5",
+      "engine/run.py": "dcead19281b1a4a56d2b3d95551132f553e0756d3878a82ca95d2dcd7ec95dcc",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "42f7009f24702e3d02cec8d3694c66d5273aa0ef2fc61db2bf10e4be3c78cd36",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "1fb9a6f11b063b2569f389a6f3974a12331ffeb39f5e56d4daac31300ecb4b2c",
+      "src/scaling.py": "6051a4526da6e6a5729d38973f4f6253b71bb11da5cf366c69058da3be9bd612",
+      "src/violation.py": "12490fe5ce78fe2782ebf1668aa99eccbdffe477639f4db7168ad0f565876a15",
+      "tests/test_design.py": "3cf846243d34d56edbe1fcc33173f3ad3ec482932ae8f463f8074d632bf011d0"
+    }
+  },
+  "intervention_frame": 56,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "peeling_tape_1"
+    ],
+    "target_ontology": [
+      "peeling_tape_1"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 56,
+  "onset_frame": 56,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_low_angle_peel_response_reversal/mask.mp4",
+      "mask_overlay": "counterfactual_low_angle_peel_response_reversal/mask_overlay.mp4",
+      "prompt": "counterfactual_low_angle_peel_response_reversal/prompt.txt",
+      "trajectory": "counterfactual_low_angle_peel_response_reversal/trajectory.npz",
+      "video": "counterfactual_low_angle_peel_response_reversal/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "adhesive_tape_peel_angle_order_reversal",
+  "phenomenon_data": {
+    "scene_params": {
+      "adhesion_energy": 2.9120000000000004,
+      "angles": [
+        1.5707963267948966,
+        0.7853981633974483
+      ],
+      "anomalous_front_gain": 2.2,
+      "appearance": 8,
+      "depth": 0.75,
+      "extensional_stiffness": 13500.0,
+      "force_per_width": 72.80000000000001,
+      "gauge_full_scale_newtons": 40.0,
+      "gravity": 9.81,
+      "initial_free_length": 0.56,
+      "intervention_delay": 28,
+      "length": 1.04,
+      "mobility": 0.00011538461538461538,
+      "model": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control",
+      "onset": 27,
+      "response": 1.12,
+      "scale": 1.0,
+      "solver_steps_per_frame": 1,
+      "tape_width": 0.3016,
+      "time_scale": 1.0,
+      "transition_frames": 6,
+      "view": 8
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "Do both tapes visibly peel?",
+        "Does the low-angle tape finish with greater peel advance than the high-angle tape under matching force?"
+      ],
+      "scoring": {
+        "correct_if_true": [
+          "Both tapes visibly peel along their plates. Under the matched force history, the high-angle tape peels farther and the low-angle tape peels a shorter, nonzero distance. Both stop advancing after unloading."
+        ],
+        "violation_if_true": [
+          "Both tapes initially peel along their plates with the high-angle tape advancing farther. While the applied forces remain matched, the low-angle tape then anomalously accelerates and ultimately peels farther than the high-angle tape. Both stop advancing after unloading."
+        ]
+      },
+      "violation_types": [
+        "low_angle_peel_response_reversal"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 98,
+  "task_id": "adhesive_tape_peel_angle_order_reversal_00000098",
+  "timebase": {
+    "internal_dt": 0.041666666666666664,
+    "internal_substeps": 1,
+    "outer_steps_per_recorded_frame": 1,
+    "physical_dt": 0.041666666666666664,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "Kendall extensible tape energy release; overdamped rate regularized adhesive front under force control",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "low_angle_peel_response_reversal"
+}

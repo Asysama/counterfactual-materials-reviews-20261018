@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "297cd5bcdbe90fa3790732165d70c7dd352fd55b3d9546048560a5528c82ce4a": {
+      "path": "runtime-witness.json",
+      "sha256": "297cd5bcdbe90fa3790732165d70c7dd352fd55b3d9546048560a5528c82ce4a",
+      "generator": "adhesive_tape_peel_angle_order_reversal",
+      "case_set": "seeds-42-98",
+      "source_commit": "5b7b1eb2f4b9cda3e66b8d040a9473e0e18de280"
+    }
+  },
+  "cases": {
+    "adhesive_tape_peel_angle_order_reversal_00000042": {
+      "witness_id": "297cd5bcdbe90fa3790732165d70c7dd352fd55b3d9546048560a5528c82ce4a",
+      "metadata_path": "adhesive_tape_peel_angle_order_reversal_00000042/metadata.json",
+      "metadata_sha256": "9c34fc22e5f22da25d84bde925a58735ca250714e636bee8eb78af041c027f1d"
+    },
+    "adhesive_tape_peel_angle_order_reversal_00000098": {
+      "witness_id": "297cd5bcdbe90fa3790732165d70c7dd352fd55b3d9546048560a5528c82ce4a",
+      "metadata_path": "adhesive_tape_peel_angle_order_reversal_00000098/metadata.json",
+      "metadata_sha256": "2d4a6a2161cc9e2f16cd2bff4c1651e19833ec72c79c3402545a6fedb3a23340"
+    }
+  },
+  "failures": []
+}
